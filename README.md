@@ -15,3 +15,7 @@ estimate, and whether the place has showers.
 ## Refresh
 `./refresh.sh` pulls everything, rebuilds `docs/data.json`, checks it (`tools/check.mjs`) and pushes.
 A launchd job (`launchd/com.seyonv.line2-classes.plist`) runs it at 5:30am and 2pm.
+
+The launchd job runs from a separate clone at `~/.local/share/line2-classes` because macOS blocks
+background jobs from reading `~/Desktop`. That clone pulls `main` before every run, so push code changes
+and the next scheduled run picks them up.

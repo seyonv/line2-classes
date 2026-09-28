@@ -5,6 +5,8 @@ set -uo pipefail
 cd "$(dirname "$0")"
 export PATH=$HOME/.nvm/versions/node/v22.23.2/bin:/opt/homebrew/bin:/usr/local/bin:$PATH
 echo "=== $(date) ==="
+git pull -q --rebase origin main || echo "git pull failed; running current code"
+[ -d node_modules/playwright ] || npm ci --silent
 node scrapers/city.mjs        || echo "city scrape failed"
 node scrapers/direct-run.mjs  || echo "direct scrape failed"
 node scrapers/classpass.mjs   || echo "classpass scrape failed"
