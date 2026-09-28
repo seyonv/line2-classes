@@ -117,14 +117,14 @@ for (const v of Object.values(cp.venues)) {
 
 // ---------- classes ----------
 // Not adult group classes: kids/teen programs, private/PT slots, spa services and room bookings.
-const NOT_A_CLASS = /\bkids?\b|junior|\bteens?\b|youth|little|tots|toddler|\b\d+\s*[-–]\s*\d+\s*y\/?o|\byears?\b.*\bold\b|after school|\bASP\b|parent|mom ?& ?baby|\bPT\b|personal training|private|semi-private|1:1|one[- ]on[- ]one|sauna|red light|cold plunge|massage|facial|rental|room booking|appointment|consult|assessment|intro call|staff|closed|cancell?ed/i;
+const NOT_A_CLASS = /\bkids?\b|junior|\bteens?\b|youth|little|tots|toddler|\b\d+\s*[-–]\s*\d+\s*y\/?o|\byears?\b.*\bold\b|after school|\bASP\b|parent|mom ?& ?baby|\bPT\b|personal training|private|semi-private|1:1|one[- ]on[- ]one|sauna|red light|cold plunge|massage|facial|rental|room booking|appointment|consult|assessment|intro call|staff|closed|cancell?ed|teacher training|certification|retreat|immersion/i;
 const classes = [];
 const epoch = iso => Math.round(Date.parse(iso) / 1000);
 const est = cat => pricing.categoryCredits[cat] || pricing.categoryCredits.default || null;
 
 for (const s of cp.schedules) {
   const vid = cpToVenue[s.venueId]; const v = venues[vid];
-  if (!v || s.livestream || NOT_A_CLASS.test(s.name)) continue;
+  if (!v || s.livestream || NOT_A_CLASS.test(s.name) || !(s.end > s.start) || s.end - s.start > 4 * 3600) continue;
   classes.push({ v: vid, s: s.start, e: s.end, n: s.name, c: catOf(s.name, s.activities) !== 'other' ? catOf(s.name, s.activities) : mainCat(v.cats), i: s.teacher, cp: true, cr: s.credits ?? null,
     st: s.status === 'available' ? null : s.status, lvl: s.level, dem: s.demand?.[0] || null });
 }
