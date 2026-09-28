@@ -22,7 +22,10 @@ for (const v of venues) {
       fetchers[platform](config, { from, to }),
       new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 60e3)),
     ]);
-    out.venues[v.id] = list.filter(c => c.start && c.name).map(({ raw, ...c }) => c);
+    const f = v.booking.filter;
+    const keep = c => !f || [c.raw?.location_ids, c.raw?.defaultLocationId, c.raw?.location?.id, c.raw?.locationId].flat().includes(f.locationId)
+      || (f.locationName && String(c.raw?.location_name || c.raw?.location?.name || '').includes(f.locationName));
+    out.venues[v.id] = list.filter(c => c.start && c.name && keep(c)).map(({ raw, ...c }) => c);
     console.log(`${v.id} [${platform}] ${out.venues[v.id].length} classes`);
   } catch (e) {
     out.errors[v.id] = String(e.message || e).slice(0, 300);

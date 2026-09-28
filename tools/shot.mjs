@@ -11,6 +11,6 @@ const errs = []; p.on('pageerror', e => errs.push(e.message)); p.on('console', m
 await p.goto(`http://localhost:${srv.address().port}/`); await p.waitForTimeout(800);
 if (query) { await p.fill('#q', query); await p.press('#q', 'Enter'); await p.waitForTimeout(300); }
 console.log(await p.textContent('#summary'));
-await p.screenshot({ path: out, fullPage: false });
+await p.screenshot({ path: out, fullPage: !!process.env.FULL });
 console.log('errors:', errs.length ? errs : 'none');
 await b.close(); srv.close();

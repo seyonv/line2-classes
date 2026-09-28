@@ -99,6 +99,9 @@ details.more summary{cursor:pointer;color:var(--ink);font-weight:500}
 details.more p{margin:6px 0}
 .empty{padding:30px 0;text-align:center;color:var(--muted)}
 .empty button{margin-top:10px}
+.offh{font:700 20px/1.2 "Barlow Condensed",sans-serif;margin:34px 0 4px}
+.cls h3 a{color:inherit;text-underline-offset:3px;text-decoration-color:var(--rule)}
+.cls.off .sched{font-size:14.5px;margin:8px 0 0;color:var(--ink)}
 .foot{color:var(--muted);font-size:13.5px;border-top:1px solid var(--rule);padding-top:14px;margin-top:30px}
 .foot p{max-width:70ch}
 @media (max-width:520px){
@@ -138,6 +141,11 @@ details.more p{margin:6px 0}
 <main class="wrap">
   <p class="summary" id="summary"></p>
   <div id="list"></div>
+  <section id="offline" hidden>
+    <h2 class="offh">Also nearby, no live schedule online</h2>
+    <p class="summary">These places match your filters but don’t publish a bookable schedule we can read. Their usual times are below; check with them before going.</p>
+    <div id="offlist"></div>
+  </section>
   <div class="foot" id="foot"></div>
 </main>
 <script>
@@ -268,6 +276,7 @@ function render() {
   const venuesN = new Set(rows.map(([c]) => c.v)).size;
   $('#summary').innerHTML = `<b>${rows.length} class${rows.length === 1 ? '' : 'es'}</b> at ${venuesN} place${venuesN === 1 ? '' : 's'} on ${d}${tl}${state.station ? ' near ' + esc(state.station) : ''}`;
 
+  renderOffline();
   if (!rows.length) {
     $('#list').innerHTML = `<div class="empty">Nothing matches. Try another time of day, a longer walk, or clear the filters.<br><button class="chip" id="clear">Clear filters</button></div>`;
     $('#clear').onclick = () => { Object.assign(state, { times: new Set(), cats: new Set(), station: null, showers: false, via: 'all', walk: 15, maxstops: 99, hidefull: false }); $('#q').value = ''; render(); };
@@ -286,6 +295,21 @@ function render() {
   html += '</div></div>';
   if (rows.length > 400) html += `<p class="summary">Showing the first 400. Narrow by time or kind to see the rest.</p>`;
   $('#list').innerHTML = html;
+}
+
+function renderOffline() {
+  const list = Object.values(D.venues).filter(v => v.noSchedule
+    && (!state.cats.size || v.cats.some(c => state.cats.has(c) || (state.cats.has('yoga') && c === 'hot-yoga')))
+    && (!state.station || v.station === state.station) && (state.station || v.walkMin <= state.walk)
+    && v.stops <= state.maxstops && (!state.showers || v.showers.v === 'yes') && state.via !== 'cp')
+    .sort((a, b) => a.tripMin - b.tripMin).slice(0, 40);
+  $('#offline').hidden = !list.length || !state.cats.size && !state.station;
+  $('#offlist').innerHTML = list.map(v => `<article class="cls off">
+    <h3><a href="${esc(v.website || '#')}" target="_blank" rel="noopener">${esc(v.name)}</a></h3>
+    <div class="trip" style="margin-top:6px"><span class="pill"><i></i>${esc(v.station)}</span><span class="walk"><b>${v.walkMin} min</b> walk</span><span class="ride">${v.stops ? v.stops + ' stops · about ' + v.tripMin + ' min total' : 'your station'}</span></div>
+    ${v.schedule ? `<p class="sched">${esc(v.schedule)}</p>` : ''}
+    <div class="tags">${v.showers.v === 'yes' ? '<span class="tag good">Showers</span>' : v.showers.v === 'no' ? '<span class="tag">No showers</span>' : ''}${v.price?.dropIn ? `<span class="tag">${money(v.price.dropIn)} drop-in</span>` : ''}${v.price?.intro ? `<span class="tag">${esc(v.price.intro)}</span>` : ''}</div>
+  </article>`).join('');
 }
 
 function card(c, v) {

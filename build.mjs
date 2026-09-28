@@ -47,7 +47,11 @@ const CAT_RULES = [
   ['hiit', /hiit|boot ?camp|f45|circuit|tabata|conditioning|metcon|interval|cardio|sweat|bootcamp|step|kickboxing/i],
   ['strength', /strength|lift|barbell|weights|kettlebell|sculpt|pump|functional|power|build|muscle/i],
 ];
-const catOf = (...texts) => { const t = texts.filter(Boolean).join(' | '); for (const [c, re] of CAT_RULES) if (re.test(t)) return c; return 'other'; };
+const catOf = (...texts) => { for (const t of texts.filter(Boolean)) for (const [c, re] of CAT_RULES) if (re.test(t)) return c; return 'other'; };
+// A studio's main kind, used when a class name alone says nothing ("Level 2", "Open Mat").
+const PRIORITY = ['crossfit', 'bjj', 'martial', 'hot-yoga', 'pilates', 'barre', 'spin', 'climbing', 'yoga', 'dance', 'hiit', 'strength'];
+const CAT_ALIAS = { 'muay-thai': 'martial', mma: 'martial', boxing: 'martial', kickboxing: 'martial', wrestling: 'martial', judo: 'martial', karate: 'martial', reformer: 'pilates', bootcamp: 'hiit', 'community-centre': 'community' };
+const mainCat = cats => PRIORITY.find(p => cats.map(c => CAT_ALIAS[c] || c).includes(p)) || 'other';
 
 // ---------- matching ClassPass venues to researched venues ----------
 const STOP = new Set(['the', 'studio', 'studios', 'fitness', 'toronto', 'inc', 'ltd', 'club', 'gym', 'co', 'and', 'centre', 'center', 'danforth', 'west', 'east', 'bloor']);
@@ -63,7 +67,7 @@ for (const c of curated) if (c.cityLocationId) cityNotes[c.cityLocationId] = c;
 for (const c of curated) {
   if (c.closed || c.lat == null || c.cityLocationId) continue;
   const p = place(c.lat, c.lon);
-  const cats = [...new Set(c.categories || [])];
+  const cats = [...new Set((c.categories || []).map(x => CAT_ALIAS[x] || x))];
   addVenue(c.id, {
     name: c.name, address: c.address, lat: c.lat, lon: c.lon, ...p, cats,
     website: c.website, bookUrl: c.scheduleUrl || c.website,
@@ -121,7 +125,7 @@ const est = cat => pricing.categoryCredits[cat] || pricing.categoryCredits.defau
 for (const s of cp.schedules) {
   const vid = cpToVenue[s.venueId]; const v = venues[vid];
   if (!v || s.livestream || NOT_A_CLASS.test(s.name)) continue;
-  classes.push({ v: vid, s: s.start, e: s.end, n: s.name, c: catOf(s.name, s.activities), i: s.teacher, cp: true, cr: s.credits ?? null,
+  classes.push({ v: vid, s: s.start, e: s.end, n: s.name, c: catOf(s.name, s.activities) !== 'other' ? catOf(s.name, s.activities) : mainCat(v.cats), i: s.teacher, cp: true, cr: s.credits ?? null,
     st: s.status === 'available' ? null : s.status, lvl: s.level, dem: s.demand?.[0] || null });
 }
 
@@ -130,11 +134,12 @@ for (const [vid, list] of Object.entries(direct.venues || {})) {
   for (const d of list) {
     if (NOT_A_CLASS.test(d.name)) continue;
     const s = epoch(d.start), e = d.end ? epoch(d.end) : s + 3600;
+    if (e - s > 4 * 3600 || e <= s) continue; // multi-week series and all-day workshops aren't drop-in classes
     const dup = classes.find(c => c.v === vid && Math.abs(c.s - s) <= 300 && (similar(c.n, d.name) >= 0.5 || c.c === catOf(d.name)));
     const extra = { direct: true, u: d.bookUrl || v.bookUrl, sp: d.spotsLeft ?? null, price: d.price ?? null };
     if (d.spotsLeft === 0) extra.st = d.waitlist ? 'waitlist' : 'full';
     if (dup) { Object.assign(dup, extra); continue; }
-    classes.push({ v: vid, s, e, n: d.name, c: catOf(d.name, v.cats.join(' ')), i: d.instructor || null, ...extra });
+    classes.push({ v: vid, s, e, n: d.name, c: catOf(d.name) !== 'other' ? catOf(d.name) : mainCat(v.cats), i: d.instructor || null, ...extra });
   }
 }
 
@@ -173,6 +178,7 @@ for (const [id, v] of Object.entries(venues)) {
   for (const c of classes) if (c.v === id) cats.add(c.c);
   v.cats = [...cats];
   if (!used.has(id) && !v.curated) delete venues[id];
+  else if (!used.has(id)) v.noSchedule = true;
 }
 // Credit estimates: member-reported range for this studio if we have one, else the range for the kind of class.
 const reported = v => (pricing.venueCredits || []).find(([n]) => v.name.toLowerCase().includes(n));
@@ -207,7 +213,7 @@ function footnote(o) {
   return `<p>Walk times are straight-line distance plus 30% for the street grid, at an easy pace. “Total” adds about 2 minutes a stop and 5 minutes of waiting, counted from ${HOME} station.</p>
 <p>ClassPass credit prices only show to active members, so credit ranges are estimates for the kind of class. Dollar amounts use the ${esc(o.plan)} plan (about $${o.creditValue.toFixed(2)} a credit, before tax). Open ClassPass to see the exact price before booking.</p>
 <p>Direct prices are the studio's published drop-in rate. Intro offers for new clients are usually much cheaper. Community-centre drop-ins come from the City of Toronto's open data.</p>
-<p>Sources refreshed: ClassPass ${t(o.sources.classpass)}, studio schedules ${t(o.sources.direct)}, City ${t(o.sources.city)}.</p>`;
+<p>Sources refreshed: ClassPass ${t(o.sources.classpass)}, studio schedules ${t(o.sources.direct)}, City ${t(o.sources.city)}</p>`;
 }
 function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]); }
 
