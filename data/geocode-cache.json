@@ -286,5 +286,13 @@
  "39 Commissioners St, Toronto, ON": {
   "lat": 43.6458586,
   "lon": -79.3499144
+ },
+ "66 Sheridan Ave, Toronto, ON": {
+  "lat": 43.6474621,
+  "lon": -79.4331627
+ },
+ "3100 Weston Rd, Toronto, ON": {
+  "lat": 43.7337601,
+  "lon": -79.5384084
  }
 }

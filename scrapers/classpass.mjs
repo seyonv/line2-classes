@@ -22,11 +22,18 @@ const ctx = await chromium.launchPersistentContext(`${homedir()}/.config/class-f
 });
 try {
   const page = ctx.pages()[0] || await ctx.newPage();
-  await page.goto('https://classpass.com/plans', { waitUntil: 'domcontentloaded', timeout: 60e3 });
-  await page.waitForFunction(() => document.title && !/just a moment/i.test(document.title), null, { timeout: 60e3 });
-  await page.waitForTimeout(3000);
-  const probe = await page.evaluate(() => fetch('/_api/v3/search/schedules', { method: 'POST', headers: { 'content-type': 'application/json' }, body: '{"venue":204396,"date":"' + new Date().toISOString().slice(0, 10) + '"}' }).then(r => r.status));
-  if (probe !== 200) throw new Error(`ClassPass API probe returned ${probe} (Cloudflare?). `);
+  // Cloudflare sometimes holds the first visit on a challenge page; retry a few times.
+  let probe = 0;
+  for (let attempt = 1; attempt <= 3 && probe !== 200; attempt++) {
+    try {
+      await page.goto('https://classpass.com/plans', { waitUntil: 'domcontentloaded', timeout: 60e3 });
+      await page.waitForFunction(() => document.title && !/just a moment/i.test(document.title), null, { timeout: 90e3 });
+      await page.waitForTimeout(3000);
+      probe = await page.evaluate(() => fetch('/_api/v3/search/schedules', { method: 'POST', headers: { 'content-type': 'application/json' }, body: '{"venue":204396,"date":"' + new Date().toISOString().slice(0, 10) + '"}' }).then(r => r.status));
+    } catch (e) { console.log(`attempt ${attempt}: ${e.message.split('\n')[0]}`); }
+    if (probe !== 200) { console.log(`attempt ${attempt}: API probe ${probe}`); await page.waitForTimeout(20e3); }
+  }
+  if (probe !== 200) throw new Error(`ClassPass API not reachable after 3 attempts (last status ${probe})`);
 
   const script = readFileSync(`${ROOT}scrapers/classpass-page.js`, 'utf8');
   const args = { stations: stations.map(({ name, lat, lon }) => ({ name, lat, lon })), days, radiusKm: 1.7 };
