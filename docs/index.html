@@ -297,14 +297,15 @@ function card(c, v) {
   const prices = [];
   if (c.direct || v.price?.dropIn != null) {
     const p = c.price ?? v.price?.dropIn;
-    prices.push(`<div class="price"><div><div class="amt">${p != null ? money(p) : 'Price?'}<small>${p != null ? ' drop-in' : ''}</small></div><div class="what">${esc(v.price?.intro ? 'New here: ' + v.price.intro : 'Book with the studio')}</div></div>${c.u || v.bookUrl ? `<a class="book${c.cp ? ' alt' : ''}" href="${esc(c.u || v.bookUrl)}" target="_blank" rel="noopener">Book direct</a>` : ''}</div>`);
+    const alt = v.price?.unlimited ? 'Membership: ' + v.price.unlimited : v.price?.pack ? 'Packs: ' + v.price.pack : v.price?.note || 'No drop-in price published';
+    prices.push(`<div class="price"><div><div class="amt">${p != null ? (p === 0 ? 'Free' : money(p)) : 'Price on site'}<small>${p ? ' drop-in' : ''}</small></div><div class="what">${esc(v.price?.intro ? 'New here: ' + v.price.intro : p != null ? 'Book with the studio' : alt)}</div></div>${c.u || v.bookUrl ? `<a class="book${c.cp ? ' alt' : ''}" href="${esc(c.u || v.bookUrl)}" target="_blank" rel="noopener">Book direct</a>` : ''}</div>`);
   }
   if (c.cp) {
     const cr = c.cr != null ? [c.cr, c.cr] : c.crEst || v.cp.credits;
     const $r = cr ? [cr[0] * D.creditValue, cr[1] * D.creditValue] : null;
     const amt = cr ? (cr[0] === cr[1] ? `${cr[0]} credits` : `${cr[0]}–${cr[1]} credits`) : 'Credits vary';
     const dol = $r ? ($r[0] === $r[1] ? `≈ ${money($r[0])}` : `≈ ${money($r[0])}–${money($r[1])}`) : '';
-    prices.push(`<div class="price"><div><div class="amt">${amt}</div><div class="what">ClassPass ${dol}${c.cr == null ? ' (estimate)' : ''}</div></div><a class="book" href="${esc(v.cp.url)}" target="_blank" rel="noopener">ClassPass</a></div>`);
+    prices.push(`<div class="price"><div><div class="amt">${amt}</div><div class="what">ClassPass ${dol}${c.cr != null ? '' : c.crRep ? ', range members report here' : ', typical for this kind of class'}</div></div><a class="book" href="${esc(v.cp.url)}" target="_blank" rel="noopener">ClassPass</a></div>`);
   }
   const more = [v.price?.pack && `Packs: ${esc(v.price.pack)}`, v.price?.unlimited && `Unlimited: ${esc(v.price.unlimited)}`, v.price?.note && esc(v.price.note),
     v.showers.note && `Showers: ${esc(v.showers.note)}`, v.notes && esc(v.notes), v.address && esc(v.address),

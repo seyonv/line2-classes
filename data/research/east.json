@@ -1,0 +1,1269 @@
+[
+ {
+  "id": "danforth-karate-academy",
+  "name": "Danforth Karate Academy",
+  "address": "1096 Danforth Ave, Toronto (East York)",
+  "lat": 43.681106,
+  "lon": -79.334732,
+  "nearestStation": "Donlands",
+  "distanceM": 246,
+  "stretch": false,
+  "categories": [
+   "karate"
+  ],
+  "website": "https://www.danforthkarate.com/",
+  "scheduleUrl": "https://www.danforthkarate.com/schedule.html",
+  "bookingPlatform": null,
+  "platformIds": {},
+  "booking": null,
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "$80 QuickStart: 2 weeks of training + free karate gi (normally $155)",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.danforthkarate.com/programs/QuickStart.html",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No mention on website.",
+  "amenities": {},
+  "scheduleSummary": null,
+  "beginnerFriendly": "Yes - adult program for beginners",
+  "dropInAllowed": "Trial via QuickStart only",
+  "notes": "Serving East York since 1991. Class times not published on the website (schedule page lists dojo etiquette only).",
+  "sources": [
+   "https://www.danforthkarate.com/programs/adults.html",
+   "https://www.danforthkarate.com/schedule.html"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "motiv-pilates-danforth",
+  "name": "MOTIV Pilates - Danforth",
+  "address": "842 Danforth Ave, Toronto, ON M4J 1L7 (entrance on Langford)",
+  "lat": 43.67997,
+  "lon": -79.34049,
+  "nearestStation": "Donlands",
+  "distanceM": 247,
+  "stretch": false,
+  "categories": [
+   "pilates",
+   "reformer",
+   "barre",
+   "yoga"
+  ],
+  "website": "https://motivpilates.com/toronto-danforth-studio",
+  "scheduleUrl": "https://motivpilates.com/toronto-studio-view-schedule-book-guided-classes",
+  "bookingPlatform": "momence",
+  "platformIds": {
+   "momenceHostId": 133899
+  },
+  "booking": {
+   "platform": "momence",
+   "config": {
+    "hostId": 133899
+   }
+  },
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": "$39 single class (6-month expiry)",
+   "introOffer": "Experienced trial: 4 classes $69; Beginner trial: 1 private + 3 classes $129",
+   "classPacks": "5-class card $165; 10-class card $299",
+   "unlimitedMonthly": "$299/4 weeks unlimited",
+   "otherMemberships": "4 classes/4wks $116 ($29/class); 8 classes/4wks $216 ($27/class); must own class credit to book; sticky socks mandatory",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://motivpilates.com/toronto-studio-buy-classes-memberships",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "yes",
+  "classPassUrl": "https://classpass.com/studios/motiv-pilates-danforth-toronto",
+  "showers": "unknown",
+  "showersEvidence": "No mention on website.",
+  "amenities": {},
+  "scheduleSummary": "Instructor-led and instructorless reformer daily roughly 7am-8pm (e.g. Mon 9,10,11am,5,6,7pm; Tue 7-10am,5-8pm; Sat 8am-12pm); mat Pilates Tue/Thu 11am, Sat 11am; yoga Mon 11am, Thu 7pm, Sat 12pm; cardio reformer Wed 6pm, Thu 5pm. ~70 sessions/week. (Momence host 133899, week of 2026-09-28)",
+  "beginnerFriendly": "Yes - Align (beginner) vs Thrive levels; beginner trial includes a private",
+  "dropInAllowed": "Yes ($39 single)",
+  "notes": "Book up to 2 weeks ahead; pick your reformer. Momence host 54544 is the other MOTIV studio (TB), not this one.",
+  "sources": [
+   "https://motivpilates.com/toronto-studio-buy-classes-memberships",
+   "https://motivpilates.com/trial-df",
+   "https://motivpilates.com/studio-policies"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "f45-danforth",
+  "name": "F45 Training Danforth Toronto",
+  "address": "836 Danforth Ave, Toronto, ON M4J 1L6",
+  "lat": 43.679877,
+  "lon": -79.340815,
+  "nearestStation": "Donlands",
+  "distanceM": 275,
+  "stretch": false,
+  "categories": [
+   "hiit",
+   "strength",
+   "bootcamp"
+  ],
+  "website": "https://f45training.com/ca/studio/danforthtoronto/",
+  "scheduleUrl": "https://www.mindbodyonline.com/explore/locations/f45-training-danforth-toronto",
+  "bookingPlatform": "mindbody",
+  "platformIds": {
+   "mindbodySiteId": 738388,
+   "locationSlug": "f45-training-danforth-toronto",
+   "f45StudioId": 1216
+  },
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "f45-training-danforth-toronto"
+   }
+  },
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": "$33 (Mindbody single-class price)",
+   "introOffer": "Trial offered via website (price not shown)",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.mindbodyonline.com/explore/locations/f45-training-danforth-toronto",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": "Mindbody location amenities: [\"parking\", \"showers\"] (prod-mkt-gateway.mindbody.io, 2026-09-28)",
+  "amenities": {
+   "amenitiesMindbody": [
+    "parking",
+    "showers"
+   ]
+  },
+  "scheduleSummary": "Mon-Fri ~5:45, 6:40/6:45, 7:35, 9:30am, 12pm, 5:30, 6:25pm (varies by day); Sat 8:15, 9:30am; Sun 8:30, 9:25, 10:20am. (Mindbody, week of 2026-09-28)",
+  "beginnerFriendly": "Yes",
+  "dropInAllowed": true,
+  "notes": "Also on Wellhub (Gympass) per search results. Mindbody rating 5.0 (70 ratings).",
+  "sources": [
+   "https://f45training.com/ca/studio/danforthtoronto/",
+   "https://wellhub.com/en-ca/search/partners/f45-danforth-toronto-old-toronto/"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "central-toronto-wrestling-club",
+  "name": "Central Toronto Wrestling Club",
+  "address": "1218 Danforth Ave, Toronto, ON M4J 1M6",
+  "lat": 43.681783,
+  "lon": -79.331697,
+  "nearestStation": "Greenwood",
+  "distanceM": 144,
+  "stretch": false,
+  "categories": [
+   "wrestling"
+  ],
+  "website": "https://centraltorontowrestling.com/",
+  "scheduleUrl": "https://centraltorontowrestling.com/schedule",
+  "bookingPlatform": "gymdesk",
+  "platformIds": {
+   "gymdeskAcademyId": 6781,
+   "gymdeskSubdomain": "central-toronto-wrestling-club"
+  },
+  "booking": {
+   "platform": "gymdesk",
+   "config": {
+    "baseUrl": "https://centraltorontowrestling.com"
+   }
+  },
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": "$35+HST single session",
+   "introOffer": "1 Day Free Trial",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "CTW Membership 4 days/week $160/mo; 2x weekly $130/mo; \"Drop In Training\" $25 (listed, unclear)",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://centraltorontowrestling.com/signup/v/6MjkQ",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No mention on website.",
+  "amenities": {},
+  "scheduleSummary": "Fundamental Wrestling Mon/Wed/Fri 7pm, Sun 6pm; Comp Wrestling (experienced) Tue/Thu 7pm, Sun 11am; Wrestling Open Mat Tue/Thu 12pm; Greco Sat 6pm; youth/kids 5:30pm weekdays. (Gymdesk, week of 2026-09-28)",
+  "beginnerFriendly": "Yes - Fundamental Wrestling class",
+  "dropInAllowed": true,
+  "notes": "Olympic-style wrestling; good complement for BJJ/MMA.",
+  "sources": [
+   "https://centraltorontowrestling.com/schedule",
+   "https://centraltorontowrestling.com/signup/v/6MjkQ"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "one-to-one-mma",
+  "name": "One To One MMA",
+  "address": "1188 Danforth Ave, Toronto, ON M4J 1M3 (entrance laneway on Greenwood Ave)",
+  "lat": 43.681675,
+  "lon": -79.332675,
+  "nearestStation": "Greenwood",
+  "distanceM": 217,
+  "stretch": false,
+  "categories": [
+   "mma",
+   "bjj",
+   "kickboxing",
+   "boxing",
+   "wrestling",
+   "muay-thai"
+  ],
+  "website": "https://www.121mma.com/",
+  "scheduleUrl": "https://www.121mma.com/pricing",
+  "bookingPlatform": null,
+  "platformIds": {
+   "scheduleImage": "https://static.wixstatic.com/media/6e580f_7156563d6c8d4a0eb8056eb3dd152772~mv2.png"
+  },
+  "booking": null,
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "First class free + free private training session for new members",
+   "classPacks": null,
+   "unlimitedMonthly": "$140/mo ($1200/yr)",
+   "otherMemberships": "Student/youth 13-17 $100/mo; 5 privates + 5 wks group $600; 10+10 $1000; 24+24 $2000; no contract",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.121mma.com/pricing",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No mention on website.",
+  "amenities": {},
+  "scheduleSummary": "No-Gi BJJ: Fundamentals Tue/Thu 7pm, No-Gi Advanced Tue 8pm, No-Gi Drills Thu 8pm, No-Gi Jiu Jitsu Sun 11am, No-Gi for MMA Sat 9am. Kickboxing Fundamentals Mon 12pm, Kickboxing Drills Wed 12pm & Fri 7pm, Kickboxing for MMA Tue/Thu 6pm & Fri 12pm, Kickboxing Sat 10am. Boxing Fundamentals Mon 6pm, Boxing Drills Tue/Thu 12pm, Boxing for MMA Wed/Fri 6pm. MMA Fundamentals Mon 7pm, MMA Advanced Mon 8pm, MMA Technique Tue 11am, Scrambles Thu 11am, MMA Drills Fri 8pm. Wrestling Wed 5pm, Sun 10am. Sparring Wed 7pm, Open training Sat 11am-1pm. (schedule image on site)",
+  "beginnerFriendly": "Yes - \"First class free - No contracts - beginner friendly\"",
+  "dropInAllowed": "Free first class; drop-in price not listed",
+  "notes": "BJJ is no-gi only. Schedule published as an image (no booking platform detected; Wix site). Phone 905-801-8192.",
+  "sources": [
+   "https://www.121mma.com/pricing",
+   "https://www.121mma.com/"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "tidal-crossfit-danforth",
+  "name": "Tidal CrossFit (Tidal Fitness)",
+  "address": "1510 Danforth Ave, Toronto, ON M4J 1N4",
+  "lat": 43.683175,
+  "lon": -79.325265,
+  "nearestStation": "Coxwell",
+  "distanceM": 209,
+  "stretch": false,
+  "categories": [
+   "crossfit",
+   "strength",
+   "hiit"
+  ],
+  "website": "https://tidalfitness.ca/",
+  "scheduleUrl": "https://tidalfitness.ca/gym-info/#schedule",
+  "bookingPlatform": "zenplanner",
+  "platformIds": {
+   "zenplannerSubdomain": "tidalcrossfit",
+   "calendarUrl": "https://tidalcrossfit.zenplanner.com/zenplanner/portal/calendar.cfm?frame=true&view=list"
+  },
+  "booking": {
+   "platform": "zenplanner",
+   "config": {
+    "subdomain": "tidalcrossfit"
+   }
+  },
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "Free intro meeting with a coach; newcomers do intro personal-training sessions before first class",
+   "classPacks": null,
+   "unlimitedMonthly": "$305/mo (includes unlimited classes and private training)",
+   "otherMemberships": "Drop-in for visitors: fill in form at tidalfitness.ca/drop-in (price not published). blogTO 2012 quoted $190/mo (outdated).",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://tidalfitness.ca/gym-info/",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No shower mention on site. blogTO review: \"There are changerooms, and newly renovated washrooms.\" (2012) https://www.blogto.com/fitness/tidal-crossfit-scarborough-toronto/",
+  "amenities": {
+   "changeRooms": "yes (blogTO 2012)",
+   "lockers": null,
+   "towels": null,
+   "sizeSqft": 7000
+  },
+  "scheduleSummary": "CrossFit Mon-Fri 5,6,7,9am,12pm,4,5,6pm (+7pm Mon-Thu); Sat 8,9,10,11am. Open Gym weekdays 10-11am & some 5pm; Legends (55+) Mon/Wed/Fri 10am; Get Jacked Mon 5pm; teen CFK Tue/Thu 7,8pm. Classes cap 16; 6am often full. (Zen Planner, week of 2026-09-28)",
+  "beginnerFriendly": "Yes - intro PT sessions for newcomers; Legends 55+ program",
+  "dropInAllowed": "Visitors via drop-in form only (experienced CrossFitters)",
+  "notes": "Owner claims 7,000 sq ft, \"largest facility in central Toronto\". Contact info@tidalfitness.ca / 647-352-0322.",
+  "sources": [
+   "https://tidalfitness.ca/gym-info/",
+   "https://tidalfitness.ca/drop-in/",
+   "https://tidalcrossfit.zenplanner.com/zenplanner/portal/calendar.cfm?frame=true&view=list"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "bomb-fitness-danforth",
+  "name": "BOMB Fitness (Danforth)",
+  "address": "1480 Danforth Ave, Toronto, ON M4J 1N4",
+  "lat": 43.68322,
+  "lon": -79.32554,
+  "nearestStation": "Coxwell",
+  "distanceM": 226,
+  "stretch": false,
+  "categories": [
+   "bootcamp",
+   "hiit",
+   "strength",
+   "yoga",
+   "pilates"
+  ],
+  "website": "https://www.bombfitness.ca/",
+  "scheduleUrl": "https://www.bombfitness.ca/schedule",
+  "bookingPlatform": "wellnessliving",
+  "platformIds": {
+   "wellnessLivingBusiness": "bomb_fitness",
+   "k_business": "291460 (probable Danforth; 595756 = Beach location)"
+  },
+  "booking": null,
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "14 days unlimited group classes $49+HST (money-back guarantee); or 3-session PT intro",
+   "classPacks": "10-class package $239 (6-month expiry)",
+   "unlimitedMonthly": "\"Ignite\" unlimited, billed every 4 weeks (price not published); \"Lite\" up to 8 classes/4 wks",
+   "otherMemberships": "Late cancel <60 min; >3 no-shows/month $10+HST each",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.bombfitness.ca/group-fitness-new",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No mention on website.",
+  "amenities": {},
+  "scheduleSummary": null,
+  "beginnerFriendly": "Yes, but novices are steered to one-on-one intro package",
+  "dropInAllowed": "Class packs yes; no single drop-in price published",
+  "notes": "45-min classes (yoga 60). Address on site is 1480 Danforth (older listings say 1502). Schedule is a WellnessLiving widget (JS only); WellnessLiving has no fetcher yet.",
+  "sources": [
+   "https://www.bombfitness.ca/group-fitness-new",
+   "https://www.bombfitness.ca/start-here",
+   "https://www.wellnessliving.com/explore/locations/open-gym/ca-on-toronto/bombfitness/"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "nicole-piller-pilates",
+  "name": "Nicole Piller Pilates, Yoga & Reiki",
+  "address": "6 Woodrow Ave, Toronto (Coxwell & Danforth)",
+  "lat": 43.682038,
+  "lon": -79.322818,
+  "nearestStation": "Coxwell",
+  "distanceM": 236,
+  "stretch": false,
+  "categories": [
+   "pilates",
+   "reformer",
+   "yoga"
+  ],
+  "website": "https://nicolepiller.com/",
+  "scheduleUrl": "https://nicolepiller.com/class-schedule/",
+  "bookingPlatform": null,
+  "platformIds": {},
+  "booking": null,
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": "Mat drop-in $30+HST (space permitting); equipment-class drop-in $47",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "Classes sold as seasonal sessions (Fall/Winter/Spring/Summer); privates/semi-privates by appointment",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://nicolepiller.com/class-schedule/",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No mention on website.",
+  "amenities": {},
+  "scheduleSummary": null,
+  "beginnerFriendly": "Yes - beginner & intermediate mat levels",
+  "dropInAllowed": "Yes, space permitting",
+  "notes": "Tiny home studio: mat classes max 6, equipment classes max 3. Contact nicolepillerstudio@gmail.com. Schedule published per session, not online-bookable.",
+  "sources": [
+   "https://nicolepiller.com/class-schedule/",
+   "https://nicolepiller.com/"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "toronto-yoga-co",
+  "name": "Toronto Yoga Co. (TYC)",
+  "address": "1768 Danforth Ave, Toronto, ON M4C 1H8",
+  "lat": 43.684393,
+  "lon": -79.319338,
+  "nearestStation": "Coxwell",
+  "distanceM": 299,
+  "stretch": false,
+  "categories": [
+   "yoga",
+   "pilates",
+   "reformer",
+   "barre"
+  ],
+  "website": "https://www.torontoyogaco.ca/",
+  "scheduleUrl": "https://www.torontoyogaco.ca/class-schedule",
+  "bookingPlatform": "marianatek",
+  "platformIds": {
+   "tenant": "torontoyogaco",
+   "locationId": "48717"
+  },
+  "booking": {
+   "platform": "marianatek",
+   "config": {
+    "tenant": "torontoyogaco",
+    "locationIds": [
+     "48717"
+    ],
+    "bookingPage": "https://www.torontoyogaco.ca/class-schedule"
+   }
+  },
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": "$29+HST (drop-in credit)",
+   "introOffer": null,
+   "classPacks": "5 classes $140+HST; 10 classes $250+HST; 20 classes $400+HST (never expire, shareable)",
+   "unlimitedMonthly": "Unlimited Mat $160+HST/mo; Unlimited Reformer + Mat $250+HST/mo",
+   "otherMemberships": "Late cancel (<12h) $15+HST; no-show $29+HST",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.torontoyogaco.ca/faq",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "yes",
+  "classPassUrl": "https://classpass.com/studios/toronto-yoga-co",
+  "showers": "no",
+  "showersEvidence": "FAQ amenities list: \"Gender-neutral washrooms that double as change rooms\", \"Lockers (no lock needed!)\", tea bar - no showers listed. https://www.torontoyogaco.ca/faq",
+  "amenities": {
+   "changeRooms": "washrooms double as change rooms",
+   "lockers": "yes",
+   "towels": "complimentary towels per ClassPass listing"
+  },
+  "scheduleSummary": "Reformer (Contemporary/Athletic/Classic/Cardio Jump/Sculpt) daily ~6-10:30am, 4:30-6:30pm, weekends 8:30-10:30am (reformer classes capped at 6); Vinyasa Mon-Thu 5:30-5:45pm, Fri 9:30am, Sat 9:30am, Sun 8am; Pilates Matwork ~6x/week; Yin/Restorative evenings; Morning Yoga Thu 7:15am. (Mariana Tek API, week of 2026-09-28)",
+  "beginnerFriendly": "Yes",
+  "dropInAllowed": true,
+  "notes": "Studio is up a flight of stairs (not street level). Books 12h cancellation window.",
+  "sources": [
+   "https://www.torontoyogaco.ca/faq",
+   "https://www.torontoyogaco.ca/studio-policies",
+   "https://torontoyogaco.marianatek.com/api/customer/v1/locations"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "centreline-kung-fu-hall",
+  "name": "Centreline Kung Fu Hall",
+  "address": "1774 Danforth Ave, Toronto, ON M4C 1H8",
+  "lat": 43.68458,
+  "lon": -79.31922,
+  "nearestStation": "Coxwell",
+  "distanceM": 311,
+  "stretch": false,
+  "categories": [
+   "karate"
+  ],
+  "website": "https://www.kungfutoronto.com/",
+  "scheduleUrl": "https://www.kungfutoronto.com/schedule",
+  "bookingPlatform": null,
+  "platformIds": {},
+  "booking": null,
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": "$30 per drop-in class (staff weapon series / Wing Chun HIIT)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "Regular Wing Chun enrolment by email (price not published)",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.kungfutoronto.com/classes/drop-in-classes",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "yes",
+  "classPassUrl": "https://classpass.com/studios/centreline-kung-fu-hall-toronto",
+  "showers": "unknown",
+  "showersEvidence": "No mention on website.",
+  "amenities": {},
+  "scheduleSummary": "Adult (18+) Wing Chun Mon/Wed 8:15-9:30pm; ages 9+ Wing Chun Mon/Wed 7-8pm; drop-in weapon modules some Saturdays 11am-2pm.",
+  "beginnerFriendly": "Yes",
+  "dropInAllowed": "Drop-in classes yes; core program by enrolment",
+  "notes": "Wing Chun kung fu / tai chi (no exact category in list; tagged karate as closest martial-arts bucket).",
+  "sources": [
+   "https://www.kungfutoronto.com/schedule",
+   "https://www.kungfutoronto.com/classes/drop-in-classes"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "zone-x",
+  "name": "Zone X",
+  "address": "1 Parkmount Rd, Toronto, ON M4J 0A5 (behind Monarch Park Collegiate, by the track)",
+  "lat": 43.678105,
+  "lon": -79.323761,
+  "nearestStation": "Coxwell",
+  "distanceM": 675,
+  "stretch": false,
+  "categories": [
+   "strength",
+   "hiit",
+   "run",
+   "pilates"
+  ],
+  "website": "https://www.mindbodyonline.com/explore/locations/zone-x",
+  "scheduleUrl": "https://www.mindbodyonline.com/explore/locations/zone-x",
+  "bookingPlatform": "mindbody",
+  "platformIds": {
+   "mindbodySiteId": 5751970,
+   "locationSlug": "zone-x"
+  },
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "zone-x"
+   }
+  },
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": "$30 (Mindbody single-class price)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "Free Saturday run club",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.mindbodyonline.com/explore/locations/zone-x",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "Mindbody amenities list rentals, bike racks, transit, parking - no showers listed.",
+  "amenities": {
+   "amenitiesMindbody": [
+    "rentals",
+    "bike racks",
+    "parking"
+   ]
+  },
+  "scheduleSummary": "Classic Strength Mon-Fri 4, 5, 6pm (+Tue 12pm); Hybrid Tue 6am, Thu 6:30am, Sun 8am; Sprint + Strength Wed 6am; Open Sprints Mon/Wed 6:30pm; Intro to Pilates Fri 6:30am; FREE Run Club Sat 9am; youth classes 4pm. (Mindbody, week of 2026-09-28)",
+  "beginnerFriendly": "Yes (family/senior-friendly per Mindbody)",
+  "dropInAllowed": true,
+  "notes": "Found via Mindbody location search; no separate website found.",
+  "sources": [
+   "https://www.mindbodyonline.com/explore/locations/zone-x"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "fairmount-park-cc",
+  "name": "Fairmount Park Community Centre",
+  "address": "1757 Gerrard St E, Toronto, ON M4L 2B3",
+  "lat": 43.676647,
+  "lon": -79.315189,
+  "nearestStation": "Coxwell",
+  "distanceM": 1046,
+  "stretch": false,
+  "categories": [
+   "community-centre",
+   "yoga",
+   "pilates",
+   "strength"
+  ],
+  "website": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+  "scheduleUrl": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=308",
+  "bookingPlatform": "city-of-toronto-activenet",
+  "platformIds": {
+   "cityLocationId": "308"
+  },
+  "booking": null,
+  "cityLocationId": "308",
+  "pricing": {
+   "dropIn": "$10.64 per drop-in class (adult, City FitnessTO single visit)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": "$49.44/mo FitnessTO All Access (all City centres)",
+   "otherMemberships": "City FitnessTO pricing (toronto.ca/explore-enjoy/recreation/fitness/, seen 2026-09-27): single drop-in fitness/aquafit class $10.64 adult; All Access day pass $15.64; FitnessTO All Access (weight room + lane swim + drop-in classes, any City centre) $49.44/mo, $83.86/3mo, $280.33/yr; weight/cardio-only FitnessTO $33.73/mo. Older adults 60+ half price. Space in drop-ins not guaranteed.",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "no",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "Has indoor pool (City facilities dataset); showers not explicitly confirmed.",
+  "amenities": {
+   "pool": "indoor"
+  },
+  "scheduleSummary": "Yoga/Pilates Fusion Mon 7pm, Wed/Thu 6:30pm; Strength & Conditioning Sat 9am; Yoga with Baby Tue midday. (City drop-in data, fall 2026)",
+  "beginnerFriendly": "Yes - City drop-ins are all-levels; no registration, first-come",
+  "dropInAllowed": true,
+  "notes": "~1.05 km from Coxwell (south, at Gerrard).",
+  "sources": [
+   "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "https://open.toronto.ca/dataset/registered-programs-and-drop-in-courses-offering/ (Drop-in.csv, refreshed 2026-09-24)"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "toronto-jiu-jitsu-club",
+  "name": "Toronto Jiu-Jitsu Club (TJJC)",
+  "address": "2073 Danforth Ave, Toronto, ON M4C 1J8",
+  "lat": 43.68532,
+  "lon": -79.31299,
+  "nearestStation": "Woodbine",
+  "distanceM": 125,
+  "stretch": false,
+  "categories": [
+   "bjj",
+   "judo",
+   "wrestling"
+  ],
+  "website": "https://torontojiujitsuclub.ca/",
+  "scheduleUrl": "https://torontojiujitsuclub.ca/schedule",
+  "bookingPlatform": "gymdesk",
+  "platformIds": {
+   "gymdeskAcademyId": 5640,
+   "baseUrl": "https://torontojiujitsuclub.ca"
+  },
+  "booking": {
+   "platform": "gymdesk",
+   "config": {
+    "baseUrl": "https://torontojiujitsuclub.ca"
+   }
+  },
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "ADULT 7-Day Free Trial (unlimited); or Beginners Course $375+HST (6 semi-private classes Tue/Thu 7:30pm over 3 weeks, includes gi)",
+   "classPacks": null,
+   "unlimitedMonthly": "$130+HST per 2 weeks auto-renew (~$282/mo)",
+   "otherMemberships": "2x/week $105+HST per 2 weeks; private lesson w/ black belt $200+HST; seminar $120",
+   "openMatFee": "Open Mat (non-members) $15+HST; must hold an active membership at some gym",
+   "mustBeMember": false,
+   "source": "https://torontojiujitsuclub.ca/signup",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No mention of showers/change rooms on website; review sites not reachable.",
+  "amenities": {},
+  "scheduleSummary": "BJJ Basics Mon/Wed 6:15pm, Tue/Thu 12pm & 7:30pm, Sat/Sun 1pm; #7AMClub Gi Basics Mon/Wed 7am, No-Gi Basics Fri 7am; BJJ Intermediate Tue/Thu 7:30pm, Wed 7:15pm; BJJ Advanced Mon 7:15pm, Wed 8:15pm, Sat 2pm; No-Gi Intermediate Mon 8:15pm, Wed 12pm; No-Gi Basics Fri 6:15pm, No-Gi Advanced Fri 7:15pm; Women's Only Wed 6:15pm, Sun 1pm; Judo adult+youth Tue 6:30pm, Judo Fundamentals 12+ Thu 6:30pm; Open Mat Sun 2-4pm. (Gymdesk, week of 2026-09-28)",
+  "beginnerFriendly": "Yes - Basics classes, beginners course, women-only classes",
+  "dropInAllowed": "Trial yes; open mat for outside members only",
+  "notes": "Steps from Woodbine Station. Waiver required at signup. Kids program large (after-school).",
+  "sources": [
+   "https://torontojiujitsuclub.ca/schedule",
+   "https://torontojiujitsuclub.ca/signup",
+   "https://torontojiujitsuclub.ca/page/beginners-course"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "the-pink-studio",
+  "name": "The Pink Studio",
+  "address": "2053 Danforth Ave, Toronto, ON M4C 1J8",
+  "lat": 43.685335,
+  "lon": -79.313619,
+  "nearestStation": "Woodbine",
+  "distanceM": 144,
+  "stretch": false,
+  "categories": [
+   "dance",
+   "pilates",
+   "yoga",
+   "barre"
+  ],
+  "website": "https://www.thepinkstudio.ca/",
+  "scheduleUrl": "https://www.thepinkstudio.ca/schedule",
+  "bookingPlatform": "arketa",
+  "platformIds": {
+   "arketaSlug": "thepinkstudio",
+   "partnerId": "9bShNWNM9qVLBxavRvjMF5Thwsy1"
+  },
+  "booking": {
+   "platform": "arketa",
+   "config": {
+    "slug": "thepinkstudio",
+    "partnerId": "9bShNWNM9qVLBxavRvjMF5Thwsy1"
+   }
+  },
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": "Drop-ins welcome (price shown only in Arketa checkout)",
+   "introOffer": "Intro pass: 2 weeks unlimited (once per person; price in Arketa)",
+   "classPacks": null,
+   "unlimitedMonthly": "$170/mo \"Fearless\" membership (in-studio + online + on-demand)",
+   "otherMemberships": "Dance courses: 5-wk $130, 6-wk $156, 10-wk $260; virtual library $10/mo",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.thepinkstudio.ca/pricing-1",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No mention on website.",
+  "amenities": {},
+  "scheduleSummary": "Mat Pilates Mon 12pm & 5pm, Wed 1pm & 5pm, Sun 10am; Power Pilates Fri 1pm; Barre Tue/Thu 9:30am, Sat 11am, Sun 9am; Barre Bootcamp Tue 5pm; Feel Good Yoga Mon 1pm, Wed 8pm, Thu 10:30am; Yoga-lates Sat 9am; Nia Mon/Wed 9:30am, Sat 10am; LIIT Sat 1pm; ABC15 Thu 6pm; adult dance (pop, ballet, contemporary, hip hop, Bollywood, tap, jazz, Broadway) evenings 6-8pm. (Arketa, week of 2026-09-28)",
+  "beginnerFriendly": "Yes - \"classes range from beginner to intermediate\"; 14+",
+  "dropInAllowed": true,
+  "notes": "Adult-focused, inclusive dance + fitness; steps from Woodbine Station.",
+  "sources": [
+   "https://www.thepinkstudio.ca/pricing",
+   "https://www.thepinkstudio.ca/pricing-1",
+   "https://www.thepinkstudio.ca/faqs"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "sam-lumpini-gym",
+  "name": "Sam Lumpini Gym (Lumpini Fighting System)",
+  "address": "1351 Woodbine Ave, Toronto, ON M4C 4G4",
+  "lat": 43.696627,
+  "lon": -79.31726,
+  "nearestStation": "Woodbine",
+  "distanceM": 1196,
+  "stretch": false,
+  "categories": [
+   "muay-thai",
+   "kickboxing",
+   "boxing"
+  ],
+  "website": "http://www.samlumpini.com/",
+  "scheduleUrl": "http://www.samlumpini.com/Schedule.html",
+  "bookingPlatform": null,
+  "platformIds": {},
+  "booking": null,
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "Trial class (register via contact)",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "http://www.samlumpini.com/Group-Classes.html",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No mention on website.",
+  "amenities": {},
+  "scheduleSummary": "Posted schedule (stale, \"2023 Summer\"): Adult striking 6-7:30pm and 12-1:30pm on some weekdays; ladies-only 12-1:30pm; kids/youth 5-6pm. Contact Kru Sara Lumpini for current times.",
+  "beginnerFriendly": "Yes - \"all levels\"",
+  "dropInAllowed": null,
+  "notes": "Muay Thai, B.F. Savate, Krav Maga, boxing. Website not updated since 2023 - confirm still operating before going. 1.2 km from Woodbine (edge of range).",
+  "sources": [
+   "http://www.samlumpini.com/Schedule.html",
+   "http://www.samlumpini.com/Group-Classes.html"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "secord-cc",
+  "name": "Secord Community Centre",
+  "address": "91 Barrington Ave, Toronto, ON M4C 4Y9",
+  "lat": 43.691085,
+  "lon": -79.301497,
+  "nearestStation": "Main Street",
+  "distanceM": 226,
+  "stretch": false,
+  "categories": [
+   "community-centre",
+   "yoga",
+   "pilates",
+   "dance",
+   "strength"
+  ],
+  "website": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+  "scheduleUrl": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=325",
+  "bookingPlatform": "city-of-toronto-activenet",
+  "platformIds": {
+   "cityLocationId": "325"
+  },
+  "booking": null,
+  "cityLocationId": "325",
+  "pricing": {
+   "dropIn": "$10.64 per drop-in class (adult, City FitnessTO single visit)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": "$49.44/mo FitnessTO All Access (all City centres)",
+   "otherMemberships": "City FitnessTO pricing (toronto.ca/explore-enjoy/recreation/fitness/, seen 2026-09-27): single drop-in fitness/aquafit class $10.64 adult; All Access day pass $15.64; FitnessTO All Access (weight room + lane swim + drop-in classes, any City centre) $49.44/mo, $83.86/3mo, $280.33/yr; weight/cardio-only FitnessTO $33.73/mo. Older adults 60+ half price. Space in drop-ins not guaranteed.",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "no",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No source; facility list shows gym + multipurpose rooms only.",
+  "amenities": {},
+  "scheduleSummary": "Zumba Mon 6:15pm; Pilates Mon 7:30pm; Yoga Tue 7pm, Sun 1:15pm; Cardio High/Low Wed 6:15pm, Sat 9am; Strength & Conditioning Wed 7:30pm, Sun 12pm. (City drop-in data, fall 2026)",
+  "beginnerFriendly": "Yes - City drop-ins are all-levels; no registration, first-come",
+  "dropInAllowed": true,
+  "notes": "",
+  "sources": [
+   "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "https://open.toronto.ca/dataset/registered-programs-and-drop-in-courses-offering/ (Drop-in.csv, refreshed 2026-09-24)"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "main-square-cc",
+  "name": "Main Square Community Recreation Centre",
+  "address": "245 Main St, Toronto, ON M4C 5T3",
+  "lat": 43.687159,
+  "lon": -79.299768,
+  "nearestStation": "Main Street",
+  "distanceM": 257,
+  "stretch": false,
+  "categories": [
+   "community-centre",
+   "swim",
+   "yoga",
+   "pilates",
+   "strength"
+  ],
+  "website": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+  "scheduleUrl": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=85",
+  "bookingPlatform": "city-of-toronto-activenet",
+  "platformIds": {
+   "cityLocationId": "85"
+  },
+  "booking": null,
+  "cityLocationId": "85",
+  "pricing": {
+   "dropIn": "$10.64 per drop-in class (adult, City FitnessTO single visit)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": "$49.44/mo FitnessTO All Access (all City centres)",
+   "otherMemberships": "City FitnessTO pricing (toronto.ca/explore-enjoy/recreation/fitness/, seen 2026-09-27): single drop-in fitness/aquafit class $10.64 adult; All Access day pass $15.64; FitnessTO All Access (weight room + lane swim + drop-in classes, any City centre) $49.44/mo, $83.86/3mo, $280.33/yr; weight/cardio-only FitnessTO $33.73/mo. Older adults 60+ half price. Space in drop-ins not guaranteed.",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "no",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "Has indoor pool (City facilities dataset) so pool change rooms exist; showers not explicitly confirmed in a source.",
+  "amenities": {
+   "pool": "indoor",
+   "weightRoom": "yes"
+  },
+  "scheduleSummary": "Aquafit shallow Mon/Wed/Fri 9:30 & 10:45am, Tue 6pm; deep Thu 7:30pm; Pilates Mon/Fri 6:30pm; Strength & Conditioning Tue 7:30pm, Thu 6:30pm, Sun 9:15am; Yoga Mon 7:45pm, Fri 7:45pm; Cardio High/Low Tue 9:15am; Tai Chi Mon 7pm; Weight/cardio room Mon-Fri 6:30am-9pm, Sat 6:30am-4:30pm, Sun 9am-4:30pm. (City drop-in data, fall 2026)",
+  "beginnerFriendly": "Yes - City drop-ins are all-levels; no registration, first-come",
+  "dropInAllowed": true,
+  "notes": "Closest City fitness centre to Main St station.",
+  "sources": [
+   "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "https://open.toronto.ca/dataset/registered-programs-and-drop-in-courses-offering/ (Drop-in.csv, refreshed 2026-09-24)"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "f45-upper-beaches",
+  "name": "F45 Training Upper Beaches",
+  "address": "2359 Danforth Ave Unit 7, Toronto, ON",
+  "lat": 43.68702,
+  "lon": -79.30625,
+  "nearestStation": "Main Street",
+  "distanceM": 437,
+  "stretch": false,
+  "categories": [
+   "hiit",
+   "strength",
+   "bootcamp"
+  ],
+  "website": "https://f45training.com/ca/studio/upperbeaches/",
+  "scheduleUrl": "https://www.mindbodyonline.com/explore/locations/f45-training-upper-beaches",
+  "bookingPlatform": "mindbody",
+  "platformIds": {
+   "mindbodySiteId": 5732965,
+   "locationSlug": "f45-training-upper-beaches",
+   "f45StudioId": 3930
+  },
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "f45-training-upper-beaches"
+   }
+  },
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": "$35 (Mindbody single-class price)",
+   "introOffer": "Trial offered via website (price not shown)",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.mindbodyonline.com/explore/locations/f45-training-upper-beaches",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "yes",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": "Mindbody location amenities list \"showers\" (prod-mkt-gateway.mindbody.io locations search, 2026-09-28)",
+  "amenities": {
+   "amenitiesMindbody": [
+    "showers",
+    "wheelchair accessible",
+    "bike racks",
+    "parking"
+   ]
+  },
+  "scheduleSummary": "Mon-Fri ~5:45, 6:40, 7:35, 9:30am, 12pm, 5:30, 6:30pm; Sat 8, 9:15, 10:30am; Sun 8-11am hourly. Workouts rotate daily (Phoenix, Abacus, Fusion, etc.). (Mindbody, week of 2026-09-28)",
+  "beginnerFriendly": "Yes - coach walks first-timers through",
+  "dropInAllowed": true,
+  "notes": "ClassPass presence from search result \"F45 Training - Upper Beaches: Read Reviews and Book Classes on ClassPass\" (URL not captured).",
+  "sources": [
+   "https://f45training.com/ca/studio/upperbeaches/"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "crescent-town-club",
+  "name": "Crescent Town Club",
+  "address": "2A The Market Place, Toronto, ON M4C 5M1",
+  "lat": 43.69595,
+  "lon": -79.29218,
+  "nearestStation": "Victoria Park",
+  "distanceM": 297,
+  "stretch": false,
+  "categories": [
+   "gym",
+   "swim",
+   "pilates",
+   "yoga",
+   "bootcamp",
+   "community-centre"
+  ],
+  "website": "https://www.crescenttownclub.com/",
+  "scheduleUrl": "https://www.crescenttownclub.com/member-programs",
+  "bookingPlatform": null,
+  "platformIds": {},
+  "booking": null,
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": "Day use $8.75 adult (19+)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "Programs (Pilates, Yoga Mondays, Fitness Boot Camp, Lift & Learn, Aquafit Saturdays, Tai Chi) are session registrations; e.g. Club Member $42 / Non-member $72 per program; memberships sold in online store",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.crescenttownclub.com/facilities",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "no",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": "\"Spacious and clean Change Rooms with lockers, private changing and shower cubicles.\" + saunas in each change room. https://www.crescenttownclub.com/facilities",
+  "amenities": {
+   "changeRooms": "yes",
+   "lockers": "yes",
+   "sauna": "yes",
+   "pool": "25m 6-lane"
+  },
+  "scheduleSummary": "Open Mon-Fri 9am-9pm, Sat-Sun 9am-5:30pm. Programs registered by session (Fall session from 2026-09-28).",
+  "beginnerFriendly": "Yes",
+  "dropInAllowed": "Day-use pass for gym/pool; classes by session registration",
+  "notes": "Non-profit club open to anyone (not just residents); pool, gym, squash/racquetball, spin bikes. ~300 m from Victoria Park station.",
+  "sources": [
+   "https://www.crescenttownclub.com/facilities",
+   "https://www.crescenttownclub.com/member-programs"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "oakridge-cc",
+  "name": "Oakridge Community Recreation Centre",
+  "address": "63 Pharmacy Ave, Toronto, ON M1L 3E7",
+  "lat": 43.694147,
+  "lon": -79.283959,
+  "nearestStation": "Victoria Park",
+  "distanceM": 398,
+  "stretch": false,
+  "categories": [
+   "community-centre",
+   "strength",
+   "dance",
+   "yoga"
+  ],
+  "website": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+  "scheduleUrl": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=731",
+  "bookingPlatform": "city-of-toronto-activenet",
+  "platformIds": {
+   "cityLocationId": "731"
+  },
+  "booking": null,
+  "cityLocationId": "731",
+  "pricing": {
+   "dropIn": "$10.64 per drop-in class (adult, City FitnessTO single visit)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": "$49.44/mo FitnessTO All Access (all City centres)",
+   "otherMemberships": "City FitnessTO pricing (toronto.ca/explore-enjoy/recreation/fitness/, seen 2026-09-27): single drop-in fitness/aquafit class $10.64 adult; All Access day pass $15.64; FitnessTO All Access (weight room + lane swim + drop-in classes, any City centre) $49.44/mo, $83.86/3mo, $280.33/yr; weight/cardio-only FitnessTO $33.73/mo. Older adults 60+ half price. Space in drop-ins not guaranteed.",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "no",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "Facility list includes a sauna (City facilities dataset); showers not confirmed.",
+  "amenities": {
+   "weightRoom": "yes",
+   "sauna": "yes"
+  },
+  "scheduleSummary": "Strength & Conditioning Tue 6:15pm, Wed/Thu 5pm; Cardio High/Low Tue 11:45am, Wed 6:15pm; Zumba Tue/Wed 7:30pm; Yoga/Pilates Fusion Mon 7:30pm; Chair Yoga Mon 6:15pm; Gentle/Osteo Fit Mon am; Weight/cardio room Mon-Fri 7am-9pm, Sat-Sun 8am-3:30pm. (City drop-in data, fall 2026)",
+  "beginnerFriendly": "Yes - City drop-ins are all-levels; no registration, first-come",
+  "dropInAllowed": true,
+  "notes": "",
+  "sources": [
+   "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "https://open.toronto.ca/dataset/registered-programs-and-drop-in-courses-offering/ (Drop-in.csv, refreshed 2026-09-24)"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "la-fitness-danforth",
+  "name": "LA Fitness - Toronto Danforth Ave (Premier Plus)",
+  "address": "3003 Danforth Ave Unit 40-42, Toronto, ON M4C 1M9 (Shoppers World Danforth)",
+  "lat": 43.689662,
+  "lon": -79.289006,
+  "nearestStation": "Victoria Park",
+  "distanceM": 580,
+  "stretch": false,
+  "categories": [
+   "gym",
+   "dance",
+   "pilates",
+   "swim"
+  ],
+  "website": "https://www.lafitness.com/pages/clubhome.aspx?clubid=1090",
+  "scheduleUrl": "https://www.lafitness.com/pages/ClassSchedulePrintVersion.aspx?clubid=1090",
+  "bookingPlatform": "lafitness",
+  "platformIds": {
+   "clubId": 1090
+  },
+  "booking": null,
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "Free guest pass via lafitness.com FreePass page",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "Membership required for classes (prices not published per club)",
+   "openMatFee": null,
+   "mustBeMember": true,
+   "source": "https://www.lafitness.com/pages/clubhome.aspx?clubid=1090",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "no",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "Club page amenities: \"Locker Room\", \"Sauna\", \"Pool & Spa\" - showers not explicitly listed (standard in LA Fitness locker rooms but unconfirmed).",
+  "amenities": {
+   "lockerRoom": "yes",
+   "sauna": "yes",
+   "pool": "Pool & Spa listed"
+  },
+  "scheduleSummary": "Zumba Sun 9:45am plus weekday evenings 5:45pm/7pm; Body Works Plus Abs 11am; Mat Pilates 5:45pm & 7pm (schedule last updated 2026-07-08). Club hours Mon-Thu 5am-10pm, Fri 5am-9pm, Sat-Sun 8am-8pm.",
+  "beginnerFriendly": "Yes",
+  "dropInAllowed": false,
+  "notes": "Big-box gym; few classes. Nearest to Victoria Park station.",
+  "sources": [
+   "https://www.lafitness.com/pages/clubhome.aspx?clubid=1090",
+   "https://www.lafitness.com/pages/ClassSchedulePrintVersion.aspx?clubid=1090"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "warden-hilltop-cc",
+  "name": "Warden Hilltop Community Centre",
+  "address": "25 Mendelssohn St, Toronto, ON M1L 0G6",
+  "lat": 43.714686,
+  "lon": -79.280288,
+  "nearestStation": "Warden",
+  "distanceM": 409,
+  "stretch": false,
+  "categories": [
+   "community-centre",
+   "yoga",
+   "pilates",
+   "dance"
+  ],
+  "website": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+  "scheduleUrl": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1865",
+  "bookingPlatform": "city-of-toronto-activenet",
+  "platformIds": {
+   "cityLocationId": "1865"
+  },
+  "booking": null,
+  "cityLocationId": "1865",
+  "pricing": {
+   "dropIn": "$10.64 per drop-in class (adult, City FitnessTO single visit)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": "$49.44/mo FitnessTO All Access (all City centres)",
+   "otherMemberships": "City FitnessTO pricing (toronto.ca/explore-enjoy/recreation/fitness/, seen 2026-09-27): single drop-in fitness/aquafit class $10.64 adult; All Access day pass $15.64; FitnessTO All Access (weight room + lane swim + drop-in classes, any City centre) $49.44/mo, $83.86/3mo, $280.33/yr; weight/cardio-only FitnessTO $33.73/mo. Older adults 60+ half price. Space in drop-ins not guaranteed.",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "no",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No source.",
+  "amenities": {
+   "weightRoom": "yes",
+   "gym": "double gym"
+  },
+  "scheduleSummary": "Yoga Mon 5pm & 6:15pm, Wed 6:30pm, Fri 1pm, Sat 9am; Zumba Tue 6:30pm; Pilates Sun 10am; Cardio Dance Sat 10:30am; Tai Chi Thu am; Gentle/Osteo Fit Wed am; Weight room Mon-Fri 9am-9pm, Sat-Sun 9am-4pm. (City drop-in data, fall 2026)",
+  "beginnerFriendly": "Yes - City drop-ins are all-levels; no registration, first-come",
+  "dropInAllowed": true,
+  "notes": "",
+  "sources": [
+   "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "https://open.toronto.ca/dataset/registered-programs-and-drop-in-courses-offering/ (Drop-in.csv, refreshed 2026-09-24)"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "don-montgomery-cc",
+  "name": "Don Montgomery Community Recreation Centre",
+  "address": "2467 Eglinton Ave E, Toronto, ON M1K 2R1",
+  "lat": 43.732658,
+  "lon": -79.261697,
+  "nearestStation": "Kennedy",
+  "distanceM": 167,
+  "stretch": false,
+  "categories": [
+   "community-centre",
+   "strength"
+  ],
+  "website": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+  "scheduleUrl": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=712",
+  "bookingPlatform": "city-of-toronto-activenet",
+  "platformIds": {
+   "cityLocationId": "712"
+  },
+  "booking": null,
+  "cityLocationId": "712",
+  "pricing": {
+   "dropIn": "$10.64 per drop-in class (adult, City FitnessTO single visit)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": "$49.44/mo FitnessTO All Access (all City centres)",
+   "otherMemberships": "City FitnessTO pricing (toronto.ca/explore-enjoy/recreation/fitness/, seen 2026-09-27): single drop-in fitness/aquafit class $10.64 adult; All Access day pass $15.64; FitnessTO All Access (weight room + lane swim + drop-in classes, any City centre) $49.44/mo, $83.86/3mo, $280.33/yr; weight/cardio-only FitnessTO $33.73/mo. Older adults 60+ half price. Space in drop-ins not guaranteed.",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "no",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": "No source (arena building).",
+  "amenities": {},
+  "scheduleSummary": "Strength & Conditioning Wed 9am; Gentle Fit Tue 9 & 10:15am; Osteo Fit Tue 2:45pm; Walking Mon 11:15am. Daytime/older-adult oriented. (City drop-in data, fall 2026)",
+  "beginnerFriendly": "Yes - City drop-ins are all-levels; no registration, first-come",
+  "dropInAllowed": true,
+  "notes": "Mostly daytime older-adult classes.",
+  "sources": [
+   "https://www.toronto.ca/explore-enjoy/recreation/fitness/",
+   "https://open.toronto.ca/dataset/registered-programs-and-drop-in-courses-offering/ (Drop-in.csv, refreshed 2026-09-24)"
+  ],
+  "verifiedOpen2026": true
+ },
+ {
+  "id": "scarberian-boxing",
+  "name": "Scarberian Boxing Club (x Red Owl)",
+  "address": "2206 Eglinton Ave E, Unit 120, Scarborough, ON M1L 2N3",
+  "lat": 43.730128,
+  "lon": -79.278129,
+  "nearestStation": "Kennedy",
+  "distanceM": 1183,
+  "stretch": false,
+  "categories": [
+   "boxing",
+   "strength"
+  ],
+  "website": "https://www.scarberianboxing.com/",
+  "scheduleUrl": "https://www.scarberianboxing.com/classes",
+  "bookingPlatform": "wix-bookings",
+  "platformIds": {},
+  "booking": null,
+  "cityLocationId": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "Free trial class",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": false,
+   "source": "https://www.scarberianboxing.com/adult-technical-classes",
+   "dateSeen": "2026-09-27"
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": "New location amenities: \"Full weight room, cardio machines, more heavy bags, larger training floor, change rooms & showers.\" https://www.scarberianboxing.com/",
+  "amenities": {
+   "changeRooms": "yes",
+   "weightRoom": "yes"
+  },
+  "scheduleSummary": "Open Mon-Fri 4:30-8pm, Sat 11:30am-2pm; adult boxing within those hours (Wix Bookings schedule).",
+  "beginnerFriendly": "Yes - \"beginner-friendly, new members joining every week\"; Glove Level System",
+  "dropInAllowed": null,
+  "notes": "Not-for-profit community boxing club. Entrance: same building as Mandarin, through corner doors by Arrow Workforce; no outdoor signage.",
+  "sources": [
+   "https://www.scarberianboxing.com/",
+   "https://www.scarberianboxing.com/adult-technical-classes"
+  ],
+  "verifiedOpen2026": true
+ }
+]

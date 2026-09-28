@@ -28,6 +28,8 @@ function place(lat, lon) {
   const stops = Math.abs(best.s.index - home.index);
   return { station: best.s.name, metres: Math.round(best.m), walkMin, stops, tripMin: walkMin + (stops ? stops * 2 + 5 : 0) };
 }
+// City "free centres" (toronto.ca/explore-enjoy/recreation/free-lower-cost-recreation-options/, checked 2026-09-28)
+const FREE_CENTRE = /chalkfarm|driftwood|elmbank|emery|falstaff|john english|islington community school|kingsview|north kipling|oakdale|the elms|york recreation|antibes|timbrell|grandravine|jenner jean|lawrence heights|oriole|cedarbrook|centennial recreation centre - scarborough|don montgomery|heron park|l'amoreaux|malvern|oakridge|scarborough village|stephen leacock|harrison pool|jimmie simpson|john innes|masaryk|o'connor|pam mcconnell|regent park|scadding court|secord|wellesley community/i;
 const WALK_LIMIT = { default: 20, crossfit: 25, bjj: 25, martial: 25 };
 
 // ---------- categories ----------
@@ -56,8 +58,10 @@ const venues = {};
 const addVenue = (id, v) => { venues[id] = v; return v; };
 const cpUrl = alias => `https://classpass.com/studios/${alias}`;
 
+const cityNotes = {};
+for (const c of curated) if (c.cityLocationId) cityNotes[c.cityLocationId] = c;
 for (const c of curated) {
-  if (c.closed || c.lat == null) continue;
+  if (c.closed || c.lat == null || c.cityLocationId) continue;
   const p = place(c.lat, c.lon);
   const cats = [...new Set(c.categories || [])];
   addVenue(c.id, {
@@ -108,13 +112,15 @@ for (const v of Object.values(cp.venues)) {
 }
 
 // ---------- classes ----------
+// Not adult group classes: kids/teen programs, private/PT slots, spa services and room bookings.
+const NOT_A_CLASS = /\bkids?\b|junior|\bteens?\b|youth|little|tots|toddler|\b\d+\s*[-–]\s*\d+\s*y\/?o|\byears?\b.*\bold\b|after school|\bASP\b|parent|mom ?& ?baby|\bPT\b|personal training|private|semi-private|1:1|one[- ]on[- ]one|sauna|red light|cold plunge|massage|facial|rental|room booking|appointment|consult|assessment|intro call|staff|closed|cancell?ed/i;
 const classes = [];
 const epoch = iso => Math.round(Date.parse(iso) / 1000);
 const est = cat => pricing.categoryCredits[cat] || pricing.categoryCredits.default || null;
 
 for (const s of cp.schedules) {
   const vid = cpToVenue[s.venueId]; const v = venues[vid];
-  if (!v || s.livestream) continue;
+  if (!v || s.livestream || NOT_A_CLASS.test(s.name)) continue;
   classes.push({ v: vid, s: s.start, e: s.end, n: s.name, c: catOf(s.name, s.activities), i: s.teacher, cp: true, cr: s.credits ?? null,
     st: s.status === 'available' ? null : s.status, lvl: s.level, dem: s.demand?.[0] || null });
 }
@@ -122,6 +128,7 @@ for (const s of cp.schedules) {
 for (const [vid, list] of Object.entries(direct.venues || {})) {
   const v = venues[vid]; if (!v) continue;
   for (const d of list) {
+    if (NOT_A_CLASS.test(d.name)) continue;
     const s = epoch(d.start), e = d.end ? epoch(d.end) : s + 3600;
     const dup = classes.find(c => c.v === vid && Math.abs(c.s - s) <= 300 && (similar(c.n, d.name) >= 0.5 || c.c === catOf(d.name)));
     const extra = { direct: true, u: d.bookUrl || v.bookUrl, sp: d.spotsLeft ?? null, price: d.price ?? null };
@@ -139,14 +146,18 @@ for (const [lid, l] of Object.entries(city.locations)) {
   addVenue(id, {
     name: l.name, address: l.address, lat: l.lat, lon: l.lon, ...p, cats: ['community'], website: l.url, bookUrl: l.url,
     showers: { v: 'unknown', note: 'City community centres usually have change rooms; showers vary by building' },
-    price: { dropIn: 0, note: 'FitnessTO drop-ins at City community centres are free for adults unless the listing says otherwise. Spaces are first come, first served.', src: city.source },
+    price: FREE_CENTRE.test(l.name)
+      ? { dropIn: 0, note: 'A City "free centre": drop-in classes, weight room and lane swim cost nothing. Space is first come, first served.', src: 'https://www.toronto.ca/explore-enjoy/recreation/free-lower-cost-recreation-options/' }
+      : { dropIn: 10.64, unlimited: 'FitnessTO All Access $49.44/month (any City centre: classes, weight room, lane swim)', note: 'City FitnessTO single drop-in class, adult, plus tax. Space is first come, first served.', src: 'https://www.toronto.ca/explore-enjoy/recreation/fitness/' },
     notes: l.ttc, cp: null, curated: false, city: true,
   });
+  const r = cityNotes[lid];
+  if (r?.showers && r.showers.value !== 'unknown') venues[id].showers = { v: r.showers.value, note: r.showers.evidence, src: r.showers.source };
 }
 for (const c of city.classes) {
   const id = 'city-' + c.locationId; if (!venues[id]) continue;
   const s = torontoEpoch(c.start), e = torontoEpoch(c.end);
-  classes.push({ v: id, s, e, n: c.name.replace('®', ''), c: catOf(c.name), direct: true, u: venues[id].bookUrl, price: 0 });
+  classes.push({ v: id, s, e, n: c.name.replace('®', ''), c: catOf(c.name), direct: true, u: venues[id].bookUrl, price: venues[id].price.dropIn });
 }
 function torontoEpoch(local) {
   // local "YYYY-MM-DDTHH:MM:SS" in America/Toronto → epoch seconds
@@ -163,13 +174,19 @@ for (const [id, v] of Object.entries(venues)) {
   v.cats = [...cats];
   if (!used.has(id) && !v.curated) delete venues[id];
 }
+// Credit estimates: member-reported range for this studio if we have one, else the range for the kind of class.
+const reported = v => (pricing.venueCredits || []).find(([n]) => v.name.toLowerCase().includes(n));
 for (const v of Object.values(venues)) if (v.cp) {
-  const main = v.cats.find(c => est(c)) || 'default';
-  const r = est(main);
-  if (r) { v.cp.credits = [r.min, r.max]; v.cp.dollars = [r.min * pricing.creditValue, r.max * pricing.creditValue]; }
+  const rep = reported(v);
+  if (rep) { v.cp.credits = [rep[1], rep[2]]; v.cp.reported = true; continue; }
+  const r = est(v.cats.find(c => est(c)) || 'default');
+  if (r) v.cp.credits = [r.min, r.max];
 }
-// per-class credit estimate when exact credits are missing
-for (const c of classes) if (c.cp && c.cr == null) { const r = est(c.c); if (r) { c.crEst = [r.min, r.max]; } }
+for (const c of classes) if (c.cp && c.cr == null) {
+  const v = venues[c.v];
+  if (v.cp?.reported) { c.crEst = v.cp.credits; c.crRep = true; continue; }
+  const r = est(c.c); if (r) c.crEst = [r.min, r.max];
+}
 
 const counts = {};
 for (const v of Object.values(venues)) counts[v.station] = (counts[v.station] || 0) + 1;

@@ -1,1 +1,162 @@
-{ "creditValue": 2.342, "plan": "38 credits for $89/month", "categoryCredits": {} }
+{
+ "creditValue": 2.3421,
+ "plan": "38 credits for $89/month (Toronto default plan)",
+ "planTable": [
+  [
+   8,
+   20
+  ],
+  [
+   24,
+   59
+  ],
+  [
+   38,
+   89
+  ],
+  [
+   64,
+   139
+  ],
+  [
+   82,
+   169
+  ],
+  [
+   121,
+   249
+  ]
+ ],
+ "fees": "Late cancel (inside 12 h) CA$11\u201331, no-show CA$14\u201334, plus tax.",
+ "categoryCredits": {
+  "crossfit": {
+   "min": 3,
+   "max": 6
+  },
+  "bjj": {
+   "min": 5,
+   "max": 10
+  },
+  "martial": {
+   "min": 5,
+   "max": 10
+  },
+  "yoga": {
+   "min": 3,
+   "max": 10
+  },
+  "hot-yoga": {
+   "min": 6,
+   "max": 12
+  },
+  "pilates": {
+   "min": 4,
+   "max": 19
+  },
+  "barre": {
+   "min": 5,
+   "max": 9
+  },
+  "spin": {
+   "min": 4,
+   "max": 10
+  },
+  "hiit": {
+   "min": 6,
+   "max": 11
+  },
+  "strength": {
+   "min": 3,
+   "max": 11
+  },
+  "climbing": {
+   "min": 5,
+   "max": 9
+  },
+  "dance": {
+   "min": 2,
+   "max": 7
+  },
+  "other": {
+   "min": 2,
+   "max": 11
+  },
+  "default": {
+   "min": 6,
+   "max": 11
+  }
+ },
+ "venueCredits": [
+  [
+   "grateful den",
+   5,
+   5
+  ],
+  [
+   "sweat and tonic",
+   8,
+   12
+  ],
+  [
+   "conquer",
+   2,
+   4
+  ],
+  [
+   "jaybird",
+   6,
+   10
+  ],
+  [
+   "f45",
+   6,
+   11
+  ],
+  [
+   "rumble",
+   5,
+   13
+  ],
+  [
+   "barre3",
+   5,
+   7
+  ],
+  [
+   "imprint pilates",
+   5,
+   19
+  ],
+  [
+   "higher ground",
+   3,
+   7
+  ],
+  [
+   "mosaic yoga annex",
+   4,
+   8
+  ],
+  [
+   "889 community",
+   6,
+   11
+  ],
+  [
+   "othership",
+   11,
+   11
+  ],
+  [
+   "solis",
+   4,
+   11
+  ],
+  [
+   "modo yoga",
+   6,
+   10
+  ]
+ ],
+ "source": "data/research/classpass-pricing-research.json (member reports on r/ClassPass, ClassPass help centre)"
+}

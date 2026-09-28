@@ -1,0 +1,2168 @@
+[
+ {
+  "id": "mideast-energia-athletics",
+  "name": "Energia Athletics (formerly CrossFit Greektown)",
+  "address": "702 Pape Ave, Toronto, ON M4K 3S7",
+  "lat": 43.679463,
+  "lon": -79.345244,
+  "nearestStation": "Pape",
+  "nearestStationM": 58,
+  "stretch": false,
+  "categories": [
+   "crossfit",
+   "hiit",
+   "strength",
+   "yoga",
+   "pilates",
+   "gym"
+  ],
+  "website": "https://energiaathletics.com/",
+  "scheduleUrl": "https://energiaathletics.com/gym-info/#schedule",
+  "bookingPlatform": "kilo",
+  "bookingIds": {
+   "kiloGymIdBase64": "OGIzZWQwZTYtYWE5MS00NDNlLWIxZWEtMWI4MGEwODBmMTY0",
+   "kiloGymId": "8b3ed0e6-aa91-443e-b1ea-1b80a080f164",
+   "kiloSalesPortalSlug": "energia-athletics"
+  },
+  "scheduleApiUrl": "https://app.usekilo.com/api/public/kilo-classes/agenda/?gym_id=OGIzZWQwZTYtYWE5MS00NDNlLWIxZWEtMWI4MGEwODBmMTY0&start_date=YYYY-MM-DD&end_date=YYYY-MM-DD",
+  "pricing": {
+   "dropIn": "single class available (price behind Kilo sales portal, JS-only)",
+   "introOffer": "Free Intro = consultation + tour (not a free class)",
+   "classPacks": "10-class Yoga pack sold (price not visible without JS)",
+   "unlimitedMonthly": null,
+   "otherMemberships": "Memberships start at $179/month (up to 2 coached classes/week across CrossFit, HYROX, Yoga, Pilates)",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://energiaathletics.com/gym-info/",
+    "https://energiaathletics.com/free-intro/",
+    "https://energiaathletics.com/programs/yoga-and-pilates/",
+    "http://app.usekilo.com/sales-portal/energia-athletics/1f1b9343-a5af-488f-8e84-8f6764cbb180"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "(week of Sep 28 2026, live Kilo API) CrossFit Mon/Tue/Thu 6:30,7:30am,6pm; Fri 6:30,7:30am,12pm; Sat 8,10am; Sun 10am | HYROX Wed 6:30,7:30am,12pm,6pm; HYROX Strength Fri 5,6pm | Functional Strength Mon 9am,5pm; Tue/Thu 5pm; Wed/Sat 9am | Circuit Fri/Sun 9am | Open Gym Mon/Tue/Thu 12pm, Sun 11am | Yoga: Rope Wall Yoga Mon 6pm, Yin Tue 6pm & Sat 10am, Yoga+Movement Flow Wed 6pm & Sun 9am, Yang Yin Fri 5pm | Pilates Thu 6pm | Athletic Mobility Sat 9:15am",
+  "beginnerFriendly": "Yes - site targets adults 30-60, all classes scalable; yoga/pilates 'beginner-friendly, all levels'",
+  "dropInAllowed": "Yoga/Pilates: yes (single class purchasable). CrossFit/HYROX: unclear - site funnels new people to Free Intro consultation first",
+  "status": "open",
+  "notes": "Same business as CrossFit Greektown (footer: 'Energia Athletics (formerly CrossFit Greektown)'; FB page EnergiaCrossFitGreektown). Capacities: CrossFit 12, HYROX 8, Functional/Circuit 14, Yoga/Pilates 14. Membership cancellation needs 30 days notice. Showers not mentioned anywhere on site; Yelp blocked.",
+  "sources": [
+   "https://energiaathletics.com/gym-info/",
+   "https://energiaathletics.com/about/",
+   "https://energiaathletics.com/cancellation/"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-clear-cut-fitness",
+  "name": "Clear Cut Fitness",
+  "address": "731 Pape Ave, Toronto, ON M4K 3S8",
+  "lat": 43.679455,
+  "lon": -79.344858,
+  "nearestStation": "Pape",
+  "nearestStationM": 52,
+  "stretch": false,
+  "categories": [
+   "strength",
+   "gym"
+  ],
+  "website": "https://www.clearcut-fitness.com/",
+  "scheduleUrl": "https://www.clearcut-fitness.com/small-group-training",
+  "bookingPlatform": "wellnessliving",
+  "bookingIds": {
+   "wellnesslivingBusinessId": "82579",
+   "wellnesslivingSkinId": "134123",
+   "catalogSlug": "clearcut-fitness"
+  },
+  "scheduleApiUrl": null,
+  "pricing": {
+   "dropIn": "$45",
+   "introOffer": "First small-group class FREE; also Intro PT package $499 (6 PT + 2 small-group + diet assessment)",
+   "classPacks": "10 sessions $35/class ($350); 30 sessions $27.50/class ($825)",
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.clearcut-fitness.com/small-group-training",
+    "https://www.clearcut-fitness.com/intro-package-special-2"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Small-group strength training (max 6/class), 'morning, afternoon, and evening sessions'; exact times only in WellnessLiving widget (JS-only).",
+  "beginnerFriendly": "Yes - coached, individually modified programming, 6-person cap",
+  "dropInAllowed": "Yes ($45 drop-in)",
+  "status": "open",
+  "notes": "Primarily a personal-training studio; group offering is 'Small Group Training' strength sessions. Schedule widget: WellnessLiving skin 134123 (not crackable via curl).",
+  "sources": [
+   "https://www.clearcut-fitness.com/small-group-training"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-tj-bloc-pilates",
+  "name": "TJ Bloc Pilates",
+  "address": "682 Pape Ave, Toronto, ON",
+  "lat": 43.67835,
+  "lon": -79.34491,
+  "nearestStation": "Pape",
+  "nearestStationM": 175,
+  "stretch": false,
+  "categories": [
+   "pilates",
+   "reformer",
+   "strength"
+  ],
+  "website": "https://www.tjblocpilates.com/",
+  "scheduleUrl": "https://www.tjblocpilates.com/book-a-class",
+  "bookingPlatform": "arketa",
+  "bookingIds": {
+   "arketaSlug": "tjblocpilates"
+  },
+  "scheduleApiUrl": "https://sutrapro.com/iframe/tjblocpilates/schedule (Arketa/Sutra iframe, JS-rendered)",
+  "pricing": {
+   "dropIn": "$35 in-studio group class (virtual $15)",
+   "introOffer": "$55 2-week intro (in-studio); first virtual class free; free 'Formula Call' consult",
+   "classPacks": "5 classes $165; 10 classes $315 (in-studio); virtual 5/$60, 10/$100",
+   "unlimitedMonthly": "Virtual monthly pass $75 (incl. on-demand); on-demand only $30/mo",
+   "otherMemberships": "Private 1:1 50-min $100; semi-private 2:1 $65 pp; private groups $40 pp",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.tjblocpilates.com/pricing"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Small in-studio group classes (30 and 50 min; mat/reformer/TRX, 'small group sizes') plus livestream classes; times only in Arketa widget (not public in HTML).",
+  "beginnerFriendly": "Yes - free Formula Call to match level; small groups with hands-on adjustments",
+  "dropInAllowed": "Yes ($35 single)",
+  "status": "open",
+  "notes": "Studio has a Merrithew SPX Max Reformer; in-studio classes use Reformer, TRX, props. Waiver via Smartwaiver. Hybrid in-person/online studio.",
+  "sources": [
+   "https://www.tjblocpilates.com/pricing",
+   "https://www.tjblocpilates.com/about",
+   "https://www.tjblocpilates.com/themovementlab"
+  ],
+  "booking": {
+   "platform": "arketa",
+   "config": {
+    "slug": "tjblocpilates",
+    "partnerId": "9MJm53S6O7V3bwCtGn75hhz2qv13"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-goodlife-fitness-toronto-danforth-and-pape",
+  "name": "GoodLife Fitness Toronto Danforth and Pape",
+  "address": "635 Danforth Ave, Toronto, ON M4K 1R2",
+  "lat": 43.678692,
+  "lon": -79.345367,
+  "nearestStation": "Pape",
+  "nearestStationM": 142,
+  "stretch": false,
+  "categories": [
+   "gym",
+   "spin",
+   "yoga",
+   "pilates",
+   "strength",
+   "hiit",
+   "dance"
+  ],
+  "website": "https://www.goodlifefitness.com/clubs/club.262.html",
+  "scheduleUrl": "https://www.goodlifefitness.com/class-schedule.html?club=262",
+  "bookingPlatform": "goodlife",
+  "bookingIds": {
+   "goodlifeClubId": "262"
+  },
+  "scheduleApiUrl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.262.undef.undef.YYYY-MM-DD.json",
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "Free workout after booking a club tour (once per person); $0 enrolment flash sale on select memberships until Sep 30 2026",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": true,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.goodlifefitness.com/clubs/club.262.html"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": {
+   "quote": "Additional Amenities Massage Chairs Changerooms Free Wifi Showers",
+   "url": "https://www.goodlifefitness.com/clubs/club.262.html"
+  },
+  "changeRooms": true,
+  "lockers": null,
+  "towels": "Towel Service listed on club page",
+  "scheduleSummary": "(week of Sep 28 2026, live API) BODYPUMP Mon 7am, Tue 6:35pm, Wed 10:30am & 4:30pm, Fri 9:20am & 4:30pm, Sat 10:20am | RPM cycling Mon 9:30am & 6:30pm, Wed 7 & 9:30am, Fri 9:30am, Sat 9am | RIDE Tue/Thu/Fri 6:30am, Wed 6pm | Yoga Mon 7:15pm, Tue 7:40pm, Wed 9:20am & 7:05pm, Thu 7:05pm, Fri 6pm, Sat 8am; Les Mills Yoga Vinyasa Mon 9:25am | BODYCOMBAT Wed 6pm, Sat 9:10am | BODYATTACK Mon 6:10pm | BODYBALANCE Tue/Fri 10:30am, Sat 11:30am | Les Mills Strength Development Tue 9:30am & 4:20pm, Thu 8:25am & 6pm | Les Mills Pilates Tue 8:30am | Core Mon 5:30pm | HIIT & Core Mon 10:30am | BODYSTEP Tue 5:25pm, Thu 9:25am | BODYPUMP Heavy Thu 10:30am | Zumba Fri 11:35am",
+  "beginnerFriendly": "Yes - Les Mills formats for all levels",
+  "dropInAllowed": "No - membership required (free trial workout via tour)",
+  "status": "open",
+  "notes": "Club amenities also list Dry Cedar Sauna and recovery zone. Classes booked via GoodLife account.",
+  "sources": [
+   "https://www.goodlifefitness.com/clubs/club.262.html",
+   "https://www.goodlifefitness.com/class-schedule.html?club=262"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-mc-muay-thai-academy-and-conditioning",
+  "name": "MC Muay Thai Academy & Conditioning",
+  "address": "671 Danforth Ave, Toronto, ON M4J 1L3",
+  "lat": 43.67888,
+  "lon": -79.344463,
+  "nearestStation": "Pape",
+  "nearestStationM": 121,
+  "stretch": false,
+  "categories": [
+   "muay-thai",
+   "kickboxing",
+   "strength"
+  ],
+  "website": "https://mcmuaythai.com/",
+  "scheduleUrl": "https://mcmuaythai.com/classes",
+  "bookingPlatform": "custom (in-house site; FullCalendar events embedded in page HTML)",
+  "bookingIds": {},
+  "scheduleApiUrl": "https://mcmuaythai.com/classes (events JSON array with RRULEs inline in HTML; spots via POST https://mcmuaythai.com/ai post=classes_spots)",
+  "pricing": {
+   "dropIn": "$40 Muay Thai / Fitness class pass; Pad Class $69",
+   "introOffer": "Free Muay Thai trial class (new members, within 14 days of account creation); first-timer Fitness $15, Pad Class $60; Gold $209, Silver $189, Bronze $89 first-timer promos",
+   "classPacks": "4 classes $150 (1 month); 6 classes $200 (6 weeks); 8 classes $250 (2 months)",
+   "unlimitedMonthly": "Silver $199/mo (unlimited Muay Thai + Fitness); Gold $239/mo (+1 Pad Class)",
+   "otherMemberships": "Bronze $99 per 2 weeks (unlimited Muay Thai); Private coaching $99",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://mcmuaythai.com/memberships",
+    "https://mcmuaythai.com/first"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": false,
+  "towels": null,
+  "scheduleSummary": "(recurring schedule from site, Oct 2026) Muay Thai Fundamentals Tue/Thu 7pm, Sat 12pm | Mixed Level Mon/Wed 7pm | Women's Only Muay Thai Mon/Wed 7pm, Sat 9am | Bag Class Mon/Wed/Fri 7:30am, 9:30am, 6pm; Tue/Thu 7:30am, 9:30am | Pad Class (max 4) Mon-Fri 8:30am, Mon/Wed 6pm, Sat 9,10,11am | Muay Classic Mon/Wed/Fri 12pm | Functional Strength Tue/Thu 6pm, Sat 10am | Fighter's S&C Fri 7pm, Sat 11am | Teens Mon/Wed 5pm; Kids (7-12) Tue/Thu 5pm, Sat 10am",
+  "beginnerFriendly": "Yes - 'No prior experience or fitness level required'; start with Muay Thai Fundamentals",
+  "dropInAllowed": "Yes (class passes; single-use passes expire 7 days after purchase)",
+  "status": "open",
+  "notes": "12-hour cancellation window; no late admittance; no lockers ('We do not have lockers on site'). Bring own towel. No open gym. Also runs outdoor Park Classes (Withrow Park).",
+  "sources": [
+   "https://mcmuaythai.com/classes",
+   "https://mcmuaythai.com/faq",
+   "https://mcmuaythai.com/first",
+   "https://mcmuaythai.com/memberships"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-drey-dance-academy",
+  "name": "Drey Dance Academy",
+  "address": "842 Pape Ave, Toronto, ON M4K 3T6",
+  "lat": 43.6835,
+  "lon": -79.346759,
+  "nearestStation": "Pape",
+  "nearestStationM": 425,
+  "stretch": false,
+  "categories": [
+   "dance"
+  ],
+  "website": "https://www.dreydanceacademy.com/",
+  "scheduleUrl": "https://www.dreydanceacademy.com/class-schedule",
+  "bookingPlatform": "website store (Wix-style packages page)",
+  "bookingIds": {},
+  "scheduleApiUrl": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "New students: 1 month unlimited $75; free dance lesson ($0 listing)",
+   "classPacks": "10-class pass $220; 20-class pass $400",
+   "unlimitedMonthly": null,
+   "otherMemberships": "3-month membership $450",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.dreydanceacademy.com/prices-packages-new"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Mon 6pm Dance Conditioning (all levels), 7pm Cuban Salsa L1, 8pm Rumba L1, 9pm Salsa L2 | Tue 7pm Salsa Fundamentals L0 & Stretch & Mobility, 8pm Afro-Cuban L1 / Rumba L2, 9pm Afro-Cuban L2 / Son Cubano | Wed 6pm Dance Conditioning, 7pm Salsa Fundamentals, 8pm Salsa L1, 9pm Rueda | Thu 7pm Bachata Fundamentals / Salsa L2, 8pm Bachata L1 / Latin Fusion | Fri-Sun no classes",
+  "beginnerFriendly": "Yes - Level 0 fundamentals classes; L2/L3 need assessment",
+  "dropInAllowed": "Unclear - only packs/passes listed",
+  "status": "open",
+  "notes": "Adult Cuban/Latin dance school; fitness-relevant classes are Dance Conditioning (Mon/Wed 6pm) and Stretch & Mobility (Tue 7pm).",
+  "sources": [
+   "https://www.dreydanceacademy.com/class-schedule",
+   "https://www.dreydanceacademy.com/prices-packages-new"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-tanuki-martial-arts",
+  "name": "Tanuki Martial Arts",
+  "address": "475 Danforth Ave, Toronto, ON M4K 1P1",
+  "lat": 43.6777,
+  "lon": -79.34987,
+  "nearestStation": "Chester",
+  "nearestStationM": 220,
+  "stretch": false,
+  "categories": [
+   "bjj",
+   "mma",
+   "boxing",
+   "wrestling",
+   "yoga"
+  ],
+  "website": "https://tanukima.com/",
+  "scheduleUrl": "https://tanukima.com/schedule",
+  "bookingPlatform": "gymdesk",
+  "bookingIds": {
+   "gymdeskAcademyId": 4205
+  },
+  "scheduleApiUrl": "https://tanukima.com/schedule (server-rendered Gymdesk schedule; each session in data-event-info JSON with academy_id 4205)",
+  "pricing": {
+   "dropIn": "$30 per day",
+   "introOffer": "2 weeks unlimited for $20",
+   "classPacks": null,
+   "unlimitedMonthly": "$155/month + HST",
+   "otherMemberships": "$105/month + HST (1 session/week); $135/month + HST (2 sessions/week); $1650/year + HST unlimited; geared-to-income pricing on request (info@tanukima.com)",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://tanukima.com/"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": "What To Wear ... A towel if you like to freshen up after training. Flip flops or sandals for walking around the gym and using the bathroom (no explicit mention of showers)",
+   "url": "https://tanukima.com/page/toronto-bjj"
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Adult (week of Sep 21 2026): BJJ Fundamentals Mon 10:30am & 7:30pm, Sun 3pm; No-Gi 7am Tue/Wed/Thu; No-Gi Noon Wed & Fri 12pm; BJJ All levels Thu 10:30am & 7:30pm; BJJ No-Gi All levels Tue 7:30pm & Fri 7:30pm; No-Gi Fundamentals Wed 7:30pm & Sat 12pm; Intro to MMA Tue 10:30am & Wed 6pm; Wrestling Tue 6pm; Boxing All levels Mon/Thu 6pm, Boxing pad class Tue 6pm; OPEN MAT Sat 1-2:30pm; Yoga Sun 4:45pm. Plus kids/teen BJJ & boxing weekday 4:15-5:45pm.",
+  "beginnerFriendly": "Yes - \"designed for students of all experience levels from complete beginners\"; dedicated Fundamentals classes; beginners never forced to spar",
+  "dropInAllowed": true,
+  "status": "open (2026-09-28: the Gymdesk getevents feed returned non-cancelled classes for this week, so the \"marked as closed\" badge is a rendering artifact)",
+  "notes": "Gi loaners available. Gi and No-Gi both taught. Adult BJJ + MMA + boxing + wrestling. The Gymdesk page shows template \"day marked as closed\" notices for every day; sessions show bookings so this appears to be template markup, not a closure.",
+  "sources": [
+   "https://tanukima.com/",
+   "https://tanukima.com/schedule",
+   "https://tanukima.com/page/toronto-bjj",
+   "https://tanukima.com/page/toronto-boxing"
+  ],
+  "booking": {
+   "platform": "gymdesk",
+   "config": {
+    "baseUrl": "https://tanukima.com"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-toronto-kickboxing-and-muay-thai-academy",
+  "name": "Toronto Kickboxing & Muay Thai Academy (TKMT) - Danforth",
+  "address": "433 Danforth Ave, Toronto, ON M4K 1P3",
+  "lat": 43.677635,
+  "lon": -79.3507,
+  "nearestStation": "Chester",
+  "nearestStationM": 160,
+  "stretch": false,
+  "categories": [
+   "muay-thai",
+   "kickboxing",
+   "boxing",
+   "hiit"
+  ],
+  "website": "https://tkmt.ca/locations-danforth",
+  "scheduleUrl": "https://tkmt.ca/schedule-danforth",
+  "bookingPlatform": "mystudio",
+  "bookingIds": {
+   "mystudioCompanyCode": "TKMTDanforth",
+   "mystudioCompanyId": 7663,
+   "classIds": {
+    "muayThaiL1": 23700,
+    "muayThaiL2": 23701,
+    "muayThaiL3": 23739,
+    "boxingFundamentals": 23743,
+    "boxingAdvanced": 24118,
+    "kickboxingHIITHeavyBag": 23910,
+    "personalTraining": 49507
+   }
+  },
+  "scheduleApiUrl": "https://cp.mystudio.io/cs/?=TKMTDanforth/7663/23700//1718876096 (JS app; times not in static HTML)",
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "$10 trial class",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "Adult administration fee $169 (includes gloves, hand-wraps + 1 PT session); month-to-month auto-billing, 30 days cancellation notice, no refunds. Monthly rate not published on site (MuayThaiMap lists \"CA$169\" monthly - possibly conflated with the admin fee).",
+   "openMatFee": null,
+   "mustBeMember": null,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://tkmt.ca/memberships",
+    "https://tkmt.ca/trialclass",
+    "https://www.muaythaimap.com/gyms/toronto-kickboxing-muay-thai-academy-tkmt-danforth"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": null,
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Adult Muay Thai Level 1 (white shorts, beginners) / Level 2 / Level 3 (red shorts req.), Boxing Fundamentals & Advanced, Kickboxing HIIT heavy-bag (all levels); kids & teens daily. Aggregator hours: weekdays ~12-9pm (Wed to 8pm), Sat 10:30am-2pm, Sun 12-1pm. Exact class times only in MyStudio app.",
+  "beginnerFriendly": "Yes - Level One class is for beginners; no sparring required",
+  "dropInAllowed": null,
+  "status": "open",
+  "notes": "Trial booked via MyStudio; \"Arrive 15 minutes early ... register before arriving\". Barefoot training; gloves/wraps loaned for trial. Level 3 requires red shorts (grading).",
+  "sources": [
+   "https://tkmt.ca/schedule-danforth",
+   "https://tkmt.ca/locations-danforth",
+   "https://tkmt.ca/adultmuaythai",
+   "https://tkmt.ca/trialclass"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-all-access-health-and-fitness",
+  "name": "All Access Health & Fitness",
+  "address": "423 Danforth Ave, Toronto, ON M4K 1P1",
+  "lat": 43.677579,
+  "lon": -79.351013,
+  "nearestStation": "Chester",
+  "nearestStationM": 140,
+  "stretch": false,
+  "categories": [
+   "strength",
+   "hiit",
+   "bootcamp"
+  ],
+  "website": "https://www.allaccesshealthandfitness.com/",
+  "scheduleUrl": "https://www.allaccesshealthandfitness.com/class-schedule",
+  "bookingPlatform": "wix-bookings",
+  "bookingIds": {
+   "wixMetaSiteId": "9a48855f-e4b9-4227-9d33-08eb18e14927",
+   "wixSiteId": "766a9445-7aac-4785-bc08-752205b145e3",
+   "janeAppClinic": "allaccess.janeapp.com (clinic only)"
+  },
+  "scheduleApiUrl": null,
+  "pricing": {
+   "dropIn": "$30",
+   "introOffer": "2-week unlimited pass $45 (new clients)",
+   "classPacks": "5-pack $120 (1-yr expiry); 10-pack $215 (4-month expiry)",
+   "unlimitedMonthly": "$195/month All Access Pass (2 guest passes/mo, $5 off physio/chiro)",
+   "otherMemberships": "8-class monthly $145; 4-class monthly $80 (auto-renew, pause up to 3x/yr)",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.allaccesshealthandfitness.com/plans-pricing",
+    "https://www.allaccesshealthandfitness.com/are-you-new-here"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": null,
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Circuit-based functional strength & conditioning group classes; \"each day of the week is dedicated to a different type of class\". Times only in Wix Bookings widget (JS).",
+  "beginnerFriendly": "Yes - \"classes are designed for EVERYONE ... work at your own pace\"",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Also a physio/chiro/RMT clinic on site. Bring running shoes & water; arrive 10 min early.",
+  "sources": [
+   "https://www.allaccesshealthandfitness.com/",
+   "https://www.allaccesshealthandfitness.com/about"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-loft-cycle-club-loft-fitness-club",
+  "name": "Loft Cycle Club (Loft Fitness Club - Danforth)",
+  "address": "452 Danforth Ave, Toronto, ON M4K 1P4",
+  "lat": 43.678018,
+  "lon": -79.350307,
+  "nearestStation": "Chester",
+  "nearestStationM": 179,
+  "stretch": false,
+  "categories": [
+   "spin",
+   "barre",
+   "strength",
+   "pilates",
+   "reformer",
+   "yoga",
+   "hiit"
+  ],
+  "website": "https://www.loftcycleclub.com/",
+  "scheduleUrl": "https://www.loftcycleclub.com/book",
+  "bookingPlatform": "marianatek",
+  "bookingIds": {
+   "marianaTekTenant": "loftcycleclub",
+   "locationId": "48717"
+  },
+  "scheduleApiUrl": "https://loftcycleclub.marianatek.com/api/customer/v1/classes?min_start_date=YYYY-MM-DD&max_start_date=YYYY-MM-DD&location=48717&page_size=300",
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "3 classes for $49 (valid 2 weeks, reformer included at Danforth)",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "Pricing rendered by Mariana Tek iframe (not in static HTML). Late-cancel/no-show: lose credit or $20 fee for Unlimited members.",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.loftcycleclub.com/get-started",
+    "https://www.loftcycleclub.com/faqs"
+   ]
+  },
+  "onClassPass": "yes",
+  "classPassUrl": "https://classpass.com/search/the-danforth/fitness-classes/4QMjDYd7T8s",
+  "showers": "yes",
+  "showersEvidence": {
+   "quote": "All Loft studios offer free acess to: Lockers & locks, Showers and change rooms, Towel service",
+   "url": "https://www.loftcycleclub.com/faqs"
+  },
+  "changeRooms": true,
+  "lockers": true,
+  "towels": true,
+  "scheduleSummary": "Week of Sep 28 2026 (in-studio): Mon 6:30am Spin, 7am/8am Reformer, 9:15am Pilates Fusion, 4:45pm Spin, 6pm Barre/Reformer/Spin, 7:15pm Strength/Reformer/Spin; Tue 7am Reformer, 9:15am Barre/Reformer, 12pm Pilates Fusion, 6pm Spin HIIT/Barre, 7:15pm Spin/Reformer; Wed 7am Reformer, 9:15am Spin HIIT/Strength, 5pm Reformer, 6pm Pilates Fusion/Spin, 7:15pm Strength; Thu 7am Pilates Fusion, 8am Reformer, 9:15am Barre, 5pm Reformer, 6pm Spin/Reformer Jump/Barre, 7:15pm Reformer; Fri 7am Spin/Reformer, 8am & 9:15am Reformer, 9:15am Barre, 12pm Spin/Barre, 5pm & 6pm Reformer, 6pm Spin; Sat 9am Mat Pilates/Reformer/Spin, 10:30am Reformer/Barre, 12pm Pilates Fusion/Spin, 1pm Reformer Jump; Sun 9am Pilates Fusion, 10:30am Barre/Reformer/Spin, 12pm Reformer/Pilates Fusion/Spin, 1pm Yoga Flow, 4pm Pilates Fusion.",
+  "beginnerFriendly": "Yes - \"Our classes are beginner-friendly\"; Reformer (all levels) vs Reformer Strength (intermediate)/Power (advanced)",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Cancel 8h ahead (spin/mat) or 12h (reformer). No late admittance. Grip socks required for reformer. Spin shoes provided. Walk-ins welcome if space.",
+  "sources": [
+   "https://www.loftcycleclub.com/",
+   "https://www.loftcycleclub.com/get-started",
+   "https://www.loftcycleclub.com/faqs",
+   "https://loftcycleclub.marianatek.com/api/customer/v1/locations"
+  ],
+  "booking": {
+   "platform": "marianatek",
+   "config": {
+    "tenant": "loftcycleclub",
+    "locationIds": [
+     "48717"
+    ],
+    "bookingPage": "https://www.loftcycleclub.com/book"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-pilates-process",
+  "name": "Pilates Process (Toronto Studio)",
+  "address": "456A Danforth Ave, 2nd Floor, Toronto, ON M4K 1P4",
+  "lat": 43.678106,
+  "lon": -79.350238,
+  "nearestStation": "Chester",
+  "nearestStationM": 183,
+  "stretch": false,
+  "categories": [
+   "pilates",
+   "reformer"
+  ],
+  "website": "https://www.pilatesprocess.ca/",
+  "scheduleUrl": "https://www.pilatesprocess.ca/group-classes-toronto/",
+  "bookingPlatform": "mindbody",
+  "bookingIds": {
+   "mindbodySiteId": 717693,
+   "mindbodyLocationId": 1,
+   "mindbodyExploreSlug": "pilates-process-inc"
+  },
+  "scheduleApiUrl": "POST https://prod-mkt-gateway.mindbody.io/v1/search/class_times {\"filter\":{\"locationSlugs\":[\"pilates-process-inc\"],\"startTimeRanges\":[...]}}",
+  "pricing": {
+   "dropIn": "$45 single group class",
+   "introOffer": "Intro private package: 3 private sessions $195 (new clients); experienced clients can go straight to group classes by contacting studio",
+   "classPacks": "Group 5-pack $200; 10-pack $360; 20-pack $680 (Mindbody)",
+   "unlimitedMonthly": null,
+   "otherMemberships": "Private $115 (5-pack $500, 10-pack $950); semi-private $80/person; prices + HST, effective Oct 14 2025",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.pilatesprocess.ca/toronto-pilates-pricing/",
+    "https://www.pilatesprocess.ca/about-toronto-studio/"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": null,
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Small-group (cap 5) equipment/reformer & mat, week of Sep 28 2026: Mon 10am L2 Equipment, 2pm L1; Tue 7:30am L2, 1pm L1+, 2:30pm Therapeutic, 7pm L2; Wed 9am L1+, 7pm L2; Thu 7:30am L2, 5pm L1+ Equipment; Fri 3:30pm L1; Sat 9am & 10am L1+ Equipment, 12pm L1+.",
+  "beginnerFriendly": "Studio recommends starting with privates (intro package) before group; Level 1 groups exist",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Fragrance-free studio. Specializes in private sessions; groups capped at 5. Studio hours Mon-Thu 7:30am-9pm, Fri 7:30am-6pm, Sat 9am-3pm.",
+  "sources": [
+   "https://www.pilatesprocess.ca/toronto-pilates-pricing/",
+   "https://www.pilatesprocess.ca/about-toronto-studio/",
+   "https://www.pilatesprocess.ca/group-classes-toronto/"
+  ],
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "pilates-process-inc"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-redefine-fit",
+  "name": "Redefine Fit (Danforth / East Studio)",
+  "address": "403 Danforth Ave, Toronto, ON M4K 1P1",
+  "lat": 43.67735,
+  "lon": -79.35137,
+  "nearestStation": "Chester",
+  "nearestStationM": 134,
+  "stretch": false,
+  "categories": [
+   "dance"
+  ],
+  "website": "https://www.redefine-fit.com/",
+  "scheduleUrl": "https://www.wellnessliving.com/schedule/redefine_fit",
+  "bookingPlatform": "wellnessliving",
+  "bookingIds": {
+   "wellnessLivingBusinessId": 248216,
+   "wellnessLivingSlug": "redefine_fit",
+   "skinId": 68253
+  },
+  "scheduleApiUrl": null,
+  "pricing": {
+   "dropIn": "$29 + HST",
+   "introOffer": "5 classes/month intro special $85 + HST (beginners); Experienced Poler intro 5 classes $99 + HST",
+   "classPacks": "5 for $125; 10 for $245; 30 for $595 (1-yr expiry)",
+   "unlimitedMonthly": null,
+   "otherMemberships": "Membership Lite 5 classes/mo $119 ($115 auto-bill); Regular 10/mo $195 ($185 auto-bill); Pro 15/mo $225 ($215 auto-bill); 3-month options $330/$525/$595; open-practice hour $20 drop-in / 5 for $75 / 10 for $150",
+   "openMatFee": "Open practice (pole) $20/hour",
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.redefine-fit.com/ (pricing in site bundle /static/js/main.668b78b6.js)"
+   ]
+  },
+  "onClassPass": "yes",
+  "classPassUrl": "https://classpass.com/studios/redefine-fit-toronto",
+  "showers": "no",
+  "showersEvidence": {
+   "quote": "We have change rooms, but no lockers. ... We do not have showers in our space.",
+   "url": "https://www.redefine-fit.com/ (FAQ, in site JS bundle)"
+  },
+  "changeRooms": true,
+  "lockers": false,
+  "towels": null,
+  "scheduleSummary": "Pole dance/fitness classes (levelled curriculum) + open practice Mon/Thu/Fri; exact times in WellnessLiving widget (JS only).",
+  "beginnerFriendly": "Yes - intro special for first-time students; class ratio 1:7 at Danforth",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Pole fitness studio since Oct 2015; second studio at 1270 Bloor St W. Late-cancel: class-pass holders lose credit. All sales final.",
+  "sources": [
+   "https://www.redefine-fit.com/",
+   "https://www.wellnessliving.com/fitness/toronto/redefinefit/"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-modo-yoga-danforth",
+  "name": "Modo Yoga Danforth",
+  "address": "372A Danforth Ave, Toronto, ON M4K 1P3",
+  "lat": 43.6777,
+  "lon": -79.35227,
+  "nearestStation": "Chester",
+  "nearestStationM": 62,
+  "stretch": false,
+  "categories": [
+   "yoga",
+   "hot-yoga",
+   "pilates"
+  ],
+  "website": "https://modoyoga.com/danforth/",
+  "scheduleUrl": "https://modoyoga.com/danforth/schedule/",
+  "bookingPlatform": "marianatek",
+  "bookingIds": {
+   "marianaTekTenant": "modoyoga",
+   "locationId": "48102"
+  },
+  "scheduleApiUrl": "https://modoyoga.marianatek.com/api/customer/v1/classes?min_start_date=YYYY-MM-DD&max_start_date=YYYY-MM-DD&location=48102&page_size=300",
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "Intro Pass: two weeks of unlimited classes (price rendered by Mariana Tek, not in HTML)",
+   "classPacks": "Class packages offered (prices not in static HTML)",
+   "unlimitedMonthly": "Auto-renew unlimited membership offered (price not in static HTML)",
+   "otherMemberships": "Yearly unlimited (incl. Modo Yoga Online)",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://modoyoga.com/danforth/pricing/"
+   ]
+  },
+  "onClassPass": "yes",
+  "classPassUrl": "https://classpass.com/search/the-danforth/yoga-classes/5nzMXX4Fokj",
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": "We also recommend bringing a change of clothes and toiletries for after class — you're going to get really sweaty! (implies but does not state showers)",
+   "url": "https://modoyoga.com/danforth/"
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": "Mat & towel rental/purchase available",
+  "scheduleSummary": "Week of Sep 28 2026 (all heated): Mon 6:30am Flow, 12pm Modo, 1:30pm Flow, 4pm Hot Yoga w/ Music, 5:30pm Hot Pilates, 7pm Hot Flow, 8:30pm Restorative; Tue 8am Hot Flow, 12pm Flow, 5pm Hot Flow, 6:30pm Modo, 8pm Flow; Wed 6:30am Modo, 12pm Modo, 4pm Hot Flow, 5:30pm Pilates, 7pm Hot Flow, 8:30pm Modo; Thu 6:30am Hot Flow, 12pm Flow, 5pm Flow, 6:30pm Modo, 8pm Flow; Fri 6:30am Flow, 10am Flow 75, 12pm Modo, 4pm Hot Pilates, 5:30pm Hot Flow, 7pm Karma; Sat 8:30am Modo, 10am Flow, 12pm Modo, 1:30pm Community, 3pm Hot Flow; Sun 10am Flow 75, 12pm Modo, 3pm Pilates, 5pm Hot Flow, 6:30pm Yin.",
+  "beginnerFriendly": "Yes - Intro Pass for newcomers; Modo series is set sequence suitable for beginners",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "All classes heated (radiant heat). No late entry. Hours Mon-Fri 6:30am-9:30pm, Sat 8am-4:30pm, Sun 9:30am-6:30pm (per search snippet of contact page). Green P parking on Chester.",
+  "sources": [
+   "https://modoyoga.com/danforth/",
+   "https://modoyoga.com/danforth/pricing/",
+   "https://modoyoga.marianatek.com/api/customer/v1/locations"
+  ],
+  "booking": {
+   "platform": "marianatek",
+   "config": {
+    "tenant": "modoyoga",
+    "locationIds": [
+     "48102"
+    ],
+    "bookingPage": "https://modoyoga.com/danforth/schedule/"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-riverdale-martial-arts",
+  "name": "Riverdale Martial Arts",
+  "address": "838 Broadview Ave, Toronto, ON M4K 2R1",
+  "lat": 43.6785614,
+  "lon": -79.3585513,
+  "nearestStation": "Broadview",
+  "nearestStationM": 177,
+  "stretch": false,
+  "categories": [
+   "bjj",
+   "kickboxing"
+  ],
+  "website": "https://www.riverdalemartialarts.ca/",
+  "scheduleUrl": "https://www.riverdalemartialarts.ca/classes-schedule",
+  "bookingPlatform": "Gymdesk",
+  "bookingIds": {
+   "gymdeskGymId": "ArjXW"
+  },
+  "scheduleApiUrl": "https://gymdesk.com/widgets/schedule/render/gym/ArjXW/program/all",
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "7-day free trial (FAQ also says one free class for adults)",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "Membership prices not published online (discussed in person after trial). Beginner gi incl. belt ~ $160.",
+   "openMatFee": null,
+   "mustBeMember": true,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.riverdalemartialarts.ca/faq",
+    "https://www.riverdalemartialarts.ca/book-a-trial-class"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": "We have 750 sqft of mat space, men's and women's change rooms and a co-ed bathroom.",
+   "url": "https://www.riverdalemartialarts.ca/about"
+  },
+  "changeRooms": true,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Adult BJJ Tue/Thu 6-8pm, Sat 11am-1pm; 'BJJ and women's BJJ' Mon 7-8pm; No-Gi Mon & Fri 8-9pm; Women's-only BJJ Mon & Fri 6-7pm; Kickboxing Fri 7-8pm (trial slot also Mon 6:45pm). Kids/youth BJJ weekday afternoons + Sat mornings. Invite-only 'Performance PT' weekday 9am/12pm. No open mat listed. (Gymdesk widget showed the week of Sep 21-27 marked 'Closed' — confirm current operation.)",
+  "beginnerFriendly": "Yes, but no separate beginner class: 'all levels train together'; trial slots flagged 'TRIAL ...' in schedule.",
+  "dropInAllowed": false,
+  "status": "open (2026-09-28: Gymdesk widget lists 41 non-cancelled classes for Sep 28-Oct 3; only 3 Monday classes cancelled)",
+  "notes": "Head instructor Bobby Currie (2x Canadian judo champ, IBJJF Pan-Am silver). Site: 'Our Intro Classes are not casual drop-ins' — expect membership discussion after trial. Women-only BJJ program. Kids 5-12 programs. ClassPass presence not verifiable (search budget exhausted).",
+  "sources": [
+   "https://www.riverdalemartialarts.ca/faq",
+   "https://www.riverdalemartialarts.ca/about",
+   "https://gymdesk.com/widgets/schedule/render/gym/ArjXW/program/all"
+  ],
+  "booking": {
+   "platform": "gymdesk",
+   "config": {
+    "baseUrl": null,
+    "widgetGymId": "ArjXW",
+    "academyId": 21723,
+    "widgetUrl": "https://gymdesk.com/widgets/schedule/render/gym/ArjXW/program/all"
+   },
+   "fetcherNote": "widget-only gym: no <sub>.gymdesk.com or custom-domain /schedule/getevents; current week is in data-event-info of widgetUrl HTML. gymdesk.mjs needs a widget mode."
+  }
+ },
+ {
+  "id": "mideast-ebb-and-flo-studio",
+  "name": "Ebb & Flo Studio",
+  "address": "95 Danforth Ave, 3rd Floor, Toronto, ON M4K 1N2",
+  "lat": 43.6761682,
+  "lon": -79.3583528,
+  "nearestStation": "Broadview",
+  "nearestStationM": 92,
+  "stretch": false,
+  "categories": [
+   "yoga",
+   "pilates"
+  ],
+  "website": "https://www.ebbandflostudio.com/",
+  "scheduleUrl": "https://www.ebbandflostudio.com/schedule",
+  "bookingPlatform": "WellnessLiving",
+  "bookingIds": {
+   "wellnessLivingBusinessId": "418893",
+   "wellnessLivingSlug": "ebb__flo_yoga-cyej0l"
+  },
+  "scheduleApiUrl": "https://www.wellnessliving.com/rs/schedule/ebb__flo_yoga-cyej0l",
+  "pricing": {
+   "dropIn": "$28 (+tax)",
+   "introOffer": "2 weeks unlimited $50 (new members)",
+   "classPacks": "5 classes $130; 10 classes $250 (expire 6 months)",
+   "unlimitedMonthly": "$155/mo (3-month plan) or $145/mo (12-month plan)",
+   "otherMemberships": "Limited (8 classes/mo): $135/mo 3-month plan, $125/mo 12-month plan",
+   "openMatFee": null,
+   "mustBeMember": null,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.ebbandflostudio.com/pricing"
+   ]
+  },
+  "onClassPass": "yes",
+  "classPassUrl": "https://classpass.com/studios/ebb-and-flo-studio-toronto",
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": "We have storage cubbies in both the changeroom and the practice room.",
+   "url": "https://www.ebbandflostudio.com/faq"
+  },
+  "changeRooms": true,
+  "lockers": false,
+  "towels": null,
+  "scheduleSummary": "Class types: Flo (vinyasa, 60), Slow Flo (60), Mat Pilates (45), Yin (60), Stretch & Unwind (60), Restorative (60). Timetable is WellnessLiving-only (not in page HTML); WL API requires signed requests.",
+  "beginnerFriendly": "Yes - classes labelled all levels; 'I'm new here' page.",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Late cancel <3h: $15+HST. Doors locked at class start. Mat rentals available; barefoot studio. Occupies the former Yoga Sanctuary Danforth address (Yoga Sanctuary closed).",
+  "sources": [
+   "https://www.ebbandflostudio.com/pricing",
+   "https://www.ebbandflostudio.com/faq",
+   "https://www.ebbandflostudio.com/classes",
+   "https://www.ebbandflostudio.com/new-here"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-joy-of-dance-centre",
+  "name": "Joy of Dance Centre",
+  "address": "95 Danforth Ave, 3rd & 4th Floors (Suite 302), Toronto, ON M4K 1N2",
+  "lat": 43.6760886,
+  "lon": -79.358458,
+  "nearestStation": "Broadview",
+  "nearestStationM": 102,
+  "stretch": false,
+  "categories": [
+   "dance"
+  ],
+  "website": "https://www.joyofdance.ca/",
+  "scheduleUrl": "https://www.joyofdance.ca/adult-classes/",
+  "bookingPlatform": "Mindbody",
+  "bookingIds": {
+   "mindbodySiteId": 2730,
+   "mindbodyLocationId": 1,
+   "mindbodyExploreSlug": "joy-of-dance-centre"
+  },
+  "scheduleApiUrl": "POST https://prod-mkt-gateway.mindbody.io/v1/search/class_times (filter.locationSlugs=['joy-of-dance-centre'])",
+  "pricing": {
+   "dropIn": "$20.13 + HST (jump-in single)",
+   "introOffer": null,
+   "classPacks": "5 classes $95; 10 $180; 20 $340 (+HST, valid 6 months)",
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": null,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.joyofdance.ca/adult-classes/",
+    "https://www.joyofdance.ca/adult-classes/dance-fitness-ginga-zumba/"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Adult dance fitness: GINGA Fitness Wed 6pm; ZUMBA Sat 11am; Dance Fitness Sun 10am. Plus many adult technique classes (ballet, tap, hip hop, contemporary, ballroom/Latin, West Coast swing, hustle) Mon-Thu evenings ~5-9pm and weekend mornings (Mindbody, week of Sep 28).",
+  "beginnerFriendly": "Yes - many 'Absolute Beginner'/'Beginner' levels; dance fitness 'No experience required'.",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Jump-in classes can be joined anytime; adult make-up classes with 24h notice. No refunds. Mindbody lists amenities: equipment rentals, parking. Also kids programs.",
+  "sources": [
+   "https://www.joyofdance.ca/adult-classes/dance-fitness-ginga-zumba/",
+   "https://www.joyofdance.ca/adult-classes/"
+  ],
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "joy-of-dance-centre"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-metro-movement",
+  "name": "Metro Movement",
+  "address": "833 Broadview Ave, Toronto, ON M4K 2P9",
+  "lat": 43.6788716,
+  "lon": -79.3578524,
+  "nearestStation": "Broadview",
+  "nearestStationM": 211,
+  "stretch": false,
+  "categories": [
+   "dance"
+  ],
+  "website": "https://www.metromovement.com/",
+  "scheduleUrl": "https://www.metromovement.com/",
+  "bookingPlatform": "Mindbody",
+  "bookingIds": {
+   "mindbodySiteId": 229608,
+   "mindbodyLocationId": 1,
+   "mindbodyExploreSlug": "metro-movement"
+  },
+  "scheduleApiUrl": "POST https://prod-mkt-gateway.mindbody.io/v1/search/class_times (filter.locationSlugs=['metro-movement'])",
+  "pricing": {
+   "dropIn": "$25 single class (taxes included); 2 back-to-back same-day classes $44",
+   "introOffer": null,
+   "classPacks": "5-class pack $115; 10-class pass $205",
+   "unlimitedMonthly": "$330 monthly unlimited",
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": null,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "Mindbody purchaseOptions via prod-mkt-gateway.mindbody.io/v1/search/class_times (metro-movement), seen 2026-09-27"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Adult open dance classes (ballet, jazz, tap, Broadway/theatre): weekdays 10:30am & 12:30pm (int/adv), Mon 3pm/4:30pm tap, evenings 6pm beginner (Mon jazz, Tue Broadway, Wed ballet), Mon 7:30pm jazz; Sat 9:15am-1pm; Sun 10:30am & 12:30pm beginner ballet.",
+  "beginnerFriendly": "Some - beginner ballet/jazz/Broadway evening slots; most classes int/adv aimed at trained/pro dancers.",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Dance technique studio (training-oriented rather than dance-fitness). On-site RMT clinic.",
+  "sources": [
+   "https://www.metromovement.com/"
+  ],
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "metro-movement"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-sequins-studio",
+  "name": "Sequins Studio",
+  "address": "552 Parliament St, Toronto, ON",
+  "lat": 43.6668435,
+  "lon": -79.36919,
+  "nearestStation": "Castle Frank",
+  "nearestStationM": 740,
+  "stretch": false,
+  "categories": [
+   "pilates",
+   "barre",
+   "yoga"
+  ],
+  "website": "https://sequinsto.com/",
+  "scheduleUrl": "https://sequinsto.com/schedule",
+  "bookingPlatform": "Mariana Tek",
+  "bookingIds": {
+   "marianaTekTenant": "sequins",
+   "marianaTekLocationId": "48717"
+  },
+  "scheduleApiUrl": "https://sequins.marianatek.com/api/customer/v1/classes?min_start_date=YYYY-MM-DD&max_start_date=YYYY-MM-DD&page_size=200",
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "2 weeks unlimited $75 (+$30 off first month of membership)",
+   "classPacks": "Class packs and drop-ins offered (prices not shown in page HTML)",
+   "unlimitedMonthly": "$280/mo (+1 guest pass/month)",
+   "otherMemberships": "Monthly: 4 classes $105; 8 classes $190",
+   "openMatFee": null,
+   "mustBeMember": null,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://sequinsto.com/get-started",
+    "https://sequinsto.com/faq"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "no",
+  "showersEvidence": {
+   "quote": "Lockers with key are available 2 individual Bathrooms (no showers)",
+   "url": "https://sequinsto.com/faq"
+  },
+  "changeRooms": null,
+  "lockers": true,
+  "towels": null,
+  "scheduleSummary": "~27 classes/wk: 7am weekdays (Stretch Limo yoga, Connect Core, Barre Call, Sequins Pilates, Pilat-Ease), mid-morning 9:30/10:45 Tue/Thu/Fri, noon 12:15 Mon/Wed/Fri, evenings 5:45/6pm & 7pm Mon-Thu; Sat 8:45, 10, 11:15am; Sun 9 & 10:30am. Mat Pilates (equipment), barre, yoga, prenatal.",
+  "beginnerFriendly": "Yes - 'Beginner friendly. Start with PILAT-EASE'.",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Small-group studio in restored Victorian house. Cancel 6h ahead (12h for 7am); $15 late-cancel/no-show fee on unlimited/intro. Grip socks optional.",
+  "sources": [
+   "https://sequinsto.com/faq",
+   "https://sequinsto.com/get-started",
+   "https://sequins.marianatek.com/api/customer/v1/classes?min_start_date=2026-09-28&max_start_date=2026-10-04&page_size=200"
+  ],
+  "booking": {
+   "platform": "marianatek",
+   "config": {
+    "tenant": "sequins",
+    "locationIds": [
+     "48717"
+    ],
+    "bookingPage": "https://sequinsto.com/schedule"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-parliament-street-fitness",
+  "name": "Parliament Street Fitness",
+  "address": "488 Parliament St, Toronto, ON M4X 1P2",
+  "lat": 43.66479,
+  "lon": -79.36846,
+  "nearestStation": "Castle Frank",
+  "nearestStationM": 970,
+  "stretch": false,
+  "categories": [
+   "gym",
+   "spin",
+   "yoga",
+   "pilates",
+   "hiit"
+  ],
+  "website": "https://www.parliamentstreetfitness.com/",
+  "scheduleUrl": "https://www.parliamentstreetfitness.com/schedule",
+  "bookingPlatform": "Mindbody",
+  "bookingIds": {
+   "mindbodySiteId": 5731960,
+   "mindbodyLocationId": 1,
+   "healcodeScheduleWidgetId": "1c19564716a7",
+   "mindbodyExploreSlug": "parliament-street-fitness-inc"
+  },
+  "scheduleApiUrl": "https://widgets.mindbodyonline.com/widgets/schedules/1c19564716a7/load_markup?options%5Bstart_date%5D=YYYY-MM-DD",
+  "pricing": {
+   "dropIn": "$30 single visit (gym + all scheduled classes)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": "$109/month (membership incl. all classes)",
+   "otherMemberships": "$65 1 week; $1308 annual (30-day hold, 2 guest passes, $200 cancellation penalty)",
+   "openMatFee": null,
+   "mustBeMember": null,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.parliamentstreetfitness.com/about"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": {
+   "quote": "Mindbody listing amenities: 'lockers', 'showers', ...",
+   "url": "https://www.mindbodyonline.com/explore/locations/parliament-street-fitness-inc"
+  },
+  "changeRooms": null,
+  "lockers": true,
+  "towels": true,
+  "scheduleSummary": "~16 classes/wk: Cycling Mon 7am, Fri 6:45am, Sat 10:15am; HIIT Tue 5:30pm, Thu 7:15am & 12pm (low-impact), Fri 1:15pm, Sat 9:15am; Yoga Mon 6:30pm (Yogalates), Tue 6:30pm, Wed 9:30am, Sun 10:30am; Mat Pilates Wed 6:30pm, Sun 9:15am; Mobility Mon/Fri 9:30am.",
+  "beginnerFriendly": "Yes - classes tagged 'All Levels'.",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Boutique neighbourhood gym (Cabbagetown). Membership/drop-in includes towels and day-use lockers. Showers evidence is Mindbody amenity tag, not a review.",
+  "sources": [
+   "https://www.parliamentstreetfitness.com/about",
+   "https://www.parliamentstreetfitness.com/schedule"
+  ],
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "parliament-street-fitness-inc"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-wellesley-community-centre",
+  "name": "Wellesley Community Centre",
+  "address": "495 Sherbourne St, Toronto, ON M4X 1K7",
+  "lat": 43.6676916,
+  "lon": -79.3745264,
+  "nearestStation": "Sherbourne",
+  "nearestStationM": 532,
+  "stretch": false,
+  "categories": [
+   "community-centre",
+   "gym",
+   "yoga",
+   "pilates",
+   "dance",
+   "swim"
+  ],
+  "website": "https://www.toronto.ca/data/parks/prd/facilities/complex/451/index.html",
+  "scheduleUrl": "https://www.toronto.ca/data/parks/prd/facilities/complex/451/index.html",
+  "bookingPlatform": "City of Toronto (FitnessTO drop-in; no booking)",
+  "bookingIds": {
+   "cityLocationId": 451
+  },
+  "scheduleApiUrl": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/1a5be46a-4039-48cd-a2d2-8e702abf9516/resource/90f7fffe-658b-4a79-bce3-a91c1b5886de/download/drop-in.csv (filter Location ID=451)",
+  "pricing": {
+   "dropIn": "Free (designated free centre)",
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.toronto.ca/explore-enjoy/recreation/free-lower-cost-recreation-options/",
+    "https://www.toronto.ca/explore-enjoy/parks-recreation/program-activities/fitness/"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "FitnessTO drop-ins (13+): Zumba Mon & Tue 6pm, Sat 9:15 & 10:30am; Pilates Mon 11:30am; Yoga/Pilates Fusion Tue 9am, Thu 7:15pm; Yoga Fri 6pm, Women's Yoga Wed 6pm; Cardio High/Low Thu 6pm; Walk Fit (60+) weekdays 7:30am. Weight/cardio room ~9am-9:45pm most days (women-only Mon/Wed/Fri 5-7pm; 60+ weekdays 7-9am). Also lane/rec swim, pickleball, badminton, basketball, volleyball drop-ins.",
+  "beginnerFriendly": "Yes - community drop-in classes.",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "On City list of free centres, so no FitnessTO pass needed. City facilities data lists an indoor pool and sauna here (pool change rooms), but no source explicitly mentions showers. Dataset covers 2026-09-24 to 2026-11-05.",
+  "sources": [
+   "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/1a5be46a-4039-48cd-a2d2-8e702abf9516/resource/90f7fffe-658b-4a79-bce3-a91c1b5886de/download/drop-in.csv",
+   "https://www.toronto.ca/explore-enjoy/recreation/free-lower-cost-recreation-options/"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-the-519",
+  "name": "The 519 (2SLGBTQ+ Community Yoga)",
+  "address": "519 Church St, Toronto, ON M4Y 2C9",
+  "lat": 43.666507,
+  "lon": -79.38092,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 612,
+  "stretch": false,
+  "categories": [
+   "community-centre",
+   "yoga"
+  ],
+  "website": "https://www.the519.org/",
+  "scheduleUrl": "https://www.the519.org/programs/2slgbtq-community-yoga/",
+  "bookingPlatform": "The 519 (one-time registration form)",
+  "bookingIds": {},
+  "scheduleApiUrl": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": null,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.the519.org/programs/2slgbtq-community-yoga/"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Community yoga Tuesdays 6-7pm (Oct 6 onward; no class Sep 29). Also hosts third-party groups: Rainbow Ballroom Toronto (dance, pay by e-transfer), Frontrunners Toronto run club (Tue/Thu 6:15pm, Sat 9am from Barbara Hall Park).",
+  "beginnerFriendly": "Yes - gentle, trauma-informed practice; mats supplied.",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "City of Toronto agency / 2SLGBTQ+ community centre. Registration required only on first day. Price not stated on page (community program). No gym.",
+  "sources": [
+   "https://www.the519.org/programs/2slgbtq-community-yoga/",
+   "https://www.the519.org/programs/frontrunners-toronto/",
+   "https://www.the519.org/programs/rainbow-ballroom-toronto/"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-central-ymca",
+  "name": "Central YMCA (formerly Metro Central YMCA)",
+  "address": "20 Grosvenor St, Toronto, ON M4Y 2V5",
+  "lat": 43.6632183,
+  "lon": -79.3850984,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 843,
+  "stretch": false,
+  "categories": [
+   "gym",
+   "yoga",
+   "spin",
+   "hiit",
+   "bootcamp",
+   "strength",
+   "dance",
+   "swim",
+   "boxing"
+  ],
+  "website": "https://ymcagta.org/find-a-y/central-ymca",
+  "scheduleUrl": "https://ymcagta.org/find-a-y/central-ymca#schedule",
+  "bookingPlatform": "Virtuagym",
+  "bookingIds": {
+   "virtuagymSubdomain": "ymcanorthyork",
+   "virtuagymClubId": "17532",
+   "eventType": "14 (group fitness)"
+  },
+  "scheduleApiUrl": "https://ymcanorthyork.virtuagym.com/classes/week/YYYY-MM-DD?event_type=14&embedded=1&pref_club=17532",
+  "pricing": {
+   "dropIn": "Single day pass $16 (15+); $12 with existing member",
+   "introOffer": "Save up to $75 on first month (limited-time promo)",
+   "classPacks": null,
+   "unlimitedMonthly": "Adult (30+) $63/mo; Young Adult (22-29) $49/mo; Youth $41/mo; join fee $100 (currently waived)",
+   "otherMemberships": "Adult Plus (22+) $111/mo (saunas, whirlpool, steam, towel service); Family $106/mo",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://ymcagta.org/find-a-y/central-ymca"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": "Men's, women's, and universal changerooms ... Plus memberships and changerooms with separate saunas, whirlpools, steam rooms, lounges, workout areas, complimentary towel service",
+   "url": "https://ymcagta.org/find-a-y/central-ymca"
+  },
+  "changeRooms": true,
+  "lockers": null,
+  "towels": "Plus membership only",
+  "scheduleSummary": "~90 group classes/wk (included in membership): Gravity (reformer-style) many daily slots; Bootcamp 6:30am/12:30pm/5:30pm; MuscleFit, TotalTone, BodyFit, Kettlebell, BoxFit, CycleFit, Arriba, Line Dance, Core & Stretch, Yoga (weekday 10am & ~5:30-7:30pm, weekend mornings). ⓢ = sign-up required.",
+  "beginnerFriendly": "Yes - broad beginner-accessible menu incl. chair classes.",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Hours Mon-Fri 6am-10pm, Sat-Sun 7am-10pm. Pool, indoor track, gym. Day pass presumably includes classes (not explicitly stated). Showers not explicitly mentioned on page.",
+  "sources": [
+   "https://ymcagta.org/find-a-y/central-ymca",
+   "https://ymcanorthyork.virtuagym.com/classes/week/2026-09-28?event_type=14&embedded=1&pref_club=17532"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-orangetheory-fitness-yonge-and-bloor",
+  "name": "Orangetheory Fitness Yonge & Bloor",
+  "address": "160 Bloor St E, Suite 100, Toronto, ON M4W 0A2",
+  "lat": 43.6716249,
+  "lon": -79.382984,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 237,
+  "stretch": false,
+  "categories": [
+   "hiit",
+   "strength",
+   "rowing"
+  ],
+  "website": "https://www.orangetheory.com/en-ca/locations/toronto-ontario-can112",
+  "scheduleUrl": "https://www.orangetheory.com/en-ca/locations/toronto-ontario-can112",
+  "bookingPlatform": "Orangetheory API (backed by Mindbody)",
+  "bookingIds": {
+   "otfStudioUuid": "ed45aa3c-80a5-4153-95da-3833c6fcc2c5",
+   "mindbodySiteId": 884994,
+   "mindbodyMasterLocationId": 4039522,
+   "mindbodyExploreSlug": "orangetheory-fitness-yonge-bloor-can071"
+  },
+  "scheduleApiUrl": "https://api.orangetheory.io/v1/classes?studio_ids=ed45aa3c-80a5-4153-95da-3833c6fcc2c5&starts_after=<ISO>&starts_before=<ISO>",
+  "pricing": {
+   "dropIn": "$30",
+   "introOffer": "First class free (first-time visitors, local residents)",
+   "classPacks": "10 classes $279; 20 $499; 30 $699",
+   "unlimitedMonthly": "Premier (unlimited) $219/mo",
+   "otherMemberships": "Basic 4 classes/mo $119; Elite 8 classes/mo $159",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.orangetheory.com/en-ca/locations/toronto-ontario-can112",
+    "https://prod-mkt-gateway.mindbody.io/v1/search/class_times (purchaseOptions: 'Drop-in Rate - $30.00')"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Mon-Thu 6:00, 7:15, 12:00, 4:15, 5:30, 6:45, 8:00pm (+9:30am Tue/Thu); Fri 6:00, 7:15, 12:00, 4:15, 5:30pm; Sat 7, 8, 9:15, 10:30, 11:45am, 1pm; Sun 8, 9:15, 10:30, 11:45am. Mostly Orange 60 (2G), plus Tread 50, Strength 50, HYROX 60 (week of 2026-09-28).",
+  "beginnerFriendly": true,
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Arrive 30 min early for first class intro. Late cancel (<8h) or no-show charged drop-in rate. No review in 610 Mindbody reviews mentions showers; not confirmed.",
+  "sources": [
+   "https://api.orangetheory.io/v1/classes?studio_ids=ed45aa3c-80a5-4153-95da-3833c6fcc2c5",
+   "https://clients.mindbodyonline.com/classic/home?studioid=884994"
+  ],
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "orangetheory-fitness-yonge-bloor-can071"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-iam-yoga-pilates",
+  "name": "IAM Yoga Pilates (Yonge & Bloor)",
+  "address": "680 Yonge St, Toronto, ON M4Y 2A6",
+  "lat": 43.6679,
+  "lon": -79.3853,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 323,
+  "stretch": false,
+  "categories": [
+   "yoga",
+   "hot-yoga",
+   "pilates",
+   "reformer",
+   "hiit"
+  ],
+  "website": "https://iamyoga.ca/",
+  "scheduleUrl": "https://iamyoga.ca/schedule/",
+  "bookingPlatform": "Mariana Tek",
+  "bookingIds": {
+   "marianaTenant": "iamyoga",
+   "regionId": "48541",
+   "locationId": "48717",
+   "classrooms": {
+    "heatedMat/mat": "6182,6183,6184",
+    "reformer?": "6282"
+   }
+  },
+  "scheduleApiUrl": "https://iamyoga.marianatek.com/api/customer/v1/classes?location=48717&min_start_date=YYYY-MM-DD&max_start_date=YYYY-MM-DD&page_size=300",
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "14 classes for $99 (All-In Two Week Intro, reformer + mat, 14 days)",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "All In Reformer & Mat Membership (price not public outside Mariana Tek widget)",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://iamyoga.ca/",
+    "https://iamyoga.ca/faqs/"
+   ]
+  },
+  "onClassPass": "yes",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": {
+   "quote": "Do you have change rooms and showers? Yes! Our second floor changerooms include lockers, showers, and washrooms.",
+   "url": "https://iamyoga.ca/faqs/"
+  },
+  "changeRooms": true,
+  "lockers": "yes (bring lock; limited loaners)",
+  "towels": "Shower towel rental $2 for non-members; hand towels free; mat $2/towel $2 rental for hot yoga",
+  "scheduleSummary": "~104 classes/week. Weekdays ~7, 8, 9:30, 11am, 12, 12:05, 4:30, 5:30, 6:30, 6:45, 7:30, 8pm; Sat ~9am-12:30pm; Sun ~9am-1:15pm. Mostly Power/Sculpt/Restore/Align Reformer, plus Hot IAM Yoga, Hot Sculpt HIIT Pilates, Mat Pilates, Yin, candlelit flows (week of 2026-09-28).",
+  "beginnerFriendly": true,
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Arrive 10-15 min early first time (waiver). 12h cancellation; $15 late-cancel/no-show fee; 5 grace cancels/yr. ClassPass users must cancel via ClassPass (FAQ confirms ClassPass presence). Not wheelchair accessible.",
+  "sources": [
+   "https://iamyoga.ca/faqs/",
+   "https://iamyoga.marianatek.com/api/customer/v1/regions"
+  ],
+  "booking": {
+   "platform": "marianatek",
+   "config": {
+    "tenant": "iamyoga",
+    "locationIds": [
+     "48717"
+    ],
+    "bookingPage": "https://iamyoga.ca/schedule/"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-stott-pilates-studio",
+  "name": "STOTT PILATES Studio",
+  "address": "2 Bloor St E (10th floor), Toronto, ON M4W 1A8",
+  "lat": 43.67085,
+  "lon": -79.38523,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 38,
+  "stretch": false,
+  "categories": [
+   "pilates",
+   "reformer"
+  ],
+  "website": "https://www.stottpilatesstudio.com/",
+  "scheduleUrl": "https://www.stottpilatesstudio.com/class-schedule",
+  "bookingPlatform": "Hapana",
+  "bookingIds": {
+   "hapanaWidgetId": "WWFjZ3cvVHlnMHFUd2NqT09wbXovUT09",
+   "sessionType": "Group Classes"
+  },
+  "scheduleApiUrl": null,
+  "pricing": {
+   "dropIn": "$45 (group class)",
+   "introOffer": "2 weeks unlimited $99; 3 private sessions $129",
+   "classPacks": "10-pack $430",
+   "unlimitedMonthly": "$430/mo",
+   "otherMemberships": "8 sessions/mo $300; 4 sessions/mo $170 (extra sessions $35)",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.stottpilatesstudio.com/memberships"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": {
+   "quote": "Q: Do you have showers and lockers? A: Yes! We have full facilities.",
+   "url": "https://www.stottpilatesstudio.com/faq-policies"
+  },
+  "changeRooms": null,
+  "lockers": true,
+  "towels": null,
+  "scheduleSummary": null,
+  "beginnerFriendly": true,
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Reformer classes: Athletic Power, Strength Flow+, Core & Release, Reset 45; Mat: Strength Flow etc. Cancel up to 6h before without penalty; no entry >5 min late. Schedule is a Hapana widget whose API needs a securityToken header - not cracked.",
+  "sources": [
+   "https://www.stottpilatesstudio.com/classes",
+   "https://www.stottpilatesstudio.com/faq-policies"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-pilatika-pilates-yorkville",
+  "name": "Pilatika Pilates Yorkville",
+  "address": "1 Yorkville Ave, Unit 201 (door code 202), Toronto, ON M4W 0B1",
+  "lat": 43.6714601,
+  "lon": -79.3874708,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 161,
+  "stretch": false,
+  "categories": [
+   "pilates",
+   "reformer"
+  ],
+  "website": "https://www.pilatikapilates.com/",
+  "scheduleUrl": "https://clients.mindbodyonline.com/classic/ws?studioid=5748697",
+  "bookingPlatform": "Mindbody",
+  "bookingIds": {
+   "mindbodySiteId": 5748697,
+   "mindbodyLocationId": 1,
+   "mindbodyMasterLocationId": 5039252,
+   "mindbodyExploreSlug": "pilatika-pilates-yorkville"
+  },
+  "scheduleApiUrl": "POST https://prod-mkt-gateway.mindbody.io/v1/search/class_times {filter:{locationSlugs:['pilatika-pilates-yorkville'],startTimeRanges:[...]}}",
+  "pricing": {
+   "dropIn": "$50",
+   "introOffer": "Intro drop-in $28; intro 3-pack $80",
+   "classPacks": "5 for $190 (buy 5 get 1); 10 for $375 (buy 10 get 2); 20 for $720",
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://prod-mkt-gateway.mindbody.io/v1/search/class_times (purchaseOptions for pilatika-pilates-yorkville)"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Group Reformer only, ~49 classes/week: Mon 7am-12pm hourly + 6, 7pm; Tue 9am-1pm + 5:30, 6:30pm; Wed 7am-6pm hourly; Thu 7am-1pm + 5, 6pm; Fri 8-11am; Sat 8:30am-12:30pm; Sun 8-11am (week of 2026-09-28).",
+  "beginnerFriendly": null,
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Montreal-based chain (Pilatika), Yorkville studio opened recently (Mindbody reviews active to 2026-09-27, 4.92/5 from 121). A 2026 review calls it 'a little challenging for me as beginner'. Showers not mentioned anywhere found.",
+  "sources": [
+   "https://www.pilatikapilates.com/",
+   "https://prod-mkt-gateway.mindbody.io/v1/reviews"
+  ],
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "pilatika-pilates-yorkville"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-avant-yorkville",
+  "name": "AVANT (by Altea Active) Yorkville",
+  "address": "1 Bloor St E (upper level), Toronto, ON M4W 0A8",
+  "lat": 43.6702,
+  "lon": -79.3854,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 70,
+  "stretch": false,
+  "categories": [
+   "gym",
+   "reformer",
+   "pilates",
+   "hot-yoga",
+   "yoga",
+   "barre",
+   "boxing",
+   "spin",
+   "strength"
+  ],
+  "website": "https://www.avant-club.com/",
+  "scheduleUrl": null,
+  "bookingPlatform": null,
+  "bookingIds": {},
+  "scheduleApiUrl": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": null,
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "Memberships start at $185 biweekly; 12-week minimum commitment; tiers set after private tour",
+   "openMatFee": null,
+   "mustBeMember": true,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.avant-club.com/membership/"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": {
+   "quote": "Experience Showers: A full-body immersion experience that prepares and revitalizes members between the hot and cold therapies.",
+   "url": "https://www.avant-club.com/recovery/"
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "250+ classes weekly across 6 studios (Glow: hot yoga/hot mat pilates; Sculpt: mat pilates/barre/yoga; Strike: boxing; Pace: cycle; reformer; strength). Schedule not public.",
+  "beginnerFriendly": null,
+  "dropInAllowed": false,
+  "status": "open",
+  "notes": "Members-only luxury club opened Aug 2025 in former Nordstrom Rack. Guest access only on select tiers. Sauna, steam, cold plunge. Showers evidence is the recovery 'experience showers'; regular change-room showers not explicitly stated.",
+  "sources": [
+   "https://www.avant-club.com/",
+   "https://www.avant-club.com/training/",
+   "https://6ixretail.com/2025/08/avant-opens-former-nordstrom-rack-yonge-bloor/"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-goodlife-fitness-toronto-bloor-and-park",
+  "name": "GoodLife Fitness Toronto Bloor and Park",
+  "address": "8 Park Road, Toronto, ON M4W 3S5",
+  "lat": 43.6714812,
+  "lon": -79.384736,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 109,
+  "stretch": false,
+  "categories": [
+   "gym",
+   "spin",
+   "yoga",
+   "pilates",
+   "hiit",
+   "strength",
+   "dance"
+  ],
+  "website": "https://www.goodlifefitness.com/clubs/club.184.html",
+  "scheduleUrl": "https://www.goodlifefitness.com/class-schedule.html?club=184",
+  "bookingPlatform": "GoodLife (AEM JSON endpoint)",
+  "bookingIds": {
+   "goodlifeClubId": 184
+  },
+  "scheduleApiUrl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.184.undef.undef.YYYY-MM-DD.json (use startDateObj as local time)",
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "Free workout / trial via site; $0 enrolment on select memberships until 2026-09-30",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": null,
+   "openMatFee": null,
+   "mustBeMember": true,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.goodlifefitness.com/clubs/club.184.html"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": {
+   "quote": "Additional Amenities Steam Room Towel Service Locker Rental Massage Chairs Changerooms Free Wifi Showers",
+   "url": "https://www.goodlifefitness.com/clubs/club.184.html"
+  },
+  "changeRooms": true,
+  "lockers": "rental",
+  "towels": "towel service",
+  "scheduleSummary": "~41 classes/week: weekday lunch (~11:55-1pm: BODYPUMP, RPM, Yoga, Les Mills Pilates) and evenings 4:25-6:35pm (BODYATTACK, BODYCOMBAT, BODYPUMP, RPM, Zumba, BODYSTEP, BODYBALANCE, Yoga, HYROX Foundational/Complete/Power); Sat 9:15-10:30am; Sun 9:15-11:40am (week of 2026-09-28).",
+  "beginnerFriendly": true,
+  "dropInAllowed": false,
+  "status": "open",
+  "notes": "Membership required for classes (membership prices not listed on club page). HYROX Training Club. Dry cedar sauna and steam room. OSM node at Bloor-Yonge ~100 m matches this club.",
+  "sources": [
+   "https://www.goodlifefitness.com/clubs/club.184.html"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-yonge-street-bjj",
+  "name": "Yonge Street BJJ",
+  "address": "579 Yonge St, Floor 2, Toronto, ON M4Y 1Z2",
+  "lat": 43.665721,
+  "lon": -79.384671,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 570,
+  "stretch": false,
+  "categories": [
+   "bjj"
+  ],
+  "website": "https://yongestreetbjj.com",
+  "scheduleUrl": "https://ysbjj.gymdesk.com/schedule",
+  "bookingPlatform": "Gymdesk",
+  "bookingIds": {
+   "gymdeskSubdomain": "ysbjj",
+   "signupLinks": [
+    "https://ysbjj.gymdesk.com/signup/v/653L3",
+    "https://ysbjj.gymdesk.com/signup/v/653Lw",
+    "https://ysbjj.gymdesk.com/signup/v/Anbmm"
+   ]
+  },
+  "scheduleApiUrl": "https://ysbjj.gymdesk.com/schedule",
+  "pricing": {
+   "dropIn": "$35 + HST (adults/students; kids $30) via /visitors",
+   "introOffer": "Free first class (prospective members only)",
+   "classPacks": null,
+   "unlimitedMonthly": "Adults $175/mo (3-mo $166.25/mo, 6-mo $157.50/mo, 12-mo $140/mo, paid upfront); students 16+ $160/mo down to $128/mo; + HST",
+   "otherMemberships": "1x/week plan $115/mo + HST (adults & students), kids $105; privates $155/hr (1), $200/hr (2)",
+   "openMatFee": "No separate open mat; 30-min supervised sparring (randori) follows each adult class",
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://yongestreetbjj.com/pricing",
+    "https://yongestreetbjj.com/assets/Pricing-Bj34_ilx.js",
+    "https://yongestreetbjj.com/visitors"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "Mon Adults Gi 6-7pm; Wed Adults No-Gi Fundamentals 5-5:45pm, Adults No-Gi 6-7pm; Fri Adults No-Gi 6-7pm; Sat Adults Gi 1-2pm; each followed by 30-min sparring (Mon/Wed/Fri 7-7:30pm, Sat 2-2:30pm). Kids Gi/No-Gi Mon/Fri 5pm, Sat 12pm.",
+  "beginnerFriendly": "Yes - FAQ: 'No prior experience is needed'; dedicated No-Gi Fundamentals Wed; Gi loaned for trial",
+  "dropInAllowed": true,
+  "status": "open (2026-09-28: the Gymdesk getevents feed returned non-cancelled classes for this week, so the \"marked as closed\" badge is a rendering artifact)",
+  "notes": "Carlson Gracie lineage, 3 black-belt instructors. Small class caps (Gymdesk shows 0/5 bookings slots). Located in same building as Naka Martial Arts (579 Yonge). Near Wellesley (Line 1).",
+  "sources": [
+   "https://yongestreetbjj.com",
+   "https://yongestreetbjj.com/assets/FAQ-CXPyT3Zs.js",
+   "https://yongestreetbjj.com/assets/Location-BViC5P8U.js",
+   "https://ysbjj.gymdesk.com/schedule"
+  ],
+  "booking": {
+   "platform": "gymdesk",
+   "config": {
+    "baseUrl": "https://ysbjj.gymdesk.com"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-naka-martial-arts-and-fitness-center",
+  "name": "Naka Martial Arts & Fitness Center (Naka Muay Thai)",
+  "address": "579 Yonge St, Toronto, ON M4Y 1Z2",
+  "lat": 43.665721,
+  "lon": -79.384671,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 570,
+  "stretch": false,
+  "categories": [
+   "muay-thai",
+   "kickboxing",
+   "boxing",
+   "mma"
+  ],
+  "website": "https://nakamuaythai.ca/",
+  "scheduleUrl": "https://nakamuaythai.ca/schedule",
+  "bookingPlatform": "Gymdesk",
+  "bookingIds": {
+   "gymdeskSubdomain": "naka-martial-art-and-fitness-centre",
+   "gymdeskFilesId": "16768"
+  },
+  "scheduleApiUrl": "https://nakamuaythai.ca/schedule",
+  "pricing": {
+   "dropIn": "$35/class (all programs) + HST",
+   "introOffer": "First-time trial pass $15 (Muay Thai)",
+   "classPacks": "Muay Thai 10-class $250 (6 mo); MMA-only 10-class $200 (3 mo)",
+   "unlimitedMonthly": "Muay Thai unlimited $190/mo; 3 months $540; Boxing unlimited $170/mo",
+   "otherMemberships": "Kids Muay Thai $150/mo; privates w/ Ajahn Amnat 5 for $550, 10 for $1000. Prices + HST; card fee applies",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://nakamuaythai.ca/pricing"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": {
+   "quote": "Flip flops (if you plan to shower)",
+   "url": "https://nakamuaythai.ca/page/firsttime"
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": "Bring a hand towel (per first-time page)",
+  "scheduleSummary": "Muay Thai all-levels pad work Mon-Fri 7am & 11:30am; Mon-Fri 5pm and 6:30pm Beginners + Intermediate pad work (1.5h), technical sparring (adv) 6:30pm; MMA Wed 7:30-8:30pm; Sat/Sun 10am adv sparring, 12pm all-levels pad work; kids Mon/Fri 4pm. Schedule also lists Boxing and Jiu-Jitsu programs (no sessions shown this week).",
+  "beginnerFriendly": "Yes - 'We welcome beginners at any level of fitness'; dedicated beginner classes nightly",
+  "dropInAllowed": true,
+  "status": "open (2026-09-28: the Gymdesk getevents feed returned non-cancelled classes for this week, so the \"marked as closed\" badge is a rendering artifact)",
+  "notes": "Found via OSM discovery pass (also OSM 'Naka Muay Thai Academy' at 575 Yonge). Shares 579 Yonge with Yonge Street BJJ. Book first class via Join Now > Visitor; pay on arrival. Barefoot training; gloves provided. Women-friendly. Cash/e-transfer accepted.",
+  "sources": [
+   "https://nakamuaythai.ca/",
+   "https://nakamuaythai.ca/pricing",
+   "https://nakamuaythai.ca/schedule",
+   "https://nakamuaythai.ca/page/firsttime"
+  ],
+  "booking": {
+   "platform": "gymdesk",
+   "config": {
+    "baseUrl": "https://nakamuaythai.ca"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-shine-fit",
+  "name": "SHINE FIT",
+  "address": "4 Charles St E, Toronto, ON M4Y 1T2",
+  "lat": 43.6688275,
+  "lon": -79.3857751,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 218,
+  "stretch": false,
+  "categories": [
+   "dance",
+   "hiit",
+   "strength",
+   "pilates",
+   "kickboxing"
+  ],
+  "website": "https://www.shinefit.co/",
+  "scheduleUrl": "https://www.shinefit.co/book-schedule",
+  "bookingPlatform": "Wix Bookings",
+  "bookingIds": {
+   "wixMetaSiteId": "00fa164e-372a-43ef-b9bb-d7d7898a9417"
+  },
+  "scheduleApiUrl": null,
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "New clients: 2-class pass $59 (4 wks); 4-class pass $99 (1 mo); 1-week coaching trial $69 (unlimited + 1:1 goal setting); 'First Class Free No Sweat Intro' on 6-week-challenge page",
+   "classPacks": "3-pack $89 (3 mo); 5-pack $149; 10-pack $279 (6 mo); 20-pack $539 (12 mo); recurring 4-pack $105/4 wks",
+   "unlimitedMonthly": "Studio All In $309 every 4 weeks (unlimited); 3-mo $819, 6-mo $1649, 12-mo $3099",
+   "otherMemberships": "Studio Basic 12 classes/4wks $279; Hybrid 2 (8/4wks) $239; Hybrid 1 (4/4wks) $144; 6 Week Challenge $499 (Hybrid $399). +HST; 7 days notice + exit interview to cancel",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.shinefit.co/pricing"
+   ]
+  },
+  "onClassPass": "yes",
+  "classPassUrl": "https://classpass.com/studios/shine-fit-toronto",
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "45-min formats: Dance HIIT, Dance Cardio, Dance Strength, Low + Slow (Pilates-based strength), Musical Theatre Cardio, Cardio Kickboxing, LITE, themed classes. Timetable is a JS Wix Bookings widget - times not extractable via curl.",
+  "beginnerFriendly": "Yes - reviews/site pitch it as beginner-friendly, non-intimidating women's-focused dance fitness",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Female-owned, women-focused community (not stated women-only). Showers not mentioned on site. ClassPass link is on the homepage (4.9 ClassPass rating quoted).",
+  "sources": [
+   "https://www.shinefit.co/",
+   "https://www.shinefit.co/pricing",
+   "https://www.shinefit.co/formats",
+   "https://www.shinefit.co/6weekchallenge"
+  ],
+  "booking": null
+ },
+ {
+  "id": "mideast-run-the-flex-dance-studio",
+  "name": "Run The Flex Dance Studio",
+  "address": "893 Yonge St, Unit 200 (2nd floor), Toronto, ON M4W 2H2",
+  "lat": 43.6747713,
+  "lon": -79.3882241,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 487,
+  "stretch": false,
+  "categories": [
+   "dance"
+  ],
+  "website": "https://runtheflex.com",
+  "scheduleUrl": "https://runtheflex.com/schedule",
+  "bookingPlatform": "Mariana Tek",
+  "bookingIds": {
+   "marianaTekTenant": "runtheflex",
+   "locationId": "48717",
+   "regionId": "48541"
+  },
+  "scheduleApiUrl": "https://runtheflex.marianatek.com/api/customer/v1/classes?min_start_date=YYYY-MM-DD&max_start_date=YYYY-MM-DD&location=48717&page_size=200",
+  "pricing": {
+   "dropIn": null,
+   "introOffer": "3 classes for $48 (new students); a 2-Week Unlimited Intro Offer is referenced in FAQ (price not captured)",
+   "classPacks": null,
+   "unlimitedMonthly": null,
+   "otherMemberships": "'Get Down' and 'Unlimited' memberships exist (prices only in JS Mariana Tek widget); student discount available",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://runtheflex.com",
+    "https://runtheflex.com/faqs"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": "We offer individual restrooms/change rooms and a filtered water station.",
+   "url": "https://runtheflex.com/start-here"
+  },
+  "changeRooms": "yes (individual restroom/change rooms)",
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "30+ weekly adult drop-ins, mostly evenings: Mon-Fri ~5-8:30pm (Hip Hop levels, Heels, House, Dancehall, Afro Fusion, Reggaeton, Jazz Funk, Contemporary, Choreography); Mon noon Mat Pilates; Sat 12-4:30pm, Sun 12-2pm. Live from Mariana Tek API week of Sep 28 2026.",
+  "beginnerFriendly": "Yes - Intro to Hip Hop for zero experience; beginner classes most nights",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Hip hop/street dance studio, 14+ for adult classes. Cancel 2h before or lose credit + $10 no-show fee (unlimited exempt). Walk-ins when space permits. Showers not mentioned (only change rooms).",
+  "sources": [
+   "https://runtheflex.com",
+   "https://runtheflex.com/faqs",
+   "https://runtheflex.com/start-here",
+   "https://runtheflex.marianatek.com/api/customer/v1/locations"
+  ],
+  "booking": {
+   "platform": "marianatek",
+   "config": {
+    "tenant": "runtheflex",
+    "locationIds": [
+     "48717"
+    ],
+    "bookingPage": "https://runtheflex.com/schedule"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-steps-dance-studio",
+  "name": "Steps Dance Studio",
+  "address": "889 Yonge St, Toronto, ON M4W 2H2",
+  "lat": 43.6745,
+  "lon": -79.38835,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 465,
+  "stretch": false,
+  "categories": [
+   "dance"
+  ],
+  "website": "https://www.stepsdancestudio.com/",
+  "scheduleUrl": "https://clients.mindbodyonline.com/classic/ws?studioid=286172&stype=-2&subTab=schedule",
+  "bookingPlatform": "Mindbody",
+  "bookingIds": {
+   "mindbodySiteId": 286172,
+   "mindbodyLocationId": 1,
+   "mindbodyExploreSlug": "steps-dance-studio"
+  },
+  "scheduleApiUrl": "POST https://prod-mkt-gateway.mindbody.io/v1/search/class_times {filter:{locationSlugs:['steps-dance-studio'],startTimeRanges:[...]}}",
+  "pricing": {
+   "dropIn": "$30/class",
+   "introOffer": "1-month new-student unlimited $85 on rates page (homepage says $75); free in-person trial class option in Mindbody; free level assessment",
+   "classPacks": "10-class $270 (90 days); 20-class $525 (180 days)",
+   "unlimitedMonthly": "$185/mo; auto-renew $159/mo (3-month min); 12-month $1575",
+   "otherMemberships": "Privates $120-160/hr",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.stepsdancestudio.com/rates",
+    "https://www.stepsdancestudio.com/"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "85+ Salsa/Bachata (plus Reggaeton, Latin Hustle, Rueda) classes/week: Mon-Fri 5-10pm hourly (Level 1 every weekday), Sat 1-3pm, Sun 12-5pm. Live from Mindbody week of Sep 28 2026.",
+  "beginnerFriendly": "Yes - 'even absolute beginners'; no partner needed; Levels 2-5 require assessment",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Partner Latin dance, not a workout studio per se. Mindbody rating 4.89 (1229). Showers/lockers not mentioned.",
+  "sources": [
+   "https://www.stepsdancestudio.com/",
+   "https://www.stepsdancestudio.com/rates",
+   "https://www.stepsdancestudio.com/contact"
+  ],
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "steps-dance-studio"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-dancelife-x-centre",
+  "name": "DanceLife X Centre",
+  "address": "619 Yonge St, Toronto, ON M4Y 1Z5",
+  "lat": 43.667086,
+  "lon": -79.385299,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 413,
+  "stretch": false,
+  "categories": [
+   "dance"
+  ],
+  "website": "https://www.dancelifex.com/",
+  "scheduleUrl": "https://www.dancelifex.com/#schedule",
+  "bookingPlatform": "Mindbody",
+  "bookingIds": {
+   "mindbodySiteId": 5728165,
+   "mindbodyExploreSlug": "dancelife-x"
+  },
+  "scheduleApiUrl": "POST https://prod-mkt-gateway.mindbody.io/v1/search/class_times {filter:{locationSlugs:['dancelife-x'],startTimeRanges:[...]}}",
+  "pricing": {
+   "dropIn": "$20/class (1-month expiry)",
+   "introOffer": "New students: 5+1 free $74.99; 10+2 free $139.95",
+   "classPacks": "5 $74.99; 10 $139.95; 20 $259.95; 30 $359.95; 40 $419.95; 100 $999.95 (flash-sale prices)",
+   "unlimitedMonthly": null,
+   "otherMemberships": "Monthly: Standard 4/mo $56, 8/mo $108; Premium 4/mo $75, 8/mo $140 (rollover, workshop discount)",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.dancelifex.com/pricing"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "unknown",
+  "showersEvidence": {
+   "quote": null,
+   "url": null
+  },
+  "changeRooms": null,
+  "lockers": null,
+  "towels": null,
+  "scheduleSummary": "~80+ adult drop-ins/week: Mon-Fri ~4:45-9:30pm (Hip Hop, Jazz Funk, Heels, K-Pop covers, Commercial choreo, House, Bollywood, Reggaeton, Waacking, Locking, Afro), Sat 12:30-5pm, Sun 12-5pm. Live from Mindbody week of Sep 28 2026.",
+  "beginnerFriendly": "Yes - Level 1/Base Level classes need no experience",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Cancel 4h before to keep credit; >15 min late not admitted. Showers not mentioned on site.",
+  "sources": [
+   "https://www.dancelifex.com/",
+   "https://www.dancelifex.com/pricing",
+   "https://www.dancelifex.com/faqs"
+  ],
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "dancelife-x"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ },
+ {
+  "id": "mideast-thrive-longevity-training",
+  "name": "Thrive Longevity Training (formerly Telomere Fitness / Telomere Longevity Training)",
+  "address": "518 Yonge St, Unit 2A/2B, Toronto, ON M4Y 1X9",
+  "lat": 43.6636031,
+  "lon": -79.3842132,
+  "nearestStation": "Bloor-Yonge",
+  "nearestStationM": 808,
+  "stretch": false,
+  "categories": [
+   "strength",
+   "hiit"
+  ],
+  "website": "https://www.thrivelongevitytraining.com/",
+  "scheduleUrl": "https://www.thrivelongevitytraining.com/schedule",
+  "bookingPlatform": "Mindbody",
+  "bookingIds": {
+   "mindbodySiteId": 5738846,
+   "mindbodyExploreSlug": "thrive-longevity-training"
+  },
+  "scheduleApiUrl": "POST https://prod-mkt-gateway.mindbody.io/v1/search/class_times {filter:{locationSlugs:['thrive-longevity-training'],startTimeRanges:[...]}}",
+  "pricing": {
+   "dropIn": "$45 (Mindbody purchase option)",
+   "introOffer": "Free first session + assessment; 30-Day Discovery Program $79.99 (new visitors)",
+   "classPacks": null,
+   "unlimitedMonthly": "Unlimited membership - price not public ('Contact Us')",
+   "otherMemberships": "Couples 10% off; 60-day money-back guarantee; pause up to 60 days/yr",
+   "openMatFee": null,
+   "mustBeMember": false,
+   "dateSeen": "2026-09-27",
+   "sources": [
+    "https://www.mindbodyonline.com/explore/locations/thrive-longevity-training",
+    "https://www.thrivelongevitytraining.com/membership"
+   ]
+  },
+  "onClassPass": "unknown",
+  "classPassUrl": null,
+  "showers": "yes",
+  "showersEvidence": {
+   "quote": "Amenities: Locker Room, Showers, Gender-neutral restroom (Mindbody listing)",
+   "url": "https://www.mindbodyonline.com/explore/locations/thrive-longevity-training"
+  },
+  "changeRooms": "yes (locker room)",
+  "lockers": "yes (Mindbody amenities)",
+  "towels": null,
+  "scheduleSummary": "Coached small-group 75-min sessions (max 12-16): Mon-Thu 7:30am, 12pm, 5pm, 7pm; Fri 7:30am, 12pm, 5pm; Sat/Sun 9am, 11am. Rotating Longevity Lower/Upper strength + sprint-interval/4x4 conditioning. Live from Mindbody week of Sep 28 2026.",
+  "beginnerFriendly": "Yes - 'Built for all experience levels'",
+  "dropInAllowed": true,
+  "status": "open",
+  "notes": "Same place as Telomere Fitness (footer: 'formerly Telomere Longevity Training'; same 518 Yonge address). VO2max/InBody testing. Near Wellesley (Line 1).",
+  "sources": [
+   "https://www.thrivelongevitytraining.com/",
+   "https://www.thrivelongevitytraining.com/membership"
+  ],
+  "booking": {
+   "platform": "mindbody",
+   "config": {
+    "locationSlug": "thrive-longevity-training"
+   },
+   "verified": "2026-09-28 (class-finder direct fetcher returned classes)"
+  }
+ }
+]

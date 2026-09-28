@@ -1,0 +1,669 @@
+{
+ "meta": {
+  "compiled": "2026-09-28",
+  "currency": "CAD",
+  "notes": [
+   "The price per credit falls as plans get bigger: CA$2.50 on the 8-credit plan down to CA$2.06 on the 121-credit plan (CA$2.83 to CA$2.33 with 13% Ontario HST). For 'N credits ≈ CA$X', use the default 38-credit plan: CA$2.34 per credit before tax, or CA$2.65 with HST.",
+   "classpass.com and help.classpass.com show a Cloudflare challenge to curl and WebFetch. The help-centre article text came from the public Zendesk API (classpass.zendesk.com/api/v2/help_center/en-us/articles/<id>.json); the source URLs below are the public html_url of each article.",
+   "WebSearch hit its session limit (200 of 200) before this task ran. The reported prices therefore come from a full listing of r/ClassPass posts (2023 to now) and comments (2024 to now), pulled through the Arctic Shift Reddit archive API and filtered locally. r/toronto and blogs/TikTok were not covered.",
+   "Credit prices vary by user, time and demand (see dynamicPricing). Treat every number as a range someone saw, not a quote."
+  ],
+  "taxSource": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html"
+ },
+ "plans": [
+  {
+   "credits": 8,
+   "priceCAD": 20,
+   "perCreditCAD": 2.5,
+   "perCreditWithHST13": 2.825,
+   "default": false,
+   "verification": "from the caller's reading of classpass.com/plans (Toronto, Sept 2026); could not re-fetch because classpass.com is behind a Cloudflare challenge (403) to curl/WebFetch; corroborated: a Vancouver member was on the $20 plan (8 credits) in Sept 2026",
+   "sources": [
+    "https://classpass.com/plans",
+    "https://www.reddit.com/r/ClassPass/comments/1wlw1ub/comment/pb2betk/"
+   ]
+  },
+  {
+   "credits": 24,
+   "priceCAD": 59,
+   "perCreditCAD": 2.458,
+   "perCreditWithHST13": 2.778,
+   "default": false,
+   "verification": "from the caller's reading of classpass.com/plans (Toronto, Sept 2026); could not re-fetch because classpass.com is behind a Cloudflare challenge (403) to curl/WebFetch",
+   "sources": [
+    "https://classpass.com/plans"
+   ]
+  },
+  {
+   "credits": 38,
+   "priceCAD": 89,
+   "perCreditCAD": 2.342,
+   "perCreditWithHST13": 2.647,
+   "default": true,
+   "verification": "confirmed independently: CA$89/38 credits is the auto-renew plan in ClassPass's own Toronto page state (plan_code CAD_8900_38CREDITS, rollover_credits 38), captured 2026-09-27; a Toronto member reported the same on 2026-09-21",
+   "sources": [
+    "https://classpass.com/plans",
+    "https://classpass.com/studios/beaches-sandbox-toronto",
+    "https://www.reddit.com/r/ClassPass/comments/1wlw1ub/comment/pb2l6fq/"
+   ]
+  },
+  {
+   "credits": 64,
+   "priceCAD": 139,
+   "perCreditCAD": 2.172,
+   "perCreditWithHST13": 2.454,
+   "default": false,
+   "verification": "from the caller's reading of classpass.com/plans (Toronto, Sept 2026); could not re-fetch because classpass.com is behind a Cloudflare challenge (403) to curl/WebFetch",
+   "sources": [
+    "https://classpass.com/plans"
+   ]
+  },
+  {
+   "credits": 82,
+   "priceCAD": 169,
+   "perCreditCAD": 2.061,
+   "perCreditWithHST13": 2.329,
+   "default": false,
+   "verification": "from the caller's reading of classpass.com/plans (Toronto, Sept 2026); could not re-fetch because classpass.com is behind a Cloudflare challenge (403) to curl/WebFetch; corroborated: a Toronto member was on the 82-credit plan in 2025",
+   "sources": [
+    "https://classpass.com/plans",
+    "https://www.reddit.com/r/ClassPass/comments/1ork97f/"
+   ]
+  },
+  {
+   "credits": 121,
+   "priceCAD": 249,
+   "perCreditCAD": 2.058,
+   "perCreditWithHST13": 2.325,
+   "default": false,
+   "verification": "from the caller's reading of classpass.com/plans (Toronto, Sept 2026); could not re-fetch because classpass.com is behind a Cloudflare challenge (403) to curl/WebFetch",
+   "sources": [
+    "https://classpass.com/plans"
+   ]
+  }
+ ],
+ "otherPlanObservations": [
+  {
+   "note": "CA$79/34-credit plan being discontinued; members were auto-moved to CA$89/38 (email reported March 2026). Some Canadian users were offered CA$69/30 on cancel.",
+   "date": "2026-03-14",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1rsypy2/comment/oae1igx/"
+  },
+  {
+   "note": "Canada 80-credit plan at CA$159 (~$2/credit) was removed in Dec 2024; the top plan at that time was ~CA$2.05/credit.",
+   "date": "2024-12-11",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1hboa0e/"
+  },
+  {
+   "note": "In 2023 the top Canadian plan was 95 credits at ~CA$1.99/credit; extra credits cost ~CA$2.30 each.",
+   "date": "2023-10-24",
+   "source": "https://www.reddit.com/r/ClassPass/comments/17f35ll/"
+  },
+  {
+   "note": "Toronto member: CA$89 for 38 credits comes to about CA$100 a month with tax.",
+   "date": "2026-09-21",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1wlw1ub/comment/pb2l6fq/"
+  },
+  {
+   "note": "If a plan price lacks an explicit 'CA$', it may be billed in USD. A Vancouver member was charged US$79 (≈CA$113.50) after the app switched them to a US plan.",
+   "date": "2026-09-20",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1wlw1ub/comment/pb3zf9w/"
+  }
+ ],
+ "fees": {
+  "lateCancelCAD": {
+   "min": 11,
+   "max": 31,
+   "window": "cancelling within 12 hours of start (or an earlier deadline the venue sets); credits are refunded and the fee is charged, or ClassPass may keep the credits instead",
+   "taxExtra": true,
+   "source": "https://help.classpass.com/hc/en-us/articles/207942743-How-do-late-cancel-and-missed-reservation-fees-work",
+   "asOf": "2026-08-10"
+  },
+  "noShowCAD": {
+   "min": 14,
+   "max": 34,
+   "taxExtra": true,
+   "source": "https://help.classpass.com/hc/en-us/articles/207942743-How-do-late-cancel-and-missed-reservation-fees-work",
+   "asOf": "2026-08-10"
+  },
+  "feeNote": "The exact fee for each booking appears in that booking's Cancellation Policy section. Fees are not covered by gift balances.",
+  "feeNoteSources": [
+   "https://help.classpass.com/hc/en-us/articles/207942743-How-do-late-cancel-and-missed-reservation-fees-work",
+   "https://help.classpass.com/hc/en-us/articles/9113480331917-Do-gifts-apply-to-late-cancel-or-missed-reservation-fees"
+  ],
+  "extraCredits": {
+   "mechanisms": "Two ways to buy more: 'Top-up' buys the exact shortfall at booking, and an 'Add-on pack' is a fixed bundle. Purchases are final and follow the rollover rules. You can also upgrade your plan mid-cycle, which resets the cycle date and adds the full plan's credits.",
+   "sources": [
+    "https://help.classpass.com/hc/en-us/articles/115000503763-How-do-I-buy-more-credits",
+    "https://help.classpass.com/hc/en-us/articles/208098256-How-do-I-change-my-plan"
+   ],
+   "canadaPriceReported": {
+    "perCreditCAD": 2.3,
+    "date": "2023-10-24",
+    "source": "https://www.reddit.com/r/ClassPass/comments/17f35ll/",
+    "note": "the only Canadian top-up price found; 2023, likely higher now"
+   },
+   "usPricesReported": [
+    {
+     "text": "10 credits for $25 or 2 for $6 (US)",
+     "date": "2025-03-10",
+     "source": "https://www.reddit.com/r/ClassPass/comments/1j7bai8/comment/mgxv6c8/"
+    },
+    {
+     "text": "top-up went from $2.50 to $3.00 per credit (US)",
+     "date": "2025-05-25",
+     "source": "https://www.reddit.com/r/ClassPass/comments/1kvew46/comment/mu94yal/"
+    },
+    {
+     "text": "10 add-on credits for $26 (US)",
+     "date": "2025-09-13",
+     "source": "https://www.reddit.com/r/ClassPass/comments/1nf2ubb/comment/ndyvpzt/"
+    }
+   ],
+   "estimateCAD": "No 2026 Canadian price was found. Assume top-up and add-on credits cost about CA$2.50 to CA$3.00 each before tax, which is at or above the 8-credit plan's rate. This is an inference from US reports that top-ups cost more than plan credits."
+  },
+  "rollover": {
+   "summary": "Unused purchased credits roll over while you stay on a paid plan, up to the credit count of next cycle's plan; plans under 10 credits can still roll over up to 10. Trial and other unpurchased credits do not roll over. Cancelling forfeits all credits at the end of the cycle. Unused credits expire at 11:59 PM the day before renewal.",
+   "source": "https://help.classpass.com/hc/en-us/articles/209367426-Do-my-credits-roll-over",
+   "asOf": "2026-08-07"
+  },
+  "freeTrial": {
+   "summary": "Toronto offer seen 2026-09-27: '1 Month Free - 10 workouts' (plan code CAD_0_1MO_0CREDITS_10WORKOUTS_ALC). It gives 0 credits and 10 free workouts, then auto-renews at CA$89 + tax for 38 credits. New or eligible members only; stock may be limited for trial users; late-cancel and no-show fees still apply. Trial credits don't roll over, and each studio can be visited only once during a trial. Cancelling a trial takes effect immediately. Older Canadian trials were credit-based: 30 credits (Toronto, Jan 2023), 34 credits (Toronto, Sept 2024), and referral links added 20 bonus credits.",
+   "sources": [
+    "https://classpass.com/studios/beaches-sandbox-toronto",
+    "https://help.classpass.com/hc/en-us/articles/205434205-Is-there-a-trial-available",
+    "https://help.classpass.com/hc/en-us/articles/209629223-I-m-on-a-trial-What-should-I-know-about-my-account",
+    "https://www.reddit.com/r/ClassPass/comments/10p8vys/",
+    "https://www.reddit.com/r/ClassPass/comments/1fj1vbf/comment/lnryssy/"
+   ]
+  },
+  "retentionOffers": {
+   "summary": "Trying to cancel often brings up an offer: 20% off the next month, 20% off for 3 months, $10 off for 3 months, or 10 to 20 bonus credits. Reported by Toronto and Vancouver users, among others.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1b8k61v/",
+    "https://www.reddit.com/r/ClassPass/comments/10p8vys/comment/n227mtt/"
+   ]
+  },
+  "hst": {
+   "rateOntario": 0.13,
+   "note": "ClassPass charges tax based on the billing address. Fees shown exclude tax. Non-CAD billing can add bank FX fees.",
+   "sources": [
+    "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html",
+    "https://help.classpass.com/hc/en-us/articles/208040776-Why-is-my-ClassPass-account-being-charged-a-little-bit-more-than-my-membership-fee"
+   ]
+  }
+ },
+ "dynamicPricing": {
+  "summary": "Yes, prices are dynamic. ClassPass says a class's credit price depends on demand, time of day, how far ahead you book, equipment, location, popularity, venue requirements and promotions, and that 'credit amounts are not guaranteed'. Venues may price by popularity and run time-limited offers based on how often a customer has visited, so first visits are often 25-50% off. ClassPass also runs pricing experiments on some users. How much it moves, from member reports: usually ±1 to 3 credits (about ±15-30%) on the same class. In Canada one member saw the same slot at 7-10 credits and another gym at 5-7. Across a cycle, a first visit cost 7-8 and later visits 9-11. One F45 went from 8 to 10 credits within 3 hours on the same day (US). Prices often drop the night before as studio members cancel. Over months a studio's price can creep up: Vancouver Lagree +4, F45 London roughly doubled. Recommended app estimate: show a range of roughly −25% to +40% around the typical figure.",
+  "sources": [
+   "https://help.classpass.com/hc/en-us/articles/40825253236877-Why-do-class-credits-vary-from-week-to-week",
+   "https://help.classpass.com/hc/en-us/articles/360002360052-How-are-credit-amounts-determined",
+   "https://www.reddit.com/r/ClassPass/comments/1idab9n/comment/m9xl6kl/",
+   "https://www.reddit.com/r/ClassPass/comments/1ruiwof/comment/oanc823/",
+   "https://www.reddit.com/r/ClassPass/comments/1uo8m97/comment/oxrgcze/",
+   "https://www.reddit.com/r/ClassPass/comments/1ruiwof/comment/oamp775/",
+   "https://www.reddit.com/r/ClassPass/comments/1h7skvk/",
+   "https://www.reddit.com/r/ClassPass/comments/1r038ff/comment/o4fm2rc/",
+   "https://www.reddit.com/r/ClassPass/comments/1wb5rdh/",
+   "https://www.reddit.com/r/ClassPass/comments/1n6w6je/comment/ndhq0zp/"
+  ]
+ },
+ "reportedPrices": [
+  {
+   "venue": "Grateful Den",
+   "city": "Toronto",
+   "classType": "yoga (75-min Mornin' Flow, Sat 9:30am)",
+   "credits": "5",
+   "dateSeen": "2026-05-14",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1td8pdu/"
+  },
+  {
+   "venue": "Chi Junky",
+   "city": "Toronto",
+   "classType": "revival class and sound bath",
+   "credits": "8",
+   "dateSeen": "2026-05-15",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1tcnbn4/"
+  },
+  {
+   "venue": "Sweat and Tonic (Front/Spadina)",
+   "city": "Toronto",
+   "classType": "most classes (class Reiki & Restore was full)",
+   "credits": "9-12",
+   "dateSeen": "2026-04-21",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1srxrlk/"
+  },
+  {
+   "venue": "Sweat and Tonic (Front/Spadina)",
+   "city": "Toronto",
+   "classType": "Strength Training: Open Gym",
+   "credits": "9-11 (another member saw 10)",
+   "dateSeen": "2026-04-09/13",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1sgo48w/"
+  },
+  {
+   "venue": "Sweat and Tonic",
+   "city": "Toronto",
+   "classType": "class (type not stated)",
+   "credits": "8 (was 9 until ~July 2023)",
+   "dateSeen": "2023-08-19",
+   "source": "https://www.reddit.com/r/ClassPass/comments/15vodhh/"
+  },
+  {
+   "venue": "Fit Factory (Downtown Toronto)",
+   "city": "Toronto",
+   "classType": "group fitness/bootcamp",
+   "credits": "7-11",
+   "dateSeen": "2025-12-11",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1pk490y/"
+  },
+  {
+   "venue": "Conquer Fitness",
+   "city": "Toronto",
+   "classType": "Open Gym Hour",
+   "credits": "2-4",
+   "dateSeen": "2025-09-15",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1nh56yb/"
+  },
+  {
+   "venue": "Jaybird Yorkville",
+   "city": "Toronto",
+   "classType": "yoga/pilates classes (limited offerings)",
+   "credits": "8-9",
+   "dateSeen": "2025-05-02",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1kcbhhs/"
+  },
+  {
+   "venue": "Jaybird Queen West",
+   "city": "Toronto",
+   "classType": "yoga/pilates classes",
+   "credits": "6-10 (6 only midday)",
+   "dateSeen": "2025-05-02",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1kcbhhs/",
+   "note": "another member reported 7-12 for Jaybird the same day"
+  },
+  {
+   "venue": "F45 Guildwood",
+   "city": "Toronto",
+   "classType": "HIIT (F45)",
+   "credits": "6-9",
+   "dateSeen": "2024-11-08",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1gm6nfx/",
+   "note": "same commenter's usual F45 (location unstated) is 8-11"
+  },
+  {
+   "venue": "F45 Yorkdale",
+   "city": "Toronto",
+   "classType": "HIIT (F45)",
+   "credits": "11",
+   "dateSeen": "2024-05-16",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1ct23e1/comment/l498e3f/"
+  },
+  {
+   "venue": "One Academy Leslieville",
+   "city": "Toronto",
+   "classType": "martial arts gym (class type not stated)",
+   "credits": "5-7",
+   "dateSeen": "2024-09-17",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1fiok1h/"
+  },
+  {
+   "venue": "Rumble Boxing Yorkville",
+   "city": "Toronto",
+   "classType": "boxing",
+   "credits": "5-10 (another member: 5-13 depending on instructor and fill)",
+   "dateSeen": "2023-11-26/30",
+   "source": "https://www.reddit.com/r/ClassPass/comments/184drha/"
+  },
+  {
+   "venue": "Solis Movement",
+   "city": "Toronto",
+   "classType": "reformer pilates / hot pilates",
+   "credits": "4-11",
+   "dateSeen": "2024-08-03",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1ehjy29/comment/lgc8uik/"
+  },
+  {
+   "venue": "Barre3 Toronto",
+   "city": "Toronto",
+   "classType": "barre",
+   "credits": "5-7",
+   "dateSeen": "2024-02-29",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/"
+  },
+  {
+   "venue": "Barre Belle",
+   "city": "Toronto",
+   "classType": "barre",
+   "credits": "5-9",
+   "dateSeen": "2024-02-29",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/"
+  },
+  {
+   "venue": "Imprint Pilates",
+   "city": "Toronto",
+   "classType": "pilates (mat and yoga at the low end, reformer at the high end)",
+   "credits": "5-19",
+   "dateSeen": "2024-02-29",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/"
+  },
+  {
+   "venue": "Higher Ground",
+   "city": "Toronto",
+   "classType": "classes (type not stated)",
+   "credits": "3-7",
+   "dateSeen": "2024-02-29",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/"
+  },
+  {
+   "venue": "Mosaic Yoga Annex",
+   "city": "Toronto",
+   "classType": "yoga",
+   "credits": "4-8",
+   "dateSeen": "2024-02-29",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/"
+  },
+  {
+   "venue": "Rebound Fitness",
+   "city": "Toronto",
+   "classType": "classes (type not stated)",
+   "credits": "4-5",
+   "dateSeen": "2024-02-29",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/"
+  },
+  {
+   "venue": "889 Community",
+   "city": "Toronto",
+   "classType": "classes (type not stated)",
+   "credits": "6-11",
+   "dateSeen": "2024-02-29",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/"
+  },
+  {
+   "venue": "Othership",
+   "city": "Toronto",
+   "classType": "sauna + cold plunge (wellness)",
+   "credits": "11",
+   "dateSeen": "2025-11-09",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1ork97f/comment/nnw31we/"
+  },
+  {
+   "venue": "Toronto overall (one member's search)",
+   "city": "Toronto",
+   "classType": "yoga",
+   "credits": "5-10, avg 5-6",
+   "dateSeen": "2024-11-16",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1gsf7k1/"
+  },
+  {
+   "venue": "Toronto overall (one member's search)",
+   "city": "Toronto",
+   "classType": "cycle/spin",
+   "credits": "4-6 (few options)",
+   "dateSeen": "2024-11-16",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1gsf7k1/"
+  },
+  {
+   "venue": "Toronto overall (one member's search)",
+   "city": "Toronto",
+   "classType": "gym time",
+   "credits": "2-6 (a couple of places at 28)",
+   "dateSeen": "2024-11-16",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1gsf7k1/"
+  },
+  {
+   "venue": "Unnamed class, same slot booked for 1.5 yrs",
+   "city": "Canada (city not stated)",
+   "classType": "class (type not stated)",
+   "credits": "7-10; member's other gym 5-7",
+   "dateSeen": "2025-01-30",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1idab9n/comment/m9xl6kl/"
+  },
+  {
+   "venue": "Montreal overall (one member)",
+   "city": "Montreal",
+   "classType": "strength/CrossFit 3-5; spin 3-4; yoga 2-3; fancier/popular 6-10",
+   "credits": "see classType",
+   "dateSeen": "2024-03-11",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1baoi6p/comment/kubzfob/"
+  },
+  {
+   "venue": "Studio Joie / Calisthenics Montreal / Rebl Union",
+   "city": "Montreal",
+   "classType": "pilates / calisthenics / fitness",
+   "credits": "5-7 / 2-6 / 3-7",
+   "dateSeen": "2025-02-26",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1ixm71u/comment/metkga0/"
+  },
+  {
+   "venue": "Arabesque Burlesque / Académie de Cirque / ESBQ / Ballet Hop",
+   "city": "Montreal",
+   "classType": "dance / circus / ballet",
+   "credits": "2-4 / 4-7 / 5-7 / 3-5",
+   "dateSeen": "2026-02-23",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1rch482/"
+  },
+  {
+   "venue": "YYoga / Modo Yoga",
+   "city": "Vancouver",
+   "classType": "yoga / hot yoga",
+   "credits": "6-8 / 6-10",
+   "dateSeen": "2025-03-14",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1jaws1v/"
+  },
+  {
+   "venue": "Granville Yoga and Spin",
+   "city": "Vancouver",
+   "classType": "spin",
+   "credits": "mostly 6-8; one cycle class 10",
+   "dateSeen": "2023-09-23",
+   "source": "https://www.reddit.com/r/ClassPass/comments/16pwekn/"
+  },
+  {
+   "venue": "Gracie (BJJ) / 8 Limbs (Muay Thai, boxing)",
+   "city": "Sydney (AU plans; proxy only)",
+   "classType": "BJJ / Muay Thai",
+   "credits": "6-8 (one at 10) / 6-7",
+   "dateSeen": "2024-12-27",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1hjuytr/comment/m3yexf9/"
+  },
+  {
+   "venue": "Unnamed gym",
+   "city": "US (city not stated)",
+   "classType": "Adults Beginners Jiu-Jitsu",
+   "credits": "7",
+   "dateSeen": "2025-03-02",
+   "source": "https://www.reddit.com/r/ClassPass/comments/1j16ezt/comment/mfl9bi5/"
+  }
+ ],
+ "categoryRanges": {
+  "crossfit": {
+   "min": 3,
+   "typical": 5,
+   "max": 6,
+   "basis": "No Toronto CrossFit prices found, and several members say CrossFit boxes often aren't on ClassPass. Estimate is from Montreal (strength/CrossFit 3-5) and US reports (CrossFit/HIIT 4-6; CrossFit 3; 4-5).",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1baoi6p/comment/kubzfob/",
+    "https://www.reddit.com/r/ClassPass/comments/1baoi6p/",
+    "https://www.reddit.com/r/ClassPass/comments/1bw2p3z/comment/ky3sxqg/",
+    "https://www.reddit.com/r/ClassPass/comments/1drwyxs/comment/lcxl10f/"
+   ]
+  },
+  "bjj": {
+   "min": 5,
+   "typical": 7,
+   "max": 10,
+   "basis": "No Toronto BJJ prices found. Proxies: US beginner jiu-jitsu 7; Sydney Gracie 6-8 (one class 10); ClassPass chat said '5 to 25' for Sydney BJJ. One Academy Leslieville (a Toronto martial-arts gym, class type not stated) is 5-7.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1j16ezt/comment/mfl9bi5/",
+    "https://www.reddit.com/r/ClassPass/comments/1hjuytr/comment/m3yexf9/",
+    "https://www.reddit.com/r/ClassPass/comments/1hjuytr/",
+    "https://www.reddit.com/r/ClassPass/comments/1fiok1h/"
+   ]
+  },
+  "mma": {
+   "min": 5,
+   "typical": 6,
+   "max": 7,
+   "basis": "No MMA-specific prices found. Uses martial-arts proxies: One Academy Leslieville 5-7 (Toronto) and 8 Limbs Sydney 6-7.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1fiok1h/",
+    "https://www.reddit.com/r/ClassPass/comments/1hjuytr/comment/m3yexf9/"
+   ]
+  },
+  "muay-thai": {
+   "min": 5,
+   "typical": 6,
+   "max": 7,
+   "basis": "8 Limbs Sydney: Muay Thai 6-7. One Academy Leslieville (Toronto martial arts): 5-7.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1hjuytr/comment/m3yexf9/",
+    "https://www.reddit.com/r/ClassPass/comments/1fiok1h/"
+   ]
+  },
+  "boxing": {
+   "min": 5,
+   "typical": 7,
+   "max": 13,
+   "basis": "Toronto: Rumble Yorkville 5-10 / 5-13. US boxing reports mostly 3-13 (Title 4-8, Bout 6-11).",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/184drha/",
+    "https://www.reddit.com/r/ClassPass/comments/1ieqbg0/comment/magduif/",
+    "https://www.reddit.com/r/ClassPass/comments/1gr74kd/comment/lx3pjmq/"
+   ]
+  },
+  "yoga": {
+   "min": 3,
+   "typical": 6,
+   "max": 10,
+   "basis": "Toronto: one member's yoga search 5-10 (avg 5-6); Grateful Den 5; Mosaic Annex 4-8; Higher Ground 3-7.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1gsf7k1/",
+    "https://www.reddit.com/r/ClassPass/comments/1td8pdu/",
+    "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/"
+   ]
+  },
+  "hot-yoga": {
+   "min": 6,
+   "typical": 8,
+   "max": 12,
+   "basis": "Toronto: Jaybird (infrared yoga/pilates) 6-10, 8-9 Yorkville, 7-12. Vancouver: Modo 6-10, YYoga 6-8.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1kcbhhs/",
+    "https://www.reddit.com/r/ClassPass/comments/1jaws1v/"
+   ]
+  },
+  "pilates": {
+   "min": 4,
+   "typical": 6,
+   "max": 11,
+   "basis": "Mat and non-reformer pilates. Toronto: Imprint low end 5 (mat); Solis 4-11 (includes hot pilates). Montreal Studio Joie 5-7.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/",
+    "https://www.reddit.com/r/ClassPass/comments/1ehjy29/comment/lgc8uik/",
+    "https://www.reddit.com/r/ClassPass/comments/1ixm71u/comment/metkga0/"
+   ]
+  },
+  "reformer": {
+   "min": 7,
+   "typical": 11,
+   "max": 19,
+   "basis": "Toronto: Imprint Pilates up to 19 for reformer; Solis up to 11. US reformer and Lagree is usually 7-16, and Solidcore 10-15.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/",
+    "https://www.reddit.com/r/ClassPass/comments/1ehjy29/comment/lgc8uik/",
+    "https://www.reddit.com/r/ClassPass/comments/1tqpxui/comment/ooiemeo/",
+    "https://www.reddit.com/r/ClassPass/comments/1w5ryx0/comment/p7hfs3u/"
+   ]
+  },
+  "barre": {
+   "min": 5,
+   "typical": 7,
+   "max": 9,
+   "basis": "Toronto: Barre3 5-7; Barre Belle 5-9 (Feb 2024).",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/"
+   ]
+  },
+  "spin": {
+   "min": 4,
+   "typical": 6,
+   "max": 10,
+   "basis": "Toronto cycle 4-6 (Nov 2024, few options). Vancouver: Granville Yoga & Spin 6-8, one class 10. Montreal spin 3-4.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1gsf7k1/",
+    "https://www.reddit.com/r/ClassPass/comments/16pwekn/",
+    "https://www.reddit.com/r/ClassPass/comments/1baoi6p/comment/kubzfob/"
+   ]
+  },
+  "hiit": {
+   "min": 6,
+   "typical": 9,
+   "max": 11,
+   "basis": "Toronto: F45 Guildwood 6-9; another F45 8-11; F45 Yorkdale 11; Fit Factory 7-11. No Toronto Barry's price found (US Barry's is 11-15).",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1gm6nfx/",
+    "https://www.reddit.com/r/ClassPass/comments/1ct23e1/comment/l498e3f/",
+    "https://www.reddit.com/r/ClassPass/comments/1pk490y/",
+    "https://www.reddit.com/r/ClassPass/comments/1vlo2xb/comment/p342gcs/"
+   ]
+  },
+  "strength": {
+   "min": 3,
+   "typical": 7,
+   "max": 11,
+   "basis": "Toronto: Sweat and Tonic strength open gym 9-11; 889 Community 6-11. Montreal strength 3-5.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1sgo48w/",
+    "https://www.reddit.com/r/ClassPass/comments/1akjc1s/comment/ksqukq7/",
+    "https://www.reddit.com/r/ClassPass/comments/1baoi6p/comment/kubzfob/"
+   ]
+  },
+  "climbing": {
+   "min": 5,
+   "typical": 6,
+   "max": 9,
+   "basis": "No Canadian prices found. Non-Canadian reports: Nomad Bouldering (Sydney) 5; Boruda/Climbasics 6-9 (city not stated).",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1no4m5l/comment/nfpefqr/",
+    "https://www.reddit.com/r/ClassPass/comments/1fim3e9/comment/lniqiv8/"
+   ]
+  },
+  "dance": {
+   "min": 2,
+   "typical": 5,
+   "max": 7,
+   "basis": "Montreal: Arabesque 2-4, Ballet Hop 3-5, ESBQ 5-7, circus 4-7. US LA Dancefit 5-7.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1rch482/",
+    "https://www.reddit.com/r/ClassPass/comments/1jawtl1/comment/mhpbctq/"
+   ]
+  },
+  "gym-time": {
+   "min": 2,
+   "typical": 3,
+   "max": 11,
+   "basis": "Toronto: gym time 2-6 (outliers at 28); Conquer Fitness open gym 2-4; Sweat and Tonic (premium) open gym 9-11. US big-box open gym is 1-3.",
+   "sources": [
+    "https://www.reddit.com/r/ClassPass/comments/1gsf7k1/",
+    "https://www.reddit.com/r/ClassPass/comments/1nh56yb/",
+    "https://www.reddit.com/r/ClassPass/comments/1sgo48w/",
+    "https://www.reddit.com/r/ClassPass/comments/1qxr6vr/comment/o3zo2fp/"
+   ]
+  }
+ },
+ "revisitRules": {
+  "summary": "On a paid membership, ClassPass itself does not cap visits to the same studio. The old 'max 3 visits per studio per month' rule belongs to the pre-credit era. Trials are different: one visit per studio, and booking then cancelling uses up that studio. Individual venues can still limit ClassPass users. Reports include '3 visits per cycle' at one studio, CorePower capping at 4 per cycle, and a studio cancelling repeat bookings under a 3-month rolling limit. Studios also control how many spots ClassPass gets, so favourite slots can show 'no spots'. There is no explicit 'revisit fee'. Instead, repeats lose the first-visit discount (often 25-50% off, sometimes half credits), and members report repeats priced higher, e.g. 7-8 credits for the first class of a cycle vs 9-11 afterwards. ClassPass confirms promotions can depend on how often a customer has visited. For the app: add about +1 to +3 credits to a studio's typical price for repeat visits, or remove the first-visit discount.",
+  "sources": [
+   "https://help.classpass.com/hc/en-us/articles/205434205-Is-there-a-trial-available",
+   "https://help.classpass.com/hc/en-us/articles/40825253236877-Why-do-class-credits-vary-from-week-to-week",
+   "https://www.reddit.com/r/ClassPass/comments/1j37cbg/comment/mg40bf5/",
+   "https://www.reddit.com/r/ClassPass/comments/19c0jho/",
+   "https://www.reddit.com/r/ClassPass/comments/19c0jho/comment/kix0f10/",
+   "https://www.reddit.com/r/ClassPass/comments/1lbp6ui/comment/mxue47p/",
+   "https://www.reddit.com/r/ClassPass/comments/1tjdcjv/comment/on25vkw/",
+   "https://www.reddit.com/r/ClassPass/comments/1ruiwof/comment/oanc823/",
+   "https://www.reddit.com/r/ClassPass/comments/1ruiwof/comment/oam29at/",
+   "https://www.reddit.com/r/ClassPass/comments/1lgk4iv/comment/myxo6aj/"
+  ]
+ }
+}
