@@ -37,11 +37,11 @@ h1 .bullet{display:inline-grid;place-items:center;width:26px;height:26px;border-
 .fresh{color:var(--muted);font-size:13px;text-align:right}
 .strip{overflow-x:auto;scrollbar-width:none;margin:10px -16px 0;padding:0 16px 12px}
 .strip::-webkit-scrollbar{display:none}
-.stops{position:relative;display:flex;min-width:max-content;padding-top:4px}
+.stops{position:relative;display:flex;min-width:max(100%,868px);padding-top:4px}
 .stops::before{content:"";position:absolute;left:14px;right:14px;top:13px;height:6px;border-radius:3px;background:var(--line)}
-.stop{position:relative;width:34px;flex:none;border:0;background:none;padding:0;cursor:pointer;display:flex;flex-direction:column;align-items:center}
+.stop{position:relative;flex:1 0 28px;border:0;background:none;padding:0;cursor:pointer;display:flex;flex-direction:column;align-items:center}
 .stop i{display:block;width:14px;height:14px;margin-top:3px;border-radius:50%;background:var(--card);border:3px solid var(--line);position:relative;z-index:1}
-.stop span{font:600 11.5px/1 "Barlow Condensed",sans-serif;color:var(--muted);writing-mode:vertical-rl;transform:rotate(180deg);margin-top:6px;height:86px;text-align:left;white-space:nowrap}
+.stop span{font:600 11.5px/1 "Barlow Condensed",sans-serif;color:var(--muted);writing-mode:vertical-rl;transform:rotate(180deg);margin-top:6px;height:72px;text-align:left;white-space:nowrap}
 .stop .n{position:absolute;top:-3px;right:0;font:600 10px/1 Barlow;color:var(--line)}
 .stop.home i{width:20px;height:20px;margin-top:0;background:var(--line);border-color:var(--line)}
 .stop.home span{color:var(--ink)}
