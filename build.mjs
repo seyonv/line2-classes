@@ -199,7 +199,7 @@ for (const v of Object.values(venues)) counts[v.station] = (counts[v.station] ||
 const now = Date.now() / 1000;
 const out = {
   generatedAt: new Date().toISOString(), home: HOME, creditValue: pricing.creditValue, plan: pricing.plan,
-  stations: stations.map(s => ({ name: s.name, stops: s.stopsFromVictoriaPark, home: s.name === HOME, count: counts[s.name] || 0 })),
+  stations: stations.map(s => ({ name: s.name, lat: s.lat, lon: s.lon, stops: s.stopsFromVictoriaPark, home: s.name === HOME, count: counts[s.name] || 0 })),
   venues, classes: classes.filter(c => c.e > now - 3600).sort((a, b) => a.s - b.s),
   sources: { classpass: cp.fetchedAt || null, direct: direct.fetchedAt || null, city: city.fetchedAt || null },
 };
