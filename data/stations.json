@@ -1,0 +1,219 @@
+[
+ {
+  "name": "Kipling",
+  "lat": 43.63762,
+  "lon": -79.53551,
+  "index": 0,
+  "stopsFromVictoriaPark": 28
+ },
+ {
+  "name": "Islington",
+  "lat": 43.64534,
+  "lon": -79.52482,
+  "index": 1,
+  "stopsFromVictoriaPark": 27
+ },
+ {
+  "name": "Royal York",
+  "lat": 43.64818,
+  "lon": -79.5113,
+  "index": 2,
+  "stopsFromVictoriaPark": 26
+ },
+ {
+  "name": "Old Mill",
+  "lat": 43.64983,
+  "lon": -79.49433,
+  "index": 3,
+  "stopsFromVictoriaPark": 25
+ },
+ {
+  "name": "Jane",
+  "lat": 43.64992,
+  "lon": -79.48385,
+  "index": 4,
+  "stopsFromVictoriaPark": 24
+ },
+ {
+  "name": "Runnymede",
+  "lat": 43.6517,
+  "lon": -79.476,
+  "index": 5,
+  "stopsFromVictoriaPark": 23
+ },
+ {
+  "name": "High Park",
+  "lat": 43.65387,
+  "lon": -79.46686,
+  "index": 6,
+  "stopsFromVictoriaPark": 22
+ },
+ {
+  "name": "Keele",
+  "lat": 43.65557,
+  "lon": -79.45958,
+  "index": 7,
+  "stopsFromVictoriaPark": 21
+ },
+ {
+  "name": "Dundas West",
+  "lat": 43.65694,
+  "lon": -79.45304,
+  "index": 8,
+  "stopsFromVictoriaPark": 20
+ },
+ {
+  "name": "Lansdowne",
+  "lat": 43.65911,
+  "lon": -79.44279,
+  "index": 9,
+  "stopsFromVictoriaPark": 19
+ },
+ {
+  "name": "Dufferin",
+  "lat": 43.66026,
+  "lon": -79.43539,
+  "index": 10,
+  "stopsFromVictoriaPark": 18
+ },
+ {
+  "name": "Ossington",
+  "lat": 43.66238,
+  "lon": -79.42633,
+  "index": 11,
+  "stopsFromVictoriaPark": 17
+ },
+ {
+  "name": "Christie",
+  "lat": 43.66411,
+  "lon": -79.4184,
+  "index": 12,
+  "stopsFromVictoriaPark": 16
+ },
+ {
+  "name": "Bathurst",
+  "lat": 43.66593,
+  "lon": -79.41124,
+  "index": 13,
+  "stopsFromVictoriaPark": 15
+ },
+ {
+  "name": "Spadina",
+  "lat": 43.66854,
+  "lon": -79.4047,
+  "index": 14,
+  "stopsFromVictoriaPark": 14
+ },
+ {
+  "name": "St. George",
+  "lat": 43.66844,
+  "lon": -79.39884,
+  "index": 15,
+  "stopsFromVictoriaPark": 13
+ },
+ {
+  "name": "Bay",
+  "lat": 43.67019,
+  "lon": -79.39027,
+  "index": 16,
+  "stopsFromVictoriaPark": 12
+ },
+ {
+  "name": "Bloor-Yonge",
+  "lat": 43.67079,
+  "lon": -79.38569,
+  "index": 17,
+  "stopsFromVictoriaPark": 11
+ },
+ {
+  "name": "Sherbourne",
+  "lat": 43.67228,
+  "lon": -79.37639,
+  "index": 18,
+  "stopsFromVictoriaPark": 10
+ },
+ {
+  "name": "Castle Frank",
+  "lat": 43.6735,
+  "lon": -79.36905,
+  "index": 19,
+  "stopsFromVictoriaPark": 9
+ },
+ {
+  "name": "Broadview",
+  "lat": 43.67699,
+  "lon": -79.35822,
+  "index": 20,
+  "stopsFromVictoriaPark": 8
+ },
+ {
+  "name": "Chester",
+  "lat": 43.67823,
+  "lon": -79.35251,
+  "index": 21,
+  "stopsFromVictoriaPark": 7
+ },
+ {
+  "name": "Pape",
+  "lat": 43.67992,
+  "lon": -79.3449,
+  "index": 22,
+  "stopsFromVictoriaPark": 6
+ },
+ {
+  "name": "Donlands",
+  "lat": 43.68103,
+  "lon": -79.33779,
+  "index": 23,
+  "stopsFromVictoriaPark": 5
+ },
+ {
+  "name": "Greenwood",
+  "lat": 43.68256,
+  "lon": -79.33027,
+  "index": 24,
+  "stopsFromVictoriaPark": 4
+ },
+ {
+  "name": "Coxwell",
+  "lat": 43.68415,
+  "lon": -79.32304,
+  "index": 25,
+  "stopsFromVictoriaPark": 3
+ },
+ {
+  "name": "Woodbine",
+  "lat": 43.68641,
+  "lon": -79.31262,
+  "index": 26,
+  "stopsFromVictoriaPark": 2
+ },
+ {
+  "name": "Main Street",
+  "lat": 43.68905,
+  "lon": -79.3016,
+  "index": 27,
+  "stopsFromVictoriaPark": 1
+ },
+ {
+  "name": "Victoria Park",
+  "lat": 43.69488,
+  "lon": -79.2888,
+  "index": 28,
+  "stopsFromVictoriaPark": 0
+ },
+ {
+  "name": "Warden",
+  "lat": 43.71112,
+  "lon": -79.27904,
+  "index": 29,
+  "stopsFromVictoriaPark": 1
+ },
+ {
+  "name": "Kennedy",
+  "lat": 43.73243,
+  "lon": -79.26375,
+  "index": 30,
+  "stopsFromVictoriaPark": 2
+ }
+]

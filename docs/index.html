@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Line 2 Classes</title>
+<meta name="description" content="Every bookable fitness class near the Bloor-Danforth line, with walk times, prices, ClassPass credits and showers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f6f8f7; --card:#ffffff; --ink:#15211c; --muted:#5b6a64; --rule:#dce3df;
+  --line:#00853f; --line-ink:#ffffff; --line-soft:#e3f2ea; --amber:#b86e00; --amber-soft:#fff2dc;
+  --red:#b3261e; --focus:#0b63ce;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0e1613; --card:#15201b; --ink:#e4ece8; --muted:#94a59d; --rule:#26352e;
+  --line:#2fbf71; --line-ink:#06120c; --line-soft:#173226; --amber:#f0a832; --amber-soft:#35270f; --red:#ff8a80; --focus:#7ab4ff;
+}}
+:root[data-theme="dark"]{
+  --paper:#0e1613; --card:#15201b; --ink:#e4ece8; --muted:#94a59d; --rule:#26352e;
+  --line:#2fbf71; --line-ink:#06120c; --line-soft:#173226; --amber:#f0a832; --amber-soft:#35270f; --red:#ff8a80; --focus:#7ab4ff;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.45 Barlow,system-ui,sans-serif}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+
+/* ---- the line ---- */
+header{background:var(--card);border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:5}
+.top{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding-top:14px}
+h1{font:700 26px/1 "Barlow Condensed",sans-serif;margin:0;letter-spacing:.2px}
+h1 .bullet{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--line);color:var(--line-ink);font-size:18px;margin-right:8px;vertical-align:-3px}
+.fresh{color:var(--muted);font-size:13px;text-align:right}
+.strip{overflow-x:auto;scrollbar-width:none;margin:10px -16px 0;padding:0 16px 12px}
+.strip::-webkit-scrollbar{display:none}
+.stops{position:relative;display:flex;min-width:max-content;padding-top:4px}
+.stops::before{content:"";position:absolute;left:14px;right:14px;top:13px;height:6px;border-radius:3px;background:var(--line)}
+.stop{position:relative;width:34px;flex:none;border:0;background:none;padding:0;cursor:pointer;display:flex;flex-direction:column;align-items:center}
+.stop i{display:block;width:14px;height:14px;margin-top:3px;border-radius:50%;background:var(--card);border:3px solid var(--line);position:relative;z-index:1}
+.stop span{font:600 11.5px/1 "Barlow Condensed",sans-serif;color:var(--muted);writing-mode:vertical-rl;transform:rotate(180deg);margin-top:6px;height:86px;text-align:left;white-space:nowrap}
+.stop .n{position:absolute;top:-3px;right:0;font:600 10px/1 Barlow;color:var(--line)}
+.stop.home i{width:20px;height:20px;margin-top:0;background:var(--line);border-color:var(--line)}
+.stop.home span{color:var(--ink)}
+.stop.on span{color:var(--line);font-weight:700}
+.stop.on i{background:var(--line)}
+.stop.dim i{opacity:.35}
+
+/* ---- controls ---- */
+.ask{display:flex;gap:8px;margin:14px 0 10px}
+.ask input{flex:1;min-width:0;padding:12px 14px;border:1.5px solid var(--rule);border-radius:10px;background:var(--card);font-size:17px}
+.ask input:focus{border-color:var(--line);outline:none}
+.row{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px 0 8px}
+.row::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1.5px solid var(--rule);background:var(--card);border-radius:999px;padding:7px 13px;font-weight:500;font-size:14.5px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--line);border-color:var(--line);color:var(--line-ink)}
+.day{border-radius:10px;padding:6px 12px;text-align:center;line-height:1.1}
+.day b{display:block;font:700 18px/1.1 "Barlow Condensed",sans-serif}
+.day small{font-size:12px;opacity:.8}
+.opts{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:14.5px;color:var(--muted);padding:2px 0 12px}
+.opts label{display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.opts select{border:1.5px solid var(--rule);border-radius:8px;background:var(--card);padding:4px 6px}
+.opts input[type=checkbox]{accent-color:var(--line);width:17px;height:17px}
+
+/* ---- results ---- */
+main{padding:14px 0 60px}
+.summary{font-size:15px;color:var(--muted);margin:0 0 10px}
+.summary b{color:var(--ink)}
+.slot{display:grid;grid-template-columns:62px 1fr;gap:0 10px;border-top:1px solid var(--rule);padding-top:10px;margin-top:10px}
+.slot>time{font:700 22px/1 "Barlow Condensed",sans-serif;padding-top:10px}
+.slot>time small{display:block;font:500 12px Barlow;color:var(--muted);margin-top:2px}
+.cls{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+.cls h3{margin:0;font:600 17px/1.25 Barlow,sans-serif}
+.cls h3 .dur{font-weight:400;color:var(--muted);font-size:14px}
+.venue{margin:2px 0 8px;font-weight:500}
+.venue a{color:inherit;text-decoration-color:var(--rule);text-underline-offset:3px}
+.trip{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-size:14.5px}
+.pill{display:inline-flex;align-items:center;gap:6px;font:600 15px/1 "Barlow Condensed",sans-serif;background:var(--line-soft);color:var(--ink);padding:4px 8px 4px 5px;border-radius:999px}
+.pill i{width:14px;height:14px;border-radius:50%;background:var(--line);display:inline-block}
+.walk b{font-weight:600}
+.ride{color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;font-size:13.5px}
+.tag{border:1px solid var(--rule);border-radius:6px;padding:2px 7px;color:var(--muted)}
+.tag.good{border-color:transparent;background:var(--line-soft);color:var(--ink)}
+.tag.warn{border-color:transparent;background:var(--amber-soft);color:var(--amber);font-weight:600}
+.tag.bad{color:var(--red);border-color:currentColor}
+.prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin-top:10px}
+.price{border:1px solid var(--rule);border-radius:10px;padding:8px 10px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.price .what{font-size:13px;color:var(--muted);line-height:1.25}
+.price .amt{font:700 20px/1 "Barlow Condensed",sans-serif;white-space:nowrap}
+.price .amt small{font:500 12px Barlow;color:var(--muted)}
+.price a.book{flex:none;background:var(--line);color:var(--line-ink);text-decoration:none;font-weight:600;font-size:14px;padding:7px 11px;border-radius:8px}
+.price a.book.alt{background:transparent;color:var(--line);border:1.5px solid var(--line)}
+details.more{margin-top:8px;font-size:14px;color:var(--muted)}
+details.more summary{cursor:pointer;color:var(--ink);font-weight:500}
+details.more p{margin:6px 0}
+.empty{padding:30px 0;text-align:center;color:var(--muted)}
+.empty button{margin-top:10px}
+.foot{color:var(--muted);font-size:13.5px;border-top:1px solid var(--rule);padding-top:14px;margin-top:30px}
+.foot p{max-width:70ch}
+@media (max-width:520px){
+  .slot{grid-template-columns:1fr}
+  .slot>time{padding:0 0 6px;display:flex;gap:6px;align-items:baseline}
+  .slot>time small{margin:0}
+}
+@media (prefers-reduced-motion:no-preference){.chip,.stop i{transition:background .15s,border-color .15s}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1><span class="bullet">2</span>Line 2 classes</h1>
+      <div class="fresh" id="fresh"></div>
+    </div>
+    <div class="strip" id="strip" aria-label="Filter by station"><div class="stops" id="stops"></div></div>
+  </div>
+</header>
+<div class="wrap">
+  <form class="ask" id="ask" role="search">
+    <input id="q" type="search" autocomplete="off" placeholder="Try “tuesday morning bjj” or “crossfit after 5 showers”" aria-label="Describe what you want">
+  </form>
+  <div class="row" id="days" aria-label="Day"></div>
+  <div class="row" id="times" aria-label="Time of day"></div>
+  <div class="row" id="cats" aria-label="Kind of class"></div>
+  <div class="opts">
+    <label><input type="checkbox" id="showers"> Showers only</label>
+    <label>Book via <select id="via"><option value="all">ClassPass or direct</option><option value="cp">ClassPass</option><option value="direct">Direct</option></select></label>
+    <label>Walk <select id="walk"><option value="99">any</option><option value="5">≤ 5 min</option><option value="10">≤ 10 min</option><option value="15" selected>≤ 15 min</option></select></label>
+    <label>Stops from home <select id="maxstops"><option value="99">any</option><option value="3">≤ 3</option><option value="6">≤ 6</option><option value="10">≤ 10</option><option value="15">≤ 15</option></select></label>
+    <label><input type="checkbox" id="hidefull"> Hide full</label>
+    <label>Sort <select id="sort"><option value="time">by time</option><option value="near">closest first</option><option value="cheap">cheapest first</option></select></label>
+  </div>
+</div>
+<main class="wrap">
+  <p class="summary" id="summary"></p>
+  <div id="list"></div>
+  <div class="foot" id="foot"></div>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const TZ = 'America/Toronto';
+const TIMES = [
+  ['early', 'Early', 'before 7', 0, 7], ['morning', 'Morning', '7–11', 7, 11], ['midday', 'Midday', '11–2', 11, 14],
+  ['afternoon', 'Afternoon', '2–5', 14, 17], ['evening', 'Evening', '5–8', 17, 20], ['late', 'Late', 'after 8', 20, 24],
+];
+const CATS = [
+  ['crossfit', 'CrossFit'], ['bjj', 'Jiu-jitsu'], ['martial', 'Muay Thai, MMA & boxing'], ['yoga', 'Yoga'], ['hot-yoga', 'Hot yoga'],
+  ['pilates', 'Pilates & reformer'], ['barre', 'Barre'], ['spin', 'Spin'], ['hiit', 'HIIT & bootcamp'], ['strength', 'Strength'],
+  ['climbing', 'Climbing'], ['dance', 'Dance'], ['community', 'Community centres'], ['other', 'Other'],
+];
+const state = { day: null, times: new Set(), cats: new Set(), station: null, showers: false, via: 'all', walk: 15, maxstops: 99, hidefull: false, sort: 'time', text: '' };
+let D, byDay = new Map();
+
+const fmtTime = t => new Date(t * 1000).toLocaleTimeString('en-CA', { timeZone: TZ, hour: 'numeric', minute: '2-digit' }).replace(' a.m.', 'am').replace(' p.m.', 'pm').replace(':00', '');
+const dayKey = t => new Date(t * 1000).toLocaleDateString('en-CA', { timeZone: TZ });
+const hourOf = t => Number(new Date(t * 1000).toLocaleString('en-CA', { timeZone: TZ, hour: 'numeric', hourCycle: 'h23' }));
+const money = n => n == null ? null : '$' + (Math.round(n * 100) / 100).toFixed(n % 1 ? 2 : 0);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+
+fetch('data.json', { cache: 'no-cache' }).then(r => r.json()).then(d => { D = d; init(); }).catch(e => {
+  $('#list').innerHTML = `<div class="empty">Couldn’t load the class data (${esc(e.message)}). Reload the page to try again.</div>`;
+});
+
+function init() {
+  for (const c of D.classes) { const k = dayKey(c.s); if (!byDay.has(k)) byDay.set(k, []); byDay.get(k).push(c); }
+  const gen = new Date(D.generatedAt);
+  $('#fresh').textContent = 'Updated ' + gen.toLocaleString('en-CA', { timeZone: TZ, weekday: 'short', hour: 'numeric', minute: '2-digit' });
+  // stations
+  $('#stops').innerHTML = D.stations.map(s => `<button class="stop${s.home ? ' home' : ''}${s.count ? '' : ' dim'}" data-st="${esc(s.name)}" aria-pressed="false" title="${esc(s.name)}: ${s.count} places, ${s.stops} stops from ${esc(D.home)}">
+<i></i><span>${esc(s.name)}</span></button>`).join('');
+  $('#stops').addEventListener('click', e => { const b = e.target.closest('.stop'); if (!b) return; state.station = state.station === b.dataset.st ? null : b.dataset.st; render(); });
+  const home = $('.stop.home'); if (home) $('#strip').scrollLeft = home.offsetLeft - $('#strip').clientWidth / 2;
+  // days
+  const today = dayKey(Date.now() / 1000);
+  const days = [...byDay.keys()].filter(k => k >= today).sort();
+  state.day = days[0];
+  $('#days').innerHTML = days.map((k, i) => { const d = new Date(k + 'T12:00:00');
+    return `<button class="chip day" data-day="${k}"><b>${i === 0 && k === today ? 'Today' : d.toLocaleDateString('en-CA', { weekday: 'short' })}</b><small>${d.toLocaleDateString('en-CA', { month: 'short', day: 'numeric' })}</small></button>`; }).join('');
+  $('#days').addEventListener('click', e => { const b = e.target.closest('[data-day]'); if (b) { state.day = b.dataset.day; render(); } });
+  $('#times').innerHTML = TIMES.map(([k, l, r]) => `<button class="chip" data-t="${k}">${l} <small>${r}</small></button>`).join('');
+  $('#times').addEventListener('click', e => { const b = e.target.closest('[data-t]'); if (b) { toggle(state.times, b.dataset.t); render(); } });
+  const present = new Set(D.classes.map(c => c.c)); if (D.classes.some(c => D.venues[c.v]?.city)) present.add('community');
+  $('#cats').innerHTML = CATS.filter(([k]) => present.has(k)).map(([k, l]) => `<button class="chip" data-c="${k}">${l}</button>`).join('');
+  $('#cats').addEventListener('click', e => { const b = e.target.closest('[data-c]'); if (b) { toggle(state.cats, b.dataset.c); render(); } });
+  for (const id of ['showers', 'hidefull']) $('#' + id).addEventListener('change', e => { state[id] = e.target.checked; render(); });
+  for (const id of ['via', 'walk', 'maxstops', 'sort']) $('#' + id).addEventListener('change', e => { state[id] = isNaN(+e.target.value) ? e.target.value : +e.target.value; render(); });
+  $('#ask').addEventListener('submit', e => { e.preventDefault(); parse($('#q').value); });
+  $('#q').addEventListener('input', e => parse(e.target.value, true));
+  $('#foot').innerHTML = D.footnote;
+  const saved = (() => { try { return JSON.parse(localStorage.getItem('l2c') || 'null'); } catch { return null; } })();
+  if (saved) { state.showers = saved.showers; state.walk = saved.walk; state.maxstops = saved.maxstops; state.via = saved.via; }
+  render();
+}
+const toggle = (set, k) => set.has(k) ? set.delete(k) : set.add(k);
+
+// "tuesday morning bjj", "crossfit after 5 near coxwell with showers"
+function parse(q, live) {
+  const t = q.toLowerCase();
+  state.text = '';
+  const wd = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+  const days = [...byDay.keys()].sort();
+  const m = t.match(/\b(sun|mon|tue|wed|thu|fri|sat)[a-z]*\b/);
+  if (/\btoday\b|\btonight\b/.test(t)) state.day = days[0];
+  else if (/\btomorrow\b/.test(t)) state.day = days[1] || days[0];
+  else if (m) state.day = days.find(k => new Date(k + 'T12:00:00').getDay() === wd.indexOf(m[1])) || state.day;
+  const times = new Set();
+  if (/\bearly\b|before work|sunrise/.test(t)) times.add('early');
+  if (/\bmorning|\bam\b/.test(t)) { times.add('early'); times.add('morning'); }
+  if (/lunch|midday|noon/.test(t)) times.add('midday');
+  if (/afternoon/.test(t)) times.add('afternoon');
+  if (/evening|after work|\bpm\b|tonight/.test(t)) times.add('evening');
+  if (/\blate\b|night/.test(t)) times.add('late');
+  const after = t.match(/after (\d{1,2})/), before = t.match(/before (\d{1,2})/);
+  if (after) { let h = +after[1]; if (h < 12 && h <= 9 && !/am/.test(t)) h += 12; TIMES.forEach(([k, , , a]) => { if (a >= h - 1) times.add(k); }); }
+  if (before) { let h = +before[1]; TIMES.forEach(([k, , , a]) => { if (a < h) times.add(k); }); }
+  if (times.size || !live) state.times = times;
+  const cats = new Set();
+  const words = { crossfit: /crossfit|wod/, bjj: /bjj|jiu|jitsu|grappl|no-?gi/, martial: /muay|thai|mma|box|kick|martial|karate|judo|wrestl/, 'hot-yoga': /hot yoga|hot/, yoga: /yoga|vinyasa|yin/, pilates: /pilates|reformer/, barre: /barre/, spin: /spin|cycl|ride/, hiit: /hiit|bootcamp|circuit/, strength: /strength|lift|weights/, climbing: /climb|boulder/, dance: /dance|zumba/, community: /community|city/ };
+  for (const [k, re] of Object.entries(words)) if (re.test(t)) cats.add(k);
+  if (cats.has('hot-yoga') && !/yoga/.test(t)) cats.delete('hot-yoga');
+  if (cats.has('hot-yoga')) cats.delete('yoga');
+  if (cats.size || !live) state.cats = cats;
+  if (/shower/.test(t)) state.showers = true;
+  if (/classpass/.test(t)) state.via = 'cp';
+  if (/direct|drop.?in/.test(t)) state.via = 'direct';
+  const st = D.stations.find(s => t.includes(s.name.toLowerCase()));
+  if (st) state.station = st.name;
+  if (/near|close|closest/.test(t) && !st) state.sort = 'near';
+  if (/cheap/.test(t)) state.sort = 'cheap';
+  render();
+}
+
+function passes(c, v) {
+  if (state.cats.size && !state.cats.has(c.c) && !(state.cats.has('yoga') && c.c === 'hot-yoga') && !(state.cats.has('community') && v.city)) return false;
+  if (state.times.size) { const h = hourOf(c.s); if (!TIMES.some(([k, , , a, b]) => state.times.has(k) && h >= a && h < b)) return false; }
+  if (state.station && v.station !== state.station) return false;
+  if (state.showers && v.showers.v !== 'yes') return false;
+  if (state.via === 'cp' && !c.cp) return false;
+  if (state.via === 'direct' && !c.direct) return false;
+  if (v.walkMin > state.walk && !state.station) return false;
+  if (v.stops > state.maxstops) return false;
+  if (state.hidefull && (c.st === 'full' || c.st === 'waitlist')) return false;
+  return true;
+}
+const cost = (c, v) => Math.min(...[c.price ?? v.price?.dropIn, c.cp ? ((c.cr ?? c.crEst?.[0] ?? v.cp?.credits?.[0]) ?? 99) * D.creditValue : null].filter(x => x != null), 999);
+
+function render() {
+  try { localStorage.setItem('l2c', JSON.stringify({ showers: state.showers, walk: state.walk, maxstops: state.maxstops, via: state.via })); } catch {}
+  document.querySelectorAll('[data-day]').forEach(b => b.setAttribute('aria-pressed', b.dataset.day === state.day));
+  document.querySelectorAll('[data-t]').forEach(b => b.setAttribute('aria-pressed', state.times.has(b.dataset.t)));
+  document.querySelectorAll('[data-c]').forEach(b => b.setAttribute('aria-pressed', state.cats.has(b.dataset.c)));
+  document.querySelectorAll('.stop').forEach(b => { b.classList.toggle('on', b.dataset.st === state.station); b.setAttribute('aria-pressed', b.dataset.st === state.station); });
+  $('#showers').checked = state.showers; $('#hidefull').checked = state.hidefull;
+  $('#via').value = state.via; $('#walk').value = state.walk; $('#maxstops').value = state.maxstops; $('#sort').value = state.sort;
+
+  const now = Date.now() / 1000 - 600;
+  const rows = (byDay.get(state.day) || []).filter(c => c.s > now).map(c => [c, D.venues[c.v]]).filter(([c, v]) => v && passes(c, v));
+  if (state.sort === 'near') rows.sort((a, b) => (a[1].tripMin - b[1].tripMin) || (a[0].s - b[0].s));
+  else if (state.sort === 'cheap') rows.sort((a, b) => (cost(...a) - cost(...b)) || (a[0].s - b[0].s));
+  else rows.sort((a, b) => (a[0].s - b[0].s) || (a[1].tripMin - b[1].tripMin));
+
+  const d = new Date(state.day + 'T12:00:00').toLocaleDateString('en-CA', { weekday: 'long', month: 'long', day: 'numeric' });
+  const tl = state.times.size ? ' · ' + TIMES.filter(([k]) => state.times.has(k)).map(([, l]) => l.toLowerCase()).join(', ') : '';
+  const venuesN = new Set(rows.map(([c]) => c.v)).size;
+  $('#summary').innerHTML = `<b>${rows.length} class${rows.length === 1 ? '' : 'es'}</b> at ${venuesN} place${venuesN === 1 ? '' : 's'} on ${d}${tl}${state.station ? ' near ' + esc(state.station) : ''}`;
+
+  if (!rows.length) {
+    $('#list').innerHTML = `<div class="empty">Nothing matches. Try another time of day, a longer walk, or clear the filters.<br><button class="chip" id="clear">Clear filters</button></div>`;
+    $('#clear').onclick = () => { Object.assign(state, { times: new Set(), cats: new Set(), station: null, showers: false, via: 'all', walk: 15, maxstops: 99, hidefull: false }); $('#q').value = ''; render(); };
+    return;
+  }
+  let html = '', last = null;
+  for (const [c, v] of rows.slice(0, 400)) {
+    const tkey = state.sort === 'time' ? fmtTime(c.s) : null;
+    if (state.sort !== 'time' || tkey !== last) {
+      if (last !== null || state.sort !== 'time') html += '</div></div>';
+      html += `<div class="slot"><time>${fmtTime(c.s)}<small>${state.sort === 'time' ? '' : ''}</small></time><div>`;
+      last = tkey;
+    }
+    html += card(c, v);
+  }
+  html += '</div></div>';
+  if (rows.length > 400) html += `<p class="summary">Showing the first 400. Narrow by time or kind to see the rest.</p>`;
+  $('#list').innerHTML = html;
+}
+
+function card(c, v) {
+  const mins = Math.round((c.e - c.s) / 60);
+  const status = c.st === 'full' ? '<span class="tag bad">Full</span>' : c.st === 'waitlist' ? '<span class="tag warn">Waitlist</span>'
+    : c.sp != null && c.sp <= 3 ? `<span class="tag warn">${c.sp} spot${c.sp === 1 ? '' : 's'} left</span>` : c.sp != null ? `<span class="tag">${c.sp} spots left</span>` : '';
+  const sh = v.showers.v === 'yes' ? '<span class="tag good">Showers</span>' : v.showers.v === 'no' ? '<span class="tag">No showers</span>' : '<span class="tag">Showers unknown</span>';
+  const ride = v.stops === 0 ? 'your station' : `${v.stops} stop${v.stops === 1 ? '' : 's'} from ${esc(D.home)} · about ${v.tripMin} min total`;
+  const prices = [];
+  if (c.direct || v.price?.dropIn != null) {
+    const p = c.price ?? v.price?.dropIn;
+    prices.push(`<div class="price"><div><div class="amt">${p != null ? money(p) : 'Price?'}<small>${p != null ? ' drop-in' : ''}</small></div><div class="what">${esc(v.price?.intro ? 'New here: ' + v.price.intro : 'Book with the studio')}</div></div>${c.u || v.bookUrl ? `<a class="book${c.cp ? ' alt' : ''}" href="${esc(c.u || v.bookUrl)}" target="_blank" rel="noopener">Book direct</a>` : ''}</div>`);
+  }
+  if (c.cp) {
+    const cr = c.cr != null ? [c.cr, c.cr] : c.crEst || v.cp.credits;
+    const $r = cr ? [cr[0] * D.creditValue, cr[1] * D.creditValue] : null;
+    const amt = cr ? (cr[0] === cr[1] ? `${cr[0]} credits` : `${cr[0]}–${cr[1]} credits`) : 'Credits vary';
+    const dol = $r ? ($r[0] === $r[1] ? `≈ ${money($r[0])}` : `≈ ${money($r[0])}–${money($r[1])}`) : '';
+    prices.push(`<div class="price"><div><div class="amt">${amt}</div><div class="what">ClassPass ${dol}${c.cr == null ? ' (estimate)' : ''}</div></div><a class="book" href="${esc(v.cp.url)}" target="_blank" rel="noopener">ClassPass</a></div>`);
+  }
+  const more = [v.price?.pack && `Packs: ${esc(v.price.pack)}`, v.price?.unlimited && `Unlimited: ${esc(v.price.unlimited)}`, v.price?.note && esc(v.price.note),
+    v.showers.note && `Showers: ${esc(v.showers.note)}`, v.notes && esc(v.notes), v.address && esc(v.address),
+    c.i && `Instructor: ${esc(c.i)}`].filter(Boolean);
+  return `<article class="cls">
+    <h3>${esc(c.n)} <span class="dur">${mins > 0 ? mins + ' min' : ''}</span></h3>
+    <div class="venue"><a href="${esc(v.website || v.cp?.url || '#')}" target="_blank" rel="noopener">${esc(v.name)}</a></div>
+    <div class="trip"><span class="pill"><i></i>${esc(v.station)}</span><span class="walk"><b>${v.walkMin} min</b> walk</span><span class="ride">${ride}</span></div>
+    <div class="tags">${status}${sh}${v.rating ? `<span class="tag">★ ${v.rating.toFixed(1)}</span>` : ''}${c.lvl && !/open/i.test(c.lvl) ? `<span class="tag">${esc(c.lvl)}</span>` : ''}</div>
+    <div class="prices">${prices.join('')}</div>
+    ${more.length ? `<details class="more"><summary>Details</summary>${more.map(m => `<p>${m}</p>`).join('')}</details>` : ''}
+  </article>`;
+}
+</script>
+</body>
+</html>

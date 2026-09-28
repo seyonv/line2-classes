@@ -1,0 +1,14 @@
+{
+  "name": "class-finder",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "classpass": "node scrapers/classpass.mjs",
+    "direct": "node scrapers/direct-run.mjs",
+    "build": "node build.mjs",
+    "refresh": "./refresh.sh"
+  },
+  "devDependencies": {
+    "playwright": "1.58"
+  }
+}
