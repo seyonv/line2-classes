@@ -294,5 +294,9 @@
  "3100 Weston Rd, Toronto, ON": {
   "lat": 43.7337601,
   "lon": -79.5384084
+ },
+ "64 Rylander Blvd, Toronto, ON": {
+  "lat": 43.7981507,
+  "lon": -79.1504049
  }
 }
