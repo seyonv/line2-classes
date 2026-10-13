@@ -101,7 +101,7 @@
    ]
   },
   "30030": {
-   "checked": 257,
+   "checked": 259,
    "mentions": []
   },
   "31169": {
@@ -267,7 +267,7 @@
    ]
   },
   "49700": {
-   "checked": 532,
+   "checked": 535,
    "mentions": [
     {
      "text": "The reason I reduced the stars is because you should not list you have shower facilities if they are out of order.",
@@ -297,7 +297,13 @@
   },
   "70466": {
    "checked": 49,
-   "mentions": []
+   "mentions": [
+    {
+     "text": "He offered great exercise variations for different fitness levels (like side gallops) and even grabbed us extra towels.",
+     "date": 1791562058,
+     "rating": 5
+    }
+   ]
   },
   "72929": {
    "checked": 14,
@@ -318,7 +324,7 @@
    "mentions": []
   },
   "81094": {
-   "checked": 118,
+   "checked": 120,
    "mentions": [
     {
      "text": "hot tea, cloth towels in the bathroom makes it feel very soothing here.",
@@ -328,7 +334,7 @@
    ]
   },
   "82698": {
-   "checked": 98,
+   "checked": 99,
    "mentions": [
     {
      "text": "Only small sweat towels.",
@@ -351,7 +357,7 @@
    "mentions": []
   },
   "175013": {
-   "checked": 137,
+   "checked": 138,
    "mentions": []
   },
   "176249": {
@@ -359,7 +365,7 @@
    "mentions": []
   },
   "180077": {
-   "checked": 330,
+   "checked": 332,
    "mentions": [
     {
      "text": "I was given zero info about change rooms/ where to go for the class which wasn’t ideal for my first time there.",
@@ -389,7 +395,7 @@
    ]
   },
   "181100": {
-   "checked": 505,
+   "checked": 509,
    "mentions": [
     {
      "text": "My only wish would be for cold wet towels at the end of class.",
@@ -423,7 +429,7 @@
    "mentions": []
   },
   "183079": {
-   "checked": 32,
+   "checked": 33,
    "mentions": []
   },
   "189553": {
@@ -461,11 +467,11 @@
    ]
   },
   "204361": {
-   "checked": 225,
+   "checked": 226,
    "mentions": []
   },
   "204649": {
-   "checked": 42,
+   "checked": 43,
    "mentions": []
   },
   "205003": {
@@ -519,7 +525,7 @@
    ]
   },
   "206291": {
-   "checked": 163,
+   "checked": 164,
    "mentions": [
     {
      "text": "Just a note that they have just one all gender change room which I don’t mind because they have two little rooms with curtains to change in.",
@@ -624,7 +630,7 @@
    "mentions": []
   },
   "223092": {
-   "checked": 150,
+   "checked": 151,
    "mentions": [
     {
      "text": "Nice studio and locker room!",
@@ -737,7 +743,7 @@
    ]
   },
   "227079": {
-   "checked": 190,
+   "checked": 191,
    "mentions": [
     {
      "text": "In terms of the studio, it doesn’t have showers and just has two washrooms, but for me that has never been an issue.",
@@ -776,7 +782,7 @@
    "mentions": []
   },
   "228755": {
-   "checked": 155,
+   "checked": 156,
    "mentions": [
     {
      "text": "They gave a cool towel at the end to place on the forehead/eyes.",
@@ -861,7 +867,7 @@
    ]
   },
   "230019": {
-   "checked": 63,
+   "checked": 64,
    "mentions": [
     {
      "text": "And we weren’t allowed to use the towels from the bathroom even though we asked twice because of how dirty the mats were.",
@@ -900,7 +906,7 @@
    ]
   },
   "232561": {
-   "checked": 306,
+   "checked": 308,
    "mentions": [
     {
      "text": "The atmosphere was really welcoming and encouraging! It was very clean and comfortable with access to showers and changing rooms.",
@@ -978,7 +984,7 @@
    "mentions": []
   },
   "234093": {
-   "checked": 43,
+   "checked": 45,
    "mentions": []
   },
   "234300": {
@@ -1041,11 +1047,11 @@
    "mentions": []
   },
   "239343": {
-   "checked": 307,
+   "checked": 313,
    "mentions": []
   },
   "240295": {
-   "checked": 127,
+   "checked": 128,
    "mentions": [
     {
      "text": "And the studio/change room is really nice I highly recommend!",
@@ -1083,11 +1089,11 @@
    "mentions": []
   },
   "249426": {
-   "checked": 94,
+   "checked": 96,
    "mentions": []
   },
   "249594": {
-   "checked": 31,
+   "checked": 32,
    "mentions": []
   },
   "250086": {
@@ -1100,7 +1106,7 @@
    "mentions": []
   },
   "252395": {
-   "checked": 79,
+   "checked": 80,
    "mentions": []
   },
   "253058": {
@@ -1126,7 +1132,7 @@
    "mentions": []
   },
   "257028": {
-   "checked": 64,
+   "checked": 66,
    "mentions": []
   },
   "257669": {
@@ -1199,7 +1205,7 @@
    "mentions": []
   },
   "262699": {
-   "checked": 58,
+   "checked": 59,
    "mentions": []
   },
   "265080": {
@@ -1207,7 +1213,7 @@
    "mentions": []
   },
   "265940": {
-   "checked": 26,
+   "checked": 27,
    "mentions": [
     {
      "text": "The change rooms, sauna, cold plunge area, tea area… everything felt very well-organized, clean, and healing! Can’t wait to go back!",
@@ -1217,11 +1223,11 @@
    ]
   },
   "269232": {
-   "checked": 11,
+   "checked": 12,
    "mentions": []
   },
   "269719": {
-   "checked": 49,
+   "checked": 50,
    "mentions": []
   },
   "270661": {
@@ -1237,7 +1243,7 @@
    "mentions": []
   },
   "272341": {
-   "checked": 49,
+   "checked": 55,
    "mentions": [
     {
      "text": "Love this class and studio! Great energy! Mat 15 is not a great spot: on top of a drain and right in the way where cleaning towels are at the end of class.",
@@ -1247,7 +1253,7 @@
    ]
   },
   "272488": {
-   "checked": 65,
+   "checked": 66,
    "mentions": [
     {
      "text": "Love a cold towel to end things off!",
@@ -1262,7 +1268,7 @@
    ]
   },
   "272490": {
-   "checked": 12,
+   "checked": 13,
    "mentions": []
   },
   "272703": {
@@ -1313,7 +1319,7 @@
    "mentions": []
   },
   "279207": {
-   "checked": 41,
+   "checked": 43,
    "mentions": []
   },
   "279339": {
@@ -1329,19 +1335,25 @@
    "mentions": []
   },
   "282742": {
-   "checked": 11,
-   "mentions": []
+   "checked": 13,
+   "mentions": [
+    {
+     "text": "Studio was pristine and loved the fact that they had showers available and free towels for after the shower.",
+     "date": 1791725304,
+     "rating": 5
+    }
+   ]
   },
   "283081": {
    "checked": 18,
    "mentions": []
   },
   "285822": {
-   "checked": 27,
+   "checked": 28,
    "mentions": []
   },
   "286484": {
-   "checked": 17,
+   "checked": 18,
    "mentions": [
     {
      "text": "The class was good but the studio charges 3$ for mats and 2$ for towels which is nonsense!",
@@ -1363,7 +1375,7 @@
    "mentions": []
   },
   "288749": {
-   "checked": 1,
+   "checked": 2,
    "mentions": []
   },
   "289150": {
@@ -1384,7 +1396,7 @@
    "mentions": []
   },
   "290700": {
-   "checked": 0,
+   "checked": 1,
    "mentions": []
   },
   "292495": {
@@ -1408,9 +1420,9 @@
    "mentions": []
   },
   "298196": {
-   "checked": 0,
+   "checked": 1,
    "mentions": []
   }
  },
- "scannedAt": "2026-10-05T18:05:53.097Z"
+ "scannedAt": "2026-10-13T09:34:38.978Z"
 }
