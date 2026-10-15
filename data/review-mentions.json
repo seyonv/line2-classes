@@ -1007,6 +1007,46 @@
    "checked": 6,
    "mentions": []
   },
+  "238067": {
+   "checked": 102,
+   "mentions": [
+    {
+     "text": "the instructor was very sweet and bringing us coffee and towels after was such a nice touch.",
+     "date": 1779795841,
+     "rating": 5
+    },
+    {
+     "text": "This studio felt so luxurious with cold towels after the workout and complimentary tea or electrolytes.",
+     "date": 1764206483,
+     "rating": 5
+    },
+    {
+     "text": "Vanessa was very thoughtful and the complimentary electrolytes/towel were a very sweet gesture!",
+     "date": 1764031219,
+     "rating": 5
+    },
+    {
+     "text": "After the class, they gave out complementary coffee/tea/electrolytes, and eucalyptus towels, which is such a nice touch.",
+     "date": 1760055427,
+     "rating": 5
+    },
+    {
+     "text": "The studio doesn’t have changing room so you need to use the washroom in the hallway.",
+     "date": 1758066430,
+     "rating": 5
+    },
+    {
+     "text": "just folded one and layered it on top of my mat and had no issues,, the vibe of the studio is SO NICE, they had drinks after class and cool towels, everyone is super friendly and I even went out for matcha with some girls from class and the instructor- if you’re new to the city or even passing throu",
+     "date": 1746795715,
+     "rating": 5
+    },
+    {
+     "text": "The instructor was lovely and she passed out towels and refreshments at the end of class!",
+     "date": 1730818934,
+     "rating": 5
+    }
+   ]
+  },
   "238834": {
    "checked": 109,
    "mentions": [
@@ -1425,6 +1465,14 @@
   },
   "298196": {
    "checked": 1,
+   "mentions": []
+  },
+  "298880": {
+   "checked": 0,
+   "mentions": []
+  },
+  "299181": {
+   "checked": 0,
    "mentions": []
   }
  },
