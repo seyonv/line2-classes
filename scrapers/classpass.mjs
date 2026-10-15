@@ -1,6 +1,6 @@
 // Pulls ClassPass venues + 7 days of classes near every Line 2 station, and weekly scans reviews for shower mentions.
 // ClassPass sits behind Cloudflare, so every API call runs as a fetch() inside a real Chromium tab on classpass.com
-// (persistent profile, so the Cloudflare clearance sticks; headed and off-screen because headless gets 403).
+// (persistent profile, so the Cloudflare clearance sticks; new headless via channel 'chromium', since the old headless shell gets 403).
 // The loop lives here in Node, one call per page.evaluate, so a page reload mid-run only costs a retry.
 // Output: data/raw/classpass.json, data/review-mentions.json
 import { chromium } from 'playwright';
@@ -15,8 +15,8 @@ const days = [...Array(DAYS)].map((_, i) => new Date(Date.now() + i * 864e5).toL
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 const ctx = await chromium.launchPersistentContext(`${homedir()}/.config/class-finder/chromium-profile`, {
-  headless: !!process.env.HEADLESS,
-  args: ['--disable-blink-features=AutomationControlled', '--window-position=-2400,0'],
+  headless: true, channel: 'chromium',
+  args: ['--disable-blink-features=AutomationControlled'],
   userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36',
   viewport: { width: 1280, height: 900 }, locale: 'en-CA', timezoneId: 'America/Toronto',
 });
