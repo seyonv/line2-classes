@@ -302,5 +302,13 @@
  "51 Commissioners St, Toronto, ON": {
   "lat": 43.6557351,
   "lon": -79.328241
+ },
+ "2213 Dufferin St, Toronto, ON": {
+  "lat": 43.6914188,
+  "lon": -79.4480146
+ },
+ "256 Centennial Park Rd, Toronto, ON": {
+  "lat": 43.6574808,
+  "lon": -79.5869054
  }
 }
