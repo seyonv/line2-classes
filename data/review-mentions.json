@@ -106,7 +106,7 @@
    ]
   },
   "30030": {
-   "checked": 259,
+   "checked": 260,
    "mentions": []
   },
   "31169": {
@@ -169,7 +169,7 @@
    ]
   },
   "34531": {
-   "checked": 146,
+   "checked": 147,
    "mentions": []
   },
   "34600": {
@@ -179,6 +179,11 @@
   "35098": {
    "checked": 600,
    "mentions": [
+    {
+     "text": "Everything else about the gym/studio was great - very welcoming and friendly staff, clean facilities, locker rooms, well maintained equipment as well!",
+     "date": 1793455181,
+     "rating": 4
+    },
     {
      "text": "I like that they give the free towel, the place is very noce.",
      "date": 1731942475,
@@ -283,7 +288,7 @@
    ]
   },
   "49700": {
-   "checked": 536,
+   "checked": 538,
    "mentions": [
     {
      "text": "The reason I reduced the stars is because you should not list you have shower facilities if they are out of order.",
@@ -312,7 +317,7 @@
    "mentions": []
   },
   "70466": {
-   "checked": 49,
+   "checked": 99,
    "mentions": [
     {
      "text": "change room can be crowded.",
@@ -331,7 +336,7 @@
    "mentions": []
   },
   "73419": {
-   "checked": 257,
+   "checked": 258,
    "mentions": [
     {
      "text": "BYO mats and towels.",
@@ -345,7 +350,7 @@
    "mentions": []
   },
   "81094": {
-   "checked": 126,
+   "checked": 127,
    "mentions": [
     {
      "text": "hot tea, cloth towels in the bathroom makes it feel very soothing here.",
@@ -378,7 +383,7 @@
    "mentions": []
   },
   "175013": {
-   "checked": 140,
+   "checked": 142,
    "mentions": []
   },
   "176249": {
@@ -416,7 +421,7 @@
    ]
   },
   "181100": {
-   "checked": 514,
+   "checked": 516,
    "mentions": [
     {
      "text": "My only wish would be for cold wet towels at the end of class.",
@@ -465,7 +470,7 @@
    "mentions": []
   },
   "183079": {
-   "checked": 35,
+   "checked": 36,
    "mentions": []
   },
   "189553": {
@@ -488,7 +493,7 @@
    "mentions": []
   },
   "202685": {
-   "checked": 386,
+   "checked": 387,
    "mentions": [
     {
      "text": "This was my first time here and I enjoyed the class a lot! The first half was definitely a good challenge and had me sweating (bring a towel🤣) and it transitioned well into the second half yin part of the class.",
@@ -503,7 +508,7 @@
    ]
   },
   "204361": {
-   "checked": 227,
+   "checked": 231,
    "mentions": []
   },
   "204649": {
@@ -513,6 +518,11 @@
   "205003": {
    "checked": 449,
    "mentions": [
+    {
+     "text": "There are no real change rooms, and the bathrooms are small, poorly maintained, and smelled terrible.",
+     "date": 1793235231,
+     "rating": 4
+    },
     {
      "text": "Towels are available as well (the class really makes you sweat!).",
      "date": 1783488748,
@@ -610,7 +620,7 @@
    ]
   },
   "214161": {
-   "checked": 62,
+   "checked": 63,
    "mentions": [
     {
      "text": "Grimy washrooms/showers.",
@@ -658,7 +668,7 @@
    "mentions": []
   },
   "220869": {
-   "checked": 182,
+   "checked": 183,
    "mentions": []
   },
   "221524": {
@@ -666,7 +676,7 @@
    "mentions": []
   },
   "223092": {
-   "checked": 157,
+   "checked": 160,
    "mentions": [
     {
      "text": "Nice studio and locker room!",
@@ -709,11 +719,11 @@
    "mentions": []
   },
   "225628": {
-   "checked": 124,
+   "checked": 125,
    "mentions": []
   },
   "226136": {
-   "checked": 203,
+   "checked": 204,
    "mentions": [
     {
      "text": "after cold plunge it's a bit too cold and with just one towel and a fan blowing on you it's hard to warm up",
@@ -783,7 +793,7 @@
    ]
   },
   "227079": {
-   "checked": 195,
+   "checked": 200,
    "mentions": [
     {
      "text": "In terms of the studio, it doesn’t have showers and just has two washrooms, but for me that has never been an issue.",
@@ -818,11 +828,11 @@
    ]
   },
   "228324": {
-   "checked": 24,
+   "checked": 25,
    "mentions": []
   },
   "228755": {
-   "checked": 159,
+   "checked": 160,
    "mentions": [
     {
      "text": "They gave a cool towel at the end to place on the forehead/eyes.",
@@ -936,7 +946,7 @@
    "mentions": []
   },
   "232280": {
-   "checked": 67,
+   "checked": 68,
    "mentions": [
     {
      "text": "Only one bathroom/shower.",
@@ -946,7 +956,7 @@
    ]
   },
   "232561": {
-   "checked": 312,
+   "checked": 316,
    "mentions": [
     {
      "text": "The atmosphere was really welcoming and encouraging! It was very clean and comfortable with access to showers and changing rooms.",
@@ -1040,7 +1050,7 @@
    "mentions": []
   },
   "234876": {
-   "checked": 27,
+   "checked": 28,
    "mentions": []
   },
   "237988": {
@@ -1088,7 +1098,7 @@
    ]
   },
   "238834": {
-   "checked": 112,
+   "checked": 115,
    "mentions": [
     {
      "text": "No showers, an extremely cramped changing room, and incredibly loud surroundings.",
@@ -1132,11 +1142,11 @@
    "mentions": []
   },
   "239343": {
-   "checked": 319,
+   "checked": 324,
    "mentions": []
   },
   "240295": {
-   "checked": 131,
+   "checked": 134,
    "mentions": [
     {
      "text": "And the studio/change room is really nice I highly recommend!",
@@ -1155,7 +1165,7 @@
    "mentions": []
   },
   "242115": {
-   "checked": 226,
+   "checked": 227,
    "mentions": [
     {
      "text": "I’m still in the locker room but could not leave without saying: this was fun! Victoria makes newcomers feel so comfortable, adjusts for us as necessary, gives modifications as",
@@ -1178,7 +1188,7 @@
    "mentions": []
   },
   "249426": {
-   "checked": 97,
+   "checked": 98,
    "mentions": []
   },
   "249594": {
@@ -1195,7 +1205,7 @@
    "mentions": []
   },
   "252395": {
-   "checked": 84,
+   "checked": 85,
    "mentions": []
   },
   "253058": {
@@ -1203,7 +1213,7 @@
    "mentions": []
   },
   "253059": {
-   "checked": 7,
+   "checked": 8,
    "mentions": [
     {
      "text": "Studio is a bit hard to find so leave bit of extra time! There’s no changing room just a bathroom to get ready in.",
@@ -1221,7 +1231,7 @@
    "mentions": []
   },
   "257028": {
-   "checked": 67,
+   "checked": 68,
    "mentions": []
   },
   "257669": {
@@ -1244,7 +1254,7 @@
    "mentions": []
   },
   "257930": {
-   "checked": 67,
+   "checked": 68,
    "mentions": []
   },
   "258099": {
@@ -1270,8 +1280,13 @@
    ]
   },
   "261190": {
-   "checked": 34,
+   "checked": 36,
    "mentions": [
+    {
+     "text": "2 towels were provided for each person as well as high quality shower gel, shampoo and conditioner from Saponetti.",
+     "date": 1793645007,
+     "rating": 5
+    },
     {
      "text": "Change room area is a bit tight and I wish the lockers weren’t so small, but I like that the space has no frills.",
      "date": 1770177121,
@@ -1303,15 +1318,15 @@
    "mentions": []
   },
   "262699": {
-   "checked": 66,
+   "checked": 69,
    "mentions": []
   },
   "265080": {
-   "checked": 2,
+   "checked": 3,
    "mentions": []
   },
   "265940": {
-   "checked": 27,
+   "checked": 28,
    "mentions": [
     {
      "text": "The change rooms, sauna, cold plunge area, tea area… everything felt very well-organized, clean, and healing! Can’t wait to go back!",
@@ -1329,7 +1344,7 @@
    "mentions": []
   },
   "270661": {
-   "checked": 127,
+   "checked": 130,
    "mentions": []
   },
   "271328": {
@@ -1351,7 +1366,7 @@
    ]
   },
   "272488": {
-   "checked": 69,
+   "checked": 71,
    "mentions": [
     {
      "text": "Love a cold towel to end things off!",
@@ -1442,11 +1457,11 @@
    "mentions": []
   },
   "285822": {
-   "checked": 30,
+   "checked": 33,
    "mentions": []
   },
   "286484": {
-   "checked": 20,
+   "checked": 21,
    "mentions": [
     {
      "text": "The class was good but the studio charges 3$ for mats and 2$ for towels which is nonsense!",
@@ -1472,7 +1487,7 @@
    "mentions": []
   },
   "288749": {
-   "checked": 2,
+   "checked": 3,
    "mentions": []
   },
   "289150": {
@@ -1520,7 +1535,7 @@
    "mentions": []
   },
   "298196": {
-   "checked": 5,
+   "checked": 6,
    "mentions": []
   },
   "298880": {
@@ -1540,5 +1555,5 @@
    "mentions": []
   }
  },
- "scannedAt": "2026-10-27T16:51:47.138Z"
+ "scannedAt": "2026-11-03T19:14:16.003Z"
 }
