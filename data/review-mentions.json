@@ -169,7 +169,7 @@
    ]
   },
   "34531": {
-   "checked": 147,
+   "checked": 149,
    "mentions": []
   },
   "34600": {
@@ -336,7 +336,7 @@
    "mentions": []
   },
   "73419": {
-   "checked": 258,
+   "checked": 259,
    "mentions": [
     {
      "text": "BYO mats and towels.",
@@ -360,7 +360,7 @@
    ]
   },
   "82698": {
-   "checked": 148,
+   "checked": 149,
    "mentions": [
     {
      "text": "Only small sweat towels.",
@@ -391,7 +391,7 @@
    "mentions": []
   },
   "180077": {
-   "checked": 332,
+   "checked": 333,
    "mentions": [
     {
      "text": "I was given zero info about change rooms/ where to go for the class which wasn’t ideal for my first time there.",
@@ -477,6 +477,11 @@
    "checked": 149,
    "mentions": [
     {
+     "text": "Jordana is great, love the music and enjoy the studio gives you a cold towel after!",
+     "date": 1793827435,
+     "rating": 5
+    },
+    {
      "text": "They offered cold towels, electrolytes, open door for more air flow, etc.",
      "date": 1719350693,
      "rating": 5
@@ -489,11 +494,11 @@
    ]
   },
   "201170": {
-   "checked": 24,
+   "checked": 25,
    "mentions": []
   },
   "202685": {
-   "checked": 387,
+   "checked": 388,
    "mentions": [
     {
      "text": "This was my first time here and I enjoyed the class a lot! The first half was definitely a good challenge and had me sweating (bring a towel🤣) and it transitioned well into the second half yin part of the class.",
@@ -512,7 +517,7 @@
    "mentions": []
   },
   "204649": {
-   "checked": 43,
+   "checked": 44,
    "mentions": []
   },
   "205003": {
@@ -571,7 +576,7 @@
    ]
   },
   "206291": {
-   "checked": 164,
+   "checked": 165,
    "mentions": [
     {
      "text": "Just a note that they have just one all gender change room which I don’t mind because they have two little rooms with curtains to change in.",
@@ -668,7 +673,7 @@
    "mentions": []
   },
   "220869": {
-   "checked": 183,
+   "checked": 186,
    "mentions": []
   },
   "221524": {
@@ -676,7 +681,7 @@
    "mentions": []
   },
   "223092": {
-   "checked": 160,
+   "checked": 161,
    "mentions": [
     {
      "text": "Nice studio and locker room!",
@@ -719,12 +724,17 @@
    "mentions": []
   },
   "225628": {
-   "checked": 125,
+   "checked": 126,
    "mentions": []
   },
   "226136": {
-   "checked": 204,
+   "checked": 210,
    "mentions": [
+    {
+     "text": "Change rooms are co-ed tho, and the shower area is one open undivided space with like 6 shower heads.",
+     "date": 1794098555,
+     "rating": 4
+    },
     {
      "text": "after cold plunge it's a bit too cold and with just one towel and a fan blowing on you it's hard to warm up",
      "date": 1791157313,
@@ -793,7 +803,7 @@
    ]
   },
   "227079": {
-   "checked": 200,
+   "checked": 201,
    "mentions": [
     {
      "text": "In terms of the studio, it doesn’t have showers and just has two washrooms, but for me that has never been an issue.",
@@ -917,7 +927,7 @@
    ]
   },
   "230019": {
-   "checked": 67,
+   "checked": 70,
    "mentions": [
     {
      "text": "And we weren’t allowed to use the towels from the bathroom even though we asked twice because of how dirty the mats were.",
@@ -946,7 +956,7 @@
    "mentions": []
   },
   "232280": {
-   "checked": 68,
+   "checked": 69,
    "mentions": [
     {
      "text": "Only one bathroom/shower.",
@@ -956,7 +966,7 @@
    ]
   },
   "232561": {
-   "checked": 316,
+   "checked": 320,
    "mentions": [
     {
      "text": "The atmosphere was really welcoming and encouraging! It was very clean and comfortable with access to showers and changing rooms.",
@@ -1042,7 +1052,7 @@
    "mentions": []
   },
   "234490": {
-   "checked": 33,
+   "checked": 34,
    "mentions": []
   },
   "234794": {
@@ -1098,7 +1108,7 @@
    ]
   },
   "238834": {
-   "checked": 115,
+   "checked": 116,
    "mentions": [
     {
      "text": "No showers, an extremely cramped changing room, and incredibly loud surroundings.",
@@ -1142,11 +1152,11 @@
    "mentions": []
   },
   "239343": {
-   "checked": 324,
+   "checked": 326,
    "mentions": []
   },
   "240295": {
-   "checked": 134,
+   "checked": 136,
    "mentions": [
     {
      "text": "And the studio/change room is really nice I highly recommend!",
@@ -1165,7 +1175,7 @@
    "mentions": []
   },
   "242115": {
-   "checked": 227,
+   "checked": 230,
    "mentions": [
     {
      "text": "I’m still in the locker room but could not leave without saying: this was fun! Victoria makes newcomers feel so comfortable, adjusts for us as necessary, gives modifications as",
@@ -1180,7 +1190,7 @@
    ]
   },
   "242447": {
-   "checked": 0,
+   "checked": 1,
    "mentions": []
   },
   "247561": {
@@ -1192,7 +1202,7 @@
    "mentions": []
   },
   "249594": {
-   "checked": 32,
+   "checked": 33,
    "mentions": []
   },
   "250086": {
@@ -1205,7 +1215,7 @@
    "mentions": []
   },
   "252395": {
-   "checked": 85,
+   "checked": 86,
    "mentions": []
   },
   "253058": {
@@ -1340,11 +1350,11 @@
    "mentions": []
   },
   "269719": {
-   "checked": 51,
+   "checked": 53,
    "mentions": []
   },
   "270661": {
-   "checked": 130,
+   "checked": 133,
    "mentions": []
   },
   "271328": {
@@ -1389,7 +1399,7 @@
    "mentions": []
   },
   "272970": {
-   "checked": 20,
+   "checked": 21,
    "mentions": []
   },
   "273524": {
@@ -1453,15 +1463,15 @@
    ]
   },
   "283081": {
-   "checked": 21,
+   "checked": 22,
    "mentions": []
   },
   "285822": {
-   "checked": 33,
+   "checked": 36,
    "mentions": []
   },
   "286484": {
-   "checked": 21,
+   "checked": 22,
    "mentions": [
     {
      "text": "The class was good but the studio charges 3$ for mats and 2$ for towels which is nonsense!",
@@ -1535,8 +1545,14 @@
    "mentions": []
   },
   "298196": {
-   "checked": 6,
-   "mentions": []
+   "checked": 7,
+   "mentions": [
+    {
+     "text": "Change room and front room cafe are adorable, as is the studio itself! Gorgeous space and I want this place to succeed.",
+     "date": 1794074402,
+     "rating": 3
+    }
+   ]
   },
   "298880": {
    "checked": 0,
@@ -1555,5 +1571,5 @@
    "mentions": []
   }
  },
- "scannedAt": "2026-11-03T19:14:16.003Z"
+ "scannedAt": "2026-11-10T22:32:53.612Z"
 }
